@@ -1,0 +1,173 @@
+{
+	"couID":1,
+	"pages":
+	[
+		{
+			"kind":"cover",
+			"title":"第二讲：二元一次方程组的解法",
+			"description":"1. 理解消元的思想；<br>2. 会用代入法解二元一次方程组.<br>3. 会用加减法解二元一次方程组."
+		},
+		{
+			"kind":"kpt",
+			"sub":[
+				{
+					"kind":"kpt",
+					"name":"消元思想",
+					"sub":[
+						"　　消元思想：将未知数的个数由多化少，逐一解决的思想，叫做消元思想.",
+						"　　基本思路：未知数由多变少.",
+						"　　基本方法：把二元一次方程组转化为一元一次方程."
+					]
+				},
+				{
+					"kind":"kpt",
+					"name":"代入法",
+					"sub":[
+						"　　代入法：通过“代入”消去一个未知数，将方程组转化为一元一次方程，这种解法叫做代入消元法，简称代入法．",
+						"　　具体步骤：",
+						"　　(1)变形:选定一个系数比较简单的方程进行变形,变成<i>y=ax+b</i>(或<i>x=cy+d</i>)的形式.",
+						"　　(2)代入:将<i>y=ax+b</i>(或<i>x=cy+d</i>)代入另一个方程消去<i>y</i>(或<i>x</i>),得到一个关于<i>x</i>(或<i>y</i>)的一元一次方程.",
+						"　　(3)求解:解这个一元一次方程,求出<i>x</i>(或<i>y</i>)的值.",
+						"　　(4)回代:把<i>x</i>(或<i>y</i>)的值代入<i>y=ax+b</i>(或<i>x=cy+d</i>),求出<i>y</i>(或<i>x</i>)的值.",
+						"　　(5)写解:把求得的<i>x</i>，<i>y</i>的值用“{”联立起来，就是原方程组的解."
+					]
+				},
+				{
+					"kind": "example",
+					"label": "题型一  利用代入法解方程组",
+					"type": 9,
+					"Q": "解方程组：<img src=\"1.svg\" style=\"width:5em;vertical-align:middle\">",
+					"way": "把第二个方程整理得到<i>y=</i>5<i>x</i>﹣1，然后代入第一个方程，利用代入消元法其解即可．",
+					"step": "解：<img src=\"7.svg\" style=\"width:5em;vertical-align:middle\"><br>由②得，<i>y=5x</i>﹣1③，<br>解得<img src=\"2.svg\" style=\"width:3em;vertical-align:middle\">,把<img src=\"2.svg\" style=\"width:3em;vertical-align:middle\">代入③得，y=5×<img src=\"4.svg\" style=\"width:0.85em;vertical-align:middle\">﹣1=<img src=\"3.svg\" style=\"width:0.85em;vertical-align:middle\">，<br>所以，方程组的解是<img src=\"5.svg\" style=\"width:4em;vertical-align:middle\">",
+					"notice": "本题考查的是二元一次方程组的解法，方程组中未知数的系数较小时可用代入法．"
+				}
+			]
+		},
+		{
+			"kind": "ques",
+			"type": 9,
+			"Q": "解方程组：<img src=\"6.svg\" style=\"width:7em;vertical-align:middle\">",
+			"step": "整理得<img src=\"8.svg\" style=\"width:5em;vertical-align:middle\"><br>由①得<i>x</i>=﹣3﹣2<i>y</i>③<br>③代入②得2（﹣3﹣2<i>y</i>）﹣3<i>y</i>=1，﹣6﹣4<i>y</i>﹣3<i>y</i>=1，解得<i>y</i>=﹣1<br><i>y</i>=﹣1代入③得<i>x</i>=﹣1<br>∴<img src=\"9.svg\" style=\"width:3em;vertical-align:middle\">"
+		},
+		{
+			"kind": "example",
+			"type": 9,
+			"Q": "解方程组：<img src=\"10.svg\">",
+			"step": "解：<img src=\"11.svg\"><br>把②代入①得：9（2﹣3t）﹣13t+2=0，18﹣27t﹣13t+2=0，t=<img src=\"12.svg\" style=\"width:0.5em;vertical-align:middle\">, 把t=<img src=\"12.svg\" style=\"width:0.5em;vertical-align:middle\">代入②得：s=<img src=\"12.svg\" style=\"width:0.5em;vertical-align:middle\"><br>∴<img src=\"13.svg\" style=\"width:3em;vertical-align:middle\">",
+		},
+		{
+			"kind": "ques",
+			"type": 9,
+			"Q": "解二元一次方程组<img src=\"14.svg\" style=\"width:10em;vertical-align:middle\">",
+			"way": "先把方程组整理成关于x、y的一般方程组的形式，然后把第二个方程直接代入第一个方程，利用代入法求解即可．",
+			"step": "解： 方程组可化为：<img src=\"15.svg\" style=\"vertical-align:middle\"><br>②代入①得，7<i>x</i>﹣3<i>x</i>=18，解得<i>x</i>=<img src=\"31.svg\" style=\"width: 0.6rem;vertical-align:middle\">，把x=<img src=\"31.svg\" style=\"width: 0.6rem;vertical-align:middle\">代入②得，<i>y</i>=3×<img src=\"31.svg\" style=\"width: 0.6rem;vertical-align:middle\">=<img src=\"32.svg\" style=\"width: 1.15rem;vertical-align:middle\">",
+			"notice": "本题考查的是二元一次方程组的解法，方程组中未知数的系数较小时可用代入法，（2）类型的题目要先把方程组转互为一般形式，然后再解答．"
+		},{
+			"kind": "example",
+			"label": "题型二  利用整体思想的代入法求方程组的解",
+			"Q": "阅读材料：善于思考的小军在解方程组<img src=\"16.svg\" style=\"vertical-align:middle\">时，采用了一种“整体代换”的解法：<br>解：将方程②变形：4<i>x</i>+10<i>y</i>+<i>y</i>=5 即2（2<i>x</i>+5<i>y</i>）+<i>y</i>=5③<br>把方程①带入③得：2×3+<i>y</i>=5，∴<i>y</i>=﹣1<br>把<i>y</i>=﹣1代入①得<i>x</i>=4，∴方程组的解为<img src=\"17.svg\" style=\"vertical-align:middle\"><br>请你解决以下问题：请模仿小军的“整体代换”法解方程组<img src=\"18.svg\" style=\"vertical-align:middle\">",
+			"way": "（1）模仿小军的“整体代换”法，求出方程组的解即可；<br>（2）方程组整理后，模仿小军的“整体代换”法，求出所求式子的值即可．",
+			"step": "解：（1）把方程②变形：3（3<i>x</i>﹣2<i>y</i>）+2<i>y</i>=19③，<br>把①代入③得：15+2<i>y</i>=19，即<i>y</i>=2，<br>把<i>y</i>=2代入①得：<i>x</i>=3，<br>则方程组的解为<img src=\"19.svg\" style=\"vertical-align:middle\">",
+			"notice": "此题考查了解二元一次方程组，弄清阅读材料中的“整体代入”方法是解本题的关键．"
+		},
+		{
+			"kind": "kpt",
+			"name":"加减法",
+			"sub": [
+				"加减消元法：两个二元一次方程中同一未知数的系数相反或相等时，将两个方程的两边分别相加或相减，就能消去这个未知数，得到一个一元一次方程，这种方法叫做加减消元法，简称加减法．具体步骤：",
+				"(1)变形:方程组的两个方程中，如果同一个未知数的系数既不互为相反数又不相等，那么就用适当的数乘方程的两边,使同一个未知数的系数互为相反数或相等.",
+				"(2)加减:将变形后的两个方程相加或相减，消去一个未知数，得到一个一元一次方程.",
+				"(3)求解:解这个一元一次方程,求出一个未知数的值.",
+				"(4)回代:把这个求得的未知数的值代人原方程组中的任意一个方程中,求出另一个未知数的值.",
+				"(5)写解:把求得的未知数的值用“{”联立起来，即得原方程组的解."
+			]
+		},
+		{
+			"kind": "example",
+			"label": "题型一  利用加减消元法求二元一次方程组的解",
+			"type": 1,
+			"Q": "已知二元一次方程组<img src=\"20.svg\" style=\"vertical-align:middle\">方程（1）减去（2），得（　　）",
+			"opts": [
+				"2<i>y</i>=﹣36",
+				"2<i>y</i>=﹣2",
+				"12<i>y</i>=﹣2",
+				"12<i>y</i>=﹣36"
+			],
+			"way": "根据等式的性质，方程的两边相减即可求出答案．",
+			"step": "①﹣②得：（4<i>x</i>+7<i>y</i>）﹣（4<i>x</i>﹣5<i>y</i>）=﹣19﹣17，<br>即12<i>y</i>=﹣36，故选D．",
+			"notice": "本题考查了等式的性质，解二元一次方程组的运用，能正确地根据等式的性质进行计算是解此题的关键．"
+		},
+		{
+			"kind": "ques",
+			"type": 1,
+			"Q": "解方程组<img src=\"21.svg\" style=\"width:10em; vertical-align:middle\"><br>下列变形能得出x﹣y=1的是（　　）",
+			"opts": [
+				"①﹣②","①+②","①×2005﹣②×2006","②×2007﹣②×2008"
+			],
+			"way": "观察未知数的系数可知，<i>x</i>的系数相减2006﹣2005=1，<i>y</i>的系数相减﹣2008﹣（﹣2007）=﹣1，常数项2004﹣2003=1，恰好符合题意，由此得出答案即可．",
+			"notice": "此题考查二元一次方程组的恒等变形，注意字母系数的对应加减．"
+		},
+		{
+			"kind": "example",
+			"type": 9,
+			"Q": "解方程组<img src=\"22.svg\" style=\"width:12em; vertical-align:middle\">",
+			"step": "方程组整理得：<img src=\"24.svg\" style=\"width:8em; vertical-align:middle\">①+②×4得：﹣37<i>y</i>=74，解得：<i>y</i>=﹣2,把y=﹣2代入②得：x=﹣<img src=\"25.svg\" style=\"width:0.6em; vertical-align:middle\">, 则方程组的解为<img src=\"26.svg\" style=\"width:4em; vertical-align:middle\">",
+			"notice": "此题考查了解二元一次方程组，利用了消元的思想，消元的方法有：代入消元法与加减消元法．",
+		},
+		{
+			"kind": "ques",
+			"type": 9,
+			"Q": "<img src=\"23.svg\" style=\"width:10em; vertical-align:middle\">",
+			"way": "方程组中未知数的系数是分数或小数，一般要先化成整数后再消元．",
+			"step": "①x10, ②x6, 得<img src=\"27.svg\" style=\"width:8em; vertical-align:middle\">, ③x3﹣④,得11y=33,解得<i>y</i>=3<br>将<i>y</i>＝3代入③，解得<i>x</i>＝4．所以原方程组的解为<img src=\"28.svg\" style=\"width:3em; vertical-align:middle\">",
+			"notice": "当二元一次方程组的形式比较复杂时，通常是先通过变形(如去分母、去括号等)，将它化为形式简单的方程组，再消元求解．"
+		},
+		{
+			"kind": "example",
+			"label": "题型二  利用二元一次方程组的解求代数式的值",
+			"type": 9,
+			"Q": "若方程组<img src=\"29.svg\" style=\"width:11em; vertical-align:middle\">的解为<img src=\"30.svg\" style=\"width:3em; vertical-align:middle\">，试求a﹣b的值",
+			"step": "将<img src=\"30.svg\" style=\"width:3em; vertical-align:middle\">代入得<img src=\"33.svg\" style=\"width:10em; vertical-align:middle\">，即<img src=\"34.svg\" style=\"width:6em; vertical-align:middle\">，解得<img src=\"35.svg\" style=\"width:3em; vertical-align:middle\"><br>则<i>a</i>﹣<i>b</i>=1.",
+			"notice": "将已知解代入原方程组得关于<i>a</i>、<i>b</i>的方程组，再解关于<i>a</i>、<i>b</i>方程组得<i>a</i>、<i>b</i>的值."
+		},
+		{
+			"kind": "ques",
+			"type": 1,
+			"Q": "若3<i>x</i><sup>2a+b</sup><i>y</i><sup>2</sup>与﹣4<i>x</i><sup>3</sup><i>y</i><sup>3a﹣b</sup>是同类项，则<i>a</i>﹣<i>b</i>的值是（　　）",
+			"opts": [
+				"0", "1", "2", "3"
+			],
+			"way": "利用同类项的定义列出方程组，求出方程组的解得到<i>a</i>与<i>b</i>的值，即可确定出<i>a</i>﹣<i>b</i>的值．",
+			"step": "∵3<i>x</i><sup>2a+b</sup><i>y</i><sup>2</sup>与﹣4<i>x</i><sup>3</sup><i>y</i><sup>3a﹣b</sup>是同类项，<br>∴<img src=\"36.svg\" style=\"width:6em; vertical-align:middle\">，①+②得：5<i>a</i>=5, 即<i>a</i>=1代入①得：<i>b</i>=1,则<i>a</i>﹣<i>b</i>=1﹣1=0，故选A",
+			"notice": "此题考查了解二元一次方程组，利用了消元的思想，消元的方法有：代入消元法与加减消元法．"
+		},
+		{
+			"kind": "example",
+			"label": "用合适的方法求二元一次方程组的解",
+			"Q": "（构造法）解方程组<img src=\"37.svg\" style=\"width:6em; vertical-align:middle\">",
+			"way": "注意到两个方程中两个未知数的系数的和相等、差互为相反数，所以可将两个方程分别相加、相减，从而得到一个较简单的二元一次方程组．",
+			"step": "①+②, 得7<i>x</i>+7<i>y</i>=7, 整理得x+y=1. ③<br>②﹣①,得3<i>x</i>+3<i>y</i>=﹣15,整理得<i>x</i>﹣<i>y</i>＝﹣5．④<br>解由③、④组成的方程组<img src=\"38.svg\" style=\"width:6em; vertical-align:middle\">, 得原方程组的解为<img src=\"39.svg\" style=\"width:4em; vertical-align:middle\">",
+			"notice": "　　解方程组时，我们应根据方程组中未知数的系数的特点，通过将两个方程相加或相减，把原方程组转化为更简单的方程组来解．"
+		},
+		{
+			"kind": "ques",
+			"Q": "(代入、加减混合法)　　解方程组<img src=\"40.svg\" style=\"width:6em; vertical-align:middle\">时，我们如果直接考虑消元，那将是繁不胜繁的，而采用下面的解法则是轻而易举的．<br>解：①﹣②得，2<i>x</i>+2<i>y</i>=2, ∴<i>x</i>+<i>y</i>=1③<br>③x16, 得 16<i>x</i>+16<i>y</i>=16 ④<br>② ﹣ ④，得<i>x</i>=﹣1，从而由③，得<i>y</i>=2<br>∴方程组的解是<img src=\"41.svg\" style=\"width:4em; vertical-align:middle\"><br>请用上述的方法解方程组",
+			"way": "（1）根据题目信息，两个方程相减求出<i>x</i>+<i>y</i>的值，然后再利用加减消元法求解．",
+			"step": "① ﹣ ②得，2x+2y=2, 所以，<i>x</i>+<i>y</i>=1 ③, 将③x2001, 得2001<i>x</i>+2001<i>y</i>=2001 ④,<br>② ﹣ ④,得<i>x</i>=﹣1, 把<i>x</i>=﹣1代入③得，<i>y</i>=2,<br>∴方程组的解是<img src=\"43.svg\" style=\"width:4em; vertical-align:middle\">"
+		},
+		{
+			"kind": "example",
+			"Q": "（换元法）用适当的方法解方程组<img src=\"44.svg\" style=\"width:12em; vertical-align:middle\">",
+			"way": "把（<i>x</i>+<i>y</i>），（<i>x</i>﹣<i>y</i>）看作整体，先求<i>x</i>+<i>y</i>，<i>x</i>﹣<i>y</i>的值，再求<i>x</i>、<i>y</i>的值．",
+			"step": "<img src=\"44.svg\" style=\"width:12em; vertical-align:middle\">, 由②得3(<i>x</i>+<i>y</i>)+(<i>x</i>﹣<i>y</i>)=6 ③<br> ③ ﹣ ① 得5(<i>x</i>﹣<i>y</i>) = 2, 即<i>x</i>﹣<i>y</i>=<img src=\"45.svg\" style=\"width:0.6em; vertical-align:middle\">, 把<i>x</i>﹣<i>y</i>=<img src=\"45.svg\" style=\"width:0.6em; vertical-align:middle\">代入 ③, 得<i>x</i>+<i>y</i>=<img src=\"46.svg\" style=\"width:1.2em; vertical-align:middle\">，<br>解方程组<img src=\"47.svg\" style=\"width:7em; vertical-align:middle\">, 得 <img src=\"48.svg\" style=\"width:5em; vertical-align:middle\">",
+			"notice": "本题考查二元一次方程组的解法，根据原方程组的特点，先把（<i>x</i>+<i>y</i>），（<i>x</i>﹣<i>y</i>）看作整体求值，可简便解方程组的过程．"
+		},
+		{
+			"kind": "ques",
+			"Q": "（易错题）在解方程组<img src=\"49.svg\" style=\"width:7em; vertical-align:middle\">时，由于粗心，甲看错了方程组中的<i>a</i>，而得解为<img src=\"50.svg\" style=\"width:4em; vertical-align:middle\">，乙看错了方程组中的b，而得解为<img src=\"51.svg\" style=\"width:4em; vertical-align:middle\"><br>（1）甲把a看成了什么，乙把b看成了什么？<br>（2）求出原方程组的正确解．",
+			"way": "（1）把甲乙求得方程组的解分别代入原方程组即可；<br>（2）把甲乙所求的解分别代入方程②和①，求出正确的a、b，然后用适当的方法解方程组．",
+			"step": "（1）把<img src=\"50.svg\" style=\"width:4em; vertical-align:middle\">　　代入方程组　　<img src=\"52.svg\" style=\"width:6em; vertical-align:middle\"><br>得<img src=\"53.svg\" style=\"width:6em; vertical-align:middle\">,　　　解得：<img src=\"54.svg\" style=\"width:4em; vertical-align:middle\"><br>把<img src=\"55.svg\" style=\"width:3em; vertical-align:middle\">　　代入方程组<img src=\"52.svg\" style=\"width:6em; vertical-align:middle\">，得 <img src=\"56.svg\" style=\"width:6em; vertical-align:middle\"> 解得：<img src=\"57.svg\" style=\"width:4em; vertical-align:middle\"><br>∴甲把a看成﹣5；乙把b看成6；<br>（2）∵正确的a是﹣2，b是8，<br>∴方程组为<img src=\"58.svg\" style=\"width:6em; vertical-align:middle\">，解得：<i>x</i>=15，<i>y</i>=8．",
+			"notice": "此题难度较大，需同学们仔细阅读，弄清题意再解答．"
+		}
+	]
+}

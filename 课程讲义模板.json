@@ -1,0 +1,120 @@
+{
+	"note":"<i>这个是教学札记的html文本</i>",//教学札记，可为空串，也可无此项(草稿状态)
+	"couID":1,//科目ID
+	"pages":
+	[//页面列表,至少有一页，第一页为封面页
+		{//封面页，不可删除，只能修改标题和副标题
+			"kind":"cover",//类别：cover=封面页,kpt=知识点页,video=视频页,example=例题页,ques=习题页,
+			"title":"第一讲：讲义这个东东的起源",
+			"description":"内容描述的html内容"//{string}可能没有
+		},
+		{//一个复杂的知识点
+			"kind":"kpt",//类别：cover=封面页,kpt=知识点页,video=视频页,example=例题页,ques=习题页,
+			"title":"标题",//{string|undefined}用于页面列表显示，空串表示使用默认值，不同类型默认值不同
+			"name":"知识点名称1",//可以为空串
+			"sub":[//子节点列表，可能的类型有：正文({string})、知识点(kpt)、例题(example)
+				"<b>这是一段html正文<img src=\"2.png\"></b><br>测试一下各种东西<s class=\"key\">这是一段重点<span class=\"mathquill-rendered-math\">\\sqrt[3]{\\theta}=\\frac{A}{B^x}</span>中间有公式</s>。然后再来一个注:<div class=\"note\">这是一段注<span class=\"mathquill-rendered-math\">\\sqrt[3]{\\theta}=\\frac{A}{B^x}</span>中间有个公式的哈</div><span dealflag=\"1\" class=\"MathJye\" mathtag=\"math\" style=\"whiteSpace:nowrap;wordSpacing:normal;wordWrap:normal\">-(-<table cellspacing=\"-1\" cellpadding=\"-1\"><tr><td style=\"font-size: 0px\"><div hassize=\"7\"><div style=\"width:6px;background: url(\"../img/share/8730U.png\") repeat-y; height: 1px;overflow: hidden\" muststretch=\"v\"></div><div style=\"width:6px;background: url(\"../img/share/8730D.png\") no-repeat; height: 7px; overflow: hidden\"></div></div></td><td style=\"padding:0;padding-left: 2px; border-top: black 1px solid;line-height:normal;padding-top:1px\"><table cellpadding=\"-1\" cellspacing=\"-1\" style=\"margin-right:1px\"><tr><td style=\"border-bottom:1px solid black\">16</td></tr><tr><td>25</td></tr></table></td></tr></table><span><span>)</span><span style=\"vertical-align:super;font-size:90%\">2</span></span>=<table cellpadding=\"-1\" cellspacing=\"-1\" style=\"margin-right:1px\"><tr><td style=\"border-bottom:1px solid black\">16</td></tr><tr><td>25</td></tr></table></span>",
+				{//这是一个子知识点
+					"kind":"kpt",//类别：kpt=知识点,example=例题
+					"label":"一个插入式分隔标签",//插入式分隔标签（仅可用在有kind属性的数据对象上,但video类别不支持此属性）
+					"name":"知识点名称1-1",//可以为空字串
+					"sub":[//子节点列表,类型有：正文({string})、例题(example)
+						"<b>我是一个子知识点的正文，bla,bla...</b>",//一段html正文
+						{//子知识点中的例题
+							"kind":"example",
+							"type":1,//1=选择 2=填空 9=解答
+							"Q":"<img alt=\"\" src=\"1.png\" style=\"vertical-align:middle;FLOAT:right;\"><span class=\"mathquill-rendered-math\">\\sqrt[3]{\\theta}=\\frac{A}{B^x}</span>如图，▱ABCD中，下列说法一定正确的是（　　）",
+							"opts":[//选择题的选项，解答题无此项
+								"AC=BD",
+								"AC⊥BD",
+								"AB=CD",
+								"<span class=\"mathquill-rendered-math\">\\sqrt[3]{\\theta}=\\frac{A}{B^x}</span>"
+							],
+							"way":"根据平行四边形的<span class=\"mathquill-rendered-math\">{/}sqrt[3]{{/}theta}={/}frac{A}{B^x}</span>性质分别判断各选项即可．",//思路
+							"step":"解：<span class=\"mathquill-rendered-math\">\\sqrt[3]{\\theta}=\\frac{A}{B^x}</span>A、AC≠BD，故A选项错误；<br>B、AC不垂直于BD，故B选项错误；<br>C、AB=CD，利用平行四边形的对边相等，故C选项正确；<br>D、AB≠BC，故D选项错误；<br>故选C．",//解/步骤
+							"notice":"此题主要考查了平行四边形的<span class=\"mathquill-rendered-math\">{/}sqrt[3]{{/}theta}={/}frac{A}{B^x}</span>性质，正确把握其性质是解题关键．"//注意/总结
+						},
+						"<i>我是一个子知识点的斜体正文，bla,bla...</i>"
+					]
+				},
+				{//再来一个子知识点
+					"kind":"kpt",//类别：kpt=知识点,example=例题
+					"name":"知识点名称1-2",//可以为空字串
+					"sub":[//子节点列表,类型有：正文({string})、例题(example)
+						"我是另一个子知识点的正文，bla,bla..."//一段html正文
+					]
+				},
+				{//知识点中的例题
+					"kind":"example",
+					"type":9,//1=选择 2=填空 9=解答
+					"Q":"<img src=\"1.png\" style=\"vertical-align:middle;FLOAT:right;\"><span class=\"mathquill-rendered-math\">\\sqrt[3]{\\theta}=\\frac{A}{B^x}</span>如图，▱ABCD中，下列说法一定正确的是（　　）",
+					"way":"根据平行四边形的<span class=\"mathquill-rendered-math\">{/}sqrt[3]{{/}theta}={/}frac{A}{B^x}</span>性质分别判断各选项即可．",//思路
+					"step":"解：<span class=\"mathquill-rendered-math\">\\sqrt[3]{\\theta}=\\frac{A}{B^x}</span>A、AC≠BD，故A选项错误；<br>B、AC不垂直于BD，故B选项错误；<br>C、AB=CD，利用平行四边形的对边相等，故C选项正确；<br>D、AB≠BC，故D选项错误；<br>故选C．",//解/步骤
+					"notice":"此题主要考查了平行四边形的<span class=\"mathquill-rendered-math\">{/}sqrt[3]{{/}theta}={/}frac{A}{B^x}</span>性质，正确把握其性质是解题关键．"//注意/总结
+				}
+			]
+		},
+		{//独立的例题
+			"kind":"example",
+			"label":"题型：工程问题",//插入式分隔标签（仅可用在有kind属性的数据对象上）
+			"name":"工程问题的例题",
+			"type":9,//1=选择 2=填空 9=解答
+			"Q":"<img src=\"1.png\" style=\"vertical-align:middle;FLOAT:right;\">如图，▱ABCD中，证明一下各种问题",
+			"way":"根据平行四边形的<span class=\"mathquill-rendered-math\">{/}sqrt[3]{{/}theta}={/}frac{A}{B^x}</span>性质分别判断各选项即可．",//思路
+			"step":"解：<span class=\"mathquill-rendered-math\">\\sqrt[3]{\\theta}=\\frac{A}{B^x}</span>A、AC≠BD，故A选项错误；<br>B、AC不垂直于BD，故B选项错误；<br>C、AB=CD，利用平行四边形的对边相等，故C选项正确；<br>D、AB≠BC，故D选项错误；<br>故选C．",//解/步骤
+			"notice":"此题主要考查了平行四边形的<span class=\"mathquill-rendered-math\">{/}sqrt[3]{{/}theta}={/}frac{A}{B^x}</span>性质，正确把握其性质是解题关键．"//注意/总结
+		},
+		{//习题-解答
+			"kind":"ques",
+			"type":9,//1=选择 2=填空 9=解答
+			"Q":"<img src=\"1.png\" style=\"vertical-align:middle;FLOAT:right;\">如图，▱ABCD中，证明一下各种问题",
+			"way":"根据平行四边形的<span class=\"mathquill-rendered-math\">{/}sqrt[3]{{/}theta}={/}frac{A}{B^x}</span>性质分别判断各选项即可．",//思路
+			"step":"解：<span class=\"mathquill-rendered-math\">\\sqrt[3]{\\theta}=\\frac{A}{B^x}</span>A、AC≠BD，故A选项错误；<br>B、AC不垂直于BD，故B选项错误；<br>C、AB=CD，利用平行四边形的对边相等，故C选项正确；<br>D、AB≠BC，故D选项错误；<br>故选C．",//解/步骤
+			"notice":"此题主要考查了平行四边形的<span class=\"mathquill-rendered-math\">{/}sqrt[3]{{/}theta}={/}frac{A}{B^x}</span>性质，正确把握其性质是解题关键．"//注意/总结
+		},
+		{//习题-选择
+			"kind":"example",
+			"type":1,//1=选择 2=填空 9=解答
+			"qlib":{//题库来源,当题目来源于题库时有效
+				"ver":1,//题库版本
+				"stamp":new Date().getTime(),//从题库中选择时的时戳(ms)
+				"qID":8//题库对应题目ID
+			},
+			"Q":"<img alt=\"\" src=\"1.png\" style=\"vertical-align:middle;FLOAT:right;\"><span class=\"mathquill-rendered-math\">\\sqrt[3]{\\theta}=\\frac{A}{B^x}</span>如图，▱ABCD中，下列说法一定正确的是（　　）",
+			"opts":[//选择题的选项，解答题无此项
+				"<span dealflag=\"1\" class=\"MathJye\" mathtag=\"math\" style=\"whiteSpace:nowrap;wordSpacing:normal;wordWrap:normal\">-(-<table cellspacing=\"-1\" cellpadding=\"-1\"><tr><td style=\"font-size: 0px\"><div hassize=\"7\"><div style=\"width:6px;background: url(\"../img/share/8730U.png\") repeat-y; height: 1px;overflow: hidden\" muststretch=\"v\"></div><div style=\"width:6px;background: url(\"../img/share/8730D.png\") no-repeat; height: 7px; overflow: hidden\"></div></div></td><td style=\"padding:0;padding-left: 2px; border-top: black 1px solid;line-height:normal;padding-top:1px\"><table cellpadding=\"-1\" cellspacing=\"-1\" style=\"margin-right:1px\"><tr><td style=\"border-bottom:1px solid black\">16</td></tr><tr><td>25</td></tr></table></td></tr></table><span><span>)</span><span style=\"vertical-align:super;font-size:90%\">2</span></span>=<table cellpadding=\"-1\" cellspacing=\"-1\" style=\"margin-right:1px\"><tr><td style=\"border-bottom:1px solid black\">16</td></tr><tr><td>25</td></tr></table></span>",
+				"AC⊥BD",
+				"AB=CD",
+				"<span class=\"mathquill-rendered-math\">\\sqrt[3]{\\theta}=\\frac{A}{B^x}</span>"
+			],
+			"A":[//答案和典型错误列表
+				{//正确答案
+					"A":2,
+					"kpt":[21,34]
+				},
+				{
+					"A":0,
+					"kpt":[21]
+				}
+			],
+			"way":"根据平行四边形的<span class=\"mathquill-rendered-math\">{/}sqrt[3]{{/}theta}={/}frac{A}{B^x}</span>性质分别判断各选项即可．",//思路
+			"step":"解：<span class=\"mathquill-rendered-math\">\\sqrt[3]{\\theta}=\\frac{A}{B^x}</span>A、AC≠BD，故A选项错误；<br>B、AC不垂直于BD，故B选项错误；<br>C、AB=CD，利用平行四边形的对边相等，故C选项正确；<br>D、AB≠BC，故D选项错误；<br>故选C．",//解/步骤
+			"notice":"此题主要考查了平行四边形的<span class=\"mathquill-rendered-math\">{/}sqrt[3]{{/}theta}={/}frac{A}{B^x}</span>性质，正确把握其性质是解题关键．"//注意/总结
+		},
+		{//再来一个知识点
+			"kind":"kpt",
+			"name":"知识点名称",//可以为空串
+			"sub":[//子节点列表，可能的类型有：正文({string})、知识点(kpt)、例题(example)
+				"我是一个知识点的正文，bla,bla...",//一段html正文
+				{"kind":"kpt","name":"知识点名称2-1","sub":["我是知识点2-1的正文，bla,bla..."]
+				}
+			]
+		},
+		{//视频
+			"kind":"video",//类别：cover=封面页,kpt=知识点页,video=视频页,example=例题页,ques=习题页,
+			"title":"视频1",//标题
+			"name":"立方体相对两面",//视频名称
+			"url":"http://v.leleketang.com/dat/ms/ma/k/video/19478.mp4"//视频url,如为相对路径，则由前端确定其绝对路径
+		}
+	]
+}
