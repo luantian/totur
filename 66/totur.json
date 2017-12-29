@@ -1,0 +1,99 @@
+{
+	"couID":1,
+	"pages":
+	[
+		{
+			"kind":"cover",
+			"title":"第一讲：图形的旋转",
+			"description":"1.掌握旋转的概念，探索它的基本性质，理解对应点到旋转中心的距离相等，对应点与旋转中心连线所成的角彼此相等的性质。<br>2.能够按要求作出简单平面图形旋转后的图形。"
+		},
+		{
+			"kind":"kpt",
+			"name":"旋转的概念",
+			"sub":[
+        "把一个平面图形绕着平面内某一点 转动一个角度，叫作图形的旋转.点 叫作旋转中心，转动的角叫作旋转角.",
+        "<s class=\"key\"><b>注意：</b>旋转的三要素：旋转中心、旋转方向、旋转角.</s>",
+        "①在旋转过程中，始终保持不动的那个点就是旋转中心，旋转中心既可以在图形的外部，也可以在图形的内部，还可以在图形上；",
+        "②每一对对应点与旋转中心的连线的夹角都是这个旋转变换的旋转角，一个旋转变换中有多个旋转角，旋转角大于 小于 ；"
+			]
+    },
+    {
+      "kind": "example",
+      "type": 1,
+      "Q": "下列现象属于旋转的是（  ）",
+      "opts": [
+        "摩托车在急刹车时向前滑动", "飞机起飞后冲向空中的过程", "幸运大转盘转动的过程", "笔直的铁轨上飞驰而过的火车"
+      ],
+      "way": "根据旋转的定义：在平面内，把一个图形绕着某一个点O旋转一个角度的图形变换叫做旋转，即可选出答案．",
+      "step": "A、摩托车在急刹车时向前滑动是平移，故此选项错误；<br> B、飞机起飞后冲向空中的过程是平移，故此选项错误；<br>C、幸运大转盘转动的过程是旋转，故此选项正确；<br>D、笔直的铁轨上飞驰而过的火车是平移，故此选项错误；<br>故选：C．"
+    },
+    {
+      "kind": "ques",
+      "type": 1,
+      "Q": "下列运动属于旋转的是（  ）",
+      "way": "根据旋转变换的概念，对选项进行一一分析，排除错误答案．",
+      "step": "A、滚动过程中的篮球属于滚动，不是绕着某一个固定的点转动，不属旋转；<br>B、钟表的钟摆的摆动，符合旋转变换的定义，属于旋转；<br>C、气球升空的运动是平移，不属于旋转；<br>D、一个图形沿某直线对折的过程是轴对称，不属于旋转．<br>故选：B．",
+    },
+    {
+      "kind": "example",
+      "label": "题型二  旋转要素的识别",
+      "type": 9,
+      "Q": "<img src=\"1.png\" style=\"width: 8em; float: left; margin-right: 1em; vertical-algin: middle;\">如图所示，△<i>ABC</i>为等边三角形，△<i>AP<sup>'</sup>B</i>逆时针旋转后能与△<i>APC</i>重合.<br>(1)旋转中心是哪一点？<br>(2)旋转角是多少度？<br>(3) 等于多少度？",
+      "way": "观察图形在旋转的过程中各部分的位置变化情况,发现点<i>A</i>的位置没有发生变化,因此点 <i>A</i> 为旋转中心.点 <i>P</i> 与 <i>P<sup>'</sup></i>,点 <i>C</i> 与 <i>B</i> 分别为对应点，因此 <i>∠PAP<sup>'</sup></i> 和 <i>∠CAB</i> 都是旋转角.",
+      "notice": "首先确定旋转中心：旋转前后位置没有发生变化的点；然后确定对应点：旋转前后能够重合的点；最后确定旋转角：对应点与旋转中心所连线段的夹角。"
+    },
+    {
+      "kind": "ques",
+      "type": 2,
+      "Q": "<img src=\"2.jpg\" style=\"width: 8em; float: right; vertical-algin: middle;\">如图所示，可以看到，△ <i>∠AOB</i> 经旋转后到达△<i>∠A<sup>'</sup>OB<sup>'</sup></i>,可知点 <i>A</i> 旋转到点 <i>A<sup>'</sup></i>，<i>∠AOB</i> 旋转到  <i>∠A<sup>'</sup>OB<sup>'</sup></i> ，则点 <i>B</i> 的对应点是_______点, 线段 <i>OB</i> 的对应线段是线段_______, 线段 <i>AB</i> 的对应线段是线段_______, <i>∠A</i> 的对应角是_______, <i>∠B</i> 的对应角是_______, 旋转中心是点_______，旋转角是_______.",
+      "way": "根据旋转的定义、旋转中心、旋转角、旋转的对应点等的概念来解题。<br>【答案】 <span class=\"mathquill-rendered-math\">{{B}'}</span>; <span class=\"mathquill-rendered-math\">{{OB}'}</span>; <span class=\"mathquill-rendered-math\">{{A}'{B}'}</span>; <span class=\"mathquill-rendered-math\">{{∠A}'}</span>; <span class=\"mathquill-rendered-math\">{{∠B}'}</span>; <span class=\"mathquill-rendered-math\">{{O}}</span>; <span class=\"mathquill-rendered-math\">{{AOA}'}</span>; <span class=\"mathquill-rendered-math\">{{∠BOB}'}</span>",
+    },
+    {
+      "kind": "example",
+      "label": "题型三  求旋转过程中的运动轨迹与路程",
+      "type": 2,
+      "Q": "（易错题）<img src=\"3.png\" style=\"width: 9em; float: left; vertical-algin: middle;\">如图所示，把腰长为 1 的等腰直角三角形<i>ABC</i>绕点 <i>C</i> 顺时针旋转90°到△<span class=\"mathquill-rendered-math\">{{A}'{B}'C}</span>的位置，则点 <i>A</i> 运动的路径长为_______.",
+      "way": "由旋转的性质可知，点 <i>A</i> 在旋转过程中走过的路程是一条圆弧而不是一条线段。",
+      "step": "<img src=\"6.png\" style=\"width: 9em; float: left; vertical-algin: middle;\">如图，点 <i>A</i> 在旋转过程中走过的路径是一条半径为 1，圆心角为 90° 的圆弧，即为圆周的<span class=\"mathquill-rendered-math\">{\\frac{1}{4}}</span>。它的长度为<span class=\"mathquill-rendered-math\">{\\frac{1}{4}\\times 2\\pi \\times }1</span><span class=\"mathquill-rendered-math\">{{=}\\frac{\\pi }{2}}</span>",
+      "notice": "图形作旋转变换时，每个点都绕着旋转中心沿相同方向转动相同度数但是各点的运动路程不一定相等，运动路程等于以旋转中心为圆心，以该点到旋转中心的距离为半径的该点与其对应点之间的一条弧的长度，而不是线段长，每个点都有自己的旋转路径与路程，各个点互不相同。"
+    },
+    {
+      "kind": "kpt",
+      "name": "旋转的性质",
+      "sub": [
+        "旋转不改变图形的形状和大小，只改变图形的位置。",
+        "旋转有如下的性质：",
+        "（1）对应点到旋转中心的距离相等；",
+        "（2）对应点与旋转中心所连线段的夹角等于旋转角；",
+        "（3）旋转前、后的图形全等."
+      ]
+    },
+    {
+      "kind": "example",
+      "label": "题型一  根据旋转的性质求线段长",
+      "type": 2,
+      "Q": "如图，将△<i>ABC</i>绕点 <i>A</i>顺时针旋转 60°得到△<i>AED</i>，若线段 <i>AB</i> = 3，则 <i>BE</i> = _________.",
+      "way": "根据旋转的性质找到旋转角及对应关系，即可求出答案．",
+      "step": "∵将△<i>ABC</i>绕点 <i>A</i>顺时针旋转 60°得到△<i>AED</i>，<bnr> <i>∠BAE</i> = 60°, <i>AB</i> = <i>AE</i><br> △<i>BAE</i>是等边三角形， <br>∴ <i>BE</i> = 3;",
+      "notice": "根据旋转的特征，若旋转角为60°，则一组对应边与旋转角组成的三角形是等边三角形。然后利用等边三角形的特殊性求线段的长度。"
+    },
+    {
+      "kind": "ques",
+      "type": 2,
+      "Q": "<img src=\"5.png\" style=\"width: 9em; float: left; vertical-algin: middle;\">如图，<span class=\"mathquill-rendered-math\">{{Rt}}</span>△<i>ABC</i>的斜边<i>AB</i> = 16, <span class=\"mathquill-rendered-math\">{{Rt}}</span>△<i>ABC</i>绕点 <i>O</i>顺时针旋转后得到<span class=\"mathquill-rendered-math\">{{Rt}}</span>△<span class=\"mathquill-rendered-math\">{{A}'{B}'{C}'}</span>的斜边 <span class=\"mathquill-rendered-math\">{{A}'{B}'}</span> 上的中线 <span class=\"mathquill-rendered-math\">{{C}'{D}}</span> 的长度为_______.",
+      "way": "根据旋转是全等变换，对应三角形是全等三角形求解即可。",
+      "step": "∵旋转是全等变换<br> <span class=\"mathquill-rendered-math\">{{Rt}}</span>△<i>ABC</i> ≌ <span class=\"mathquill-rendered-math\">{{Rt}}</span>△<span class=\"mathquill-rendered-math\">{{A}'{B}'{C}'}</span><br>∴<span class=\"mathquill-rendered-math\">{AB={A}'{B}'}</span><br>∴<span class=\"mathquill-rendered-math\">{{C}'D=\\frac{1}{2}{A}'{B}'=\\frac{1}{2}AB=8}</span>"
+    },
+    {
+      "kind": "example",
+      "label": "题型二  根据旋转的性质求角度",
+      "type": 1,
+      "Q": "如图，△<i>OAB</i>绕点 <i>O</i> 逆时针旋转 85° 得到△<i>OCD</i>，若 <i>∠A=110°，∠D=40°</i> ，则<i>∠α</i> 的度数是（      ）",
+      "opts": [
+        "35°", "45°", "55°", "65°"
+      ],
+      "way": "根据旋转的性质即可求出答案．",
+      "step": "解：由题意可知：<i>∠DOB</i>"
+    }
+	]
+}
