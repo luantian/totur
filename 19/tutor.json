@@ -1,0 +1,258 @@
+{
+	"couID":1,
+	"pages":
+	[
+		{
+			"kind":"cover",
+			"title":"第一讲：二元一次方程（组）的相关概念",
+			"description":"1. 理解二元一次方程、二元一次方程组及它们的解的含义；<br>2. 掌握判定二元一次方程（组）的解的方法．"
+		},
+                {
+			"kind":"kpt",
+			"name":"二元一次方程的概念",
+			"sub":["　　二元一次方程：含有两个未知数，并且含未知数的项的最高次数是1的整式方程叫二元一次方程。其一般形式为： <i>a</i><i>x</i>+<i>b</i><i>y</i>+<i>c</i>=0(<i>a</i>≠0,<i>b</i>≠0).<br><s class=\"key\"><b>注意：</b><br>二元一次方程需同时满足三个条件：<br>①首先是整式方程；<br>②方程中共含有两个未知数；<br>③所有未知项的次数都是一次．</s>"]
+		},
+                {
+			"kind":"example",
+			"label":"题型一  二元一次方程的识别",
+			"type":1,
+			"Q":"下列各式，属于二元一次方程的个数有（　　）<br>①<i>x</i><i>y</i>+2<i>x</i>-<i>y</i>=7； ②4<i>x</i>+1=<i>x</i>-<i>y</i>； ③<span class=\"mathquill-rendered-math\">\\frac{1}{x}+y=5</span>； ④<i>x</i>=<i>y</i>； ⑤<span class=\"mathquill-rendered-math\">2{{x}^{2}}-{{y}^{2}}=2</span>； ⑥6<i>x</i>-2<i>y</i>； ⑦<i>x</i>+<i>y</i>+<i>z</i>=1； ⑧<span class=\"mathquill-rendered-math\">y\\left(y-1\\right)=2{{y}^{2}}-{{y}^{2}}+x</span>．",
+                       "opts":[
+				"1","2","3","4"
+			],
+			"way":"根据二元一次方程的定义，从二元一次方程的未知数的个数和次数方面辨别．",
+			"step":"①<i>x</i><i>y</i>+2<i>x</i>-<i>y</i>=7，不是二元一次方程，因为其未知数的最高次数为2；<br>②4<i>x</i>+1=<i>x</i>-<i>y</i>，是二元一次方程；<br>③<span class=\"mathquill-rendered-math\">\\frac{1}{x}+y=5</span>，不是二元一次方程，因为不是整式方程；<br>④<i>x</i>=<i>y</i>是二元一次方程；<br>⑤<span class=\"mathquill-rendered-math\">2{{x}^{2}}-{{y}^{2}}=2</span>不是二元一次方程，因为其未知数的最高次数为2；<br>⑥6<i>x</i>-2<i>y</i>，不是二元一次方程，因为不是等式；<br>⑦<i>x</i>+<i>y</i>+<i>z</i>=1，不是二元一次方程，因为含有3个未知数；<br>⑧<span class=\"mathquill-rendered-math\">y\\left(y-1\\right)=2{{y}^{2}}-{{y}^{2}}+x</span>，是二元一次方程，因为变形后为-<i>y</i>=<i>x</i>；<br>故选C．",
+                        "notice":"二元一次方程必须符合以下三个条件：<br>（1）方程中只含有2个未知数；<br>（2）含未知数项的最高次数为一次；<br>（3）方程是整式方程．注意⑧整理后是二元一次方程．"
+		},
+                {
+			"kind":"example",
+			"label":"题型二  根据二元一次方程的概念求字母系数的值",
+			"type":1,
+			"Q":"若方程<span class=\"mathquill-rendered-math\">{{x}^{\\left| a \\right|-1}}+\\left( a+2 \\right)y=3</span>是二元一次方程，则<i>a</i>的取值范围是（　　）",
+                       "opts":[
+				"<i>a</i>>2","<i>a</i>=2","<i>a</i>=-2","<i>a</i><-2"
+			],
+			"way":"直接利用二元一次方程的定义分析得出<i>a</i>的值．",
+			"step":"∵方程<span class=\"mathquill-rendered-math\">{{x}^{\\left| a \\right|-1}}+\\left( a+2 \\right)y=3</span>是二元一次方程，<br>∴|<i>a</i>|-1=1，<i>a</i>+2≠0<br>解得：<i>a</i>=2．<br>故选：B．",
+                        "notice":"此题主要考查了二元一次方程的定义，正确得出次数与系数是解题"
+		},
+                {
+			"kind":"ques",
+			"type":2,
+			"Q":"已知<span class=\"mathquill-rendered-math\">\\left( k-2 \\right){{x}^{\\left| k \\right|-1}}-2y=1</span>，则<i>k</i>=<u>&nbsp;&nbsp;&nbsp;&nbsp;-2&nbsp;&nbsp;&nbsp;&nbsp;</u>时，它是二元一次方程；<i>k</i>=<u>&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;</u>时，它是一元一次方程．",
+                        "way":"根据二元一次方程含未知数的项的次数为1，系数不为0可求得<i>k</i>的值，当未知数<i>x</i>的系数为零时，原方程是一个一元一次方程．",
+			"step":"∵|<i>k</i>|-1=1，<i>k</i>-2≠0是二元一次方程，<br>解得：<i>k</i>=-2．<br>∵当<i>k</i>-2=0时，原方程是一元一次方程，<br>∴<i>k</i>=2．<br>故答案为：-2；2．",
+			"notice":"本题主要考查的是二元一次方程的定义和一元一次方程的定义，掌握二元一次方程的定义和一元一次方程的未知数的系数和次数的特点是解题的关键．"
+		},
+                {
+			"kind":"example",
+			"label":"题型三  根据二元一次方程的概念求代数式的值",
+			"type":1,
+			"Q":"若<span class=\"mathquill-rendered-math\">{{x}^{4-3\\left| m \\right|}}+{{y}^{\\left| n \\right|-2}}=2015</span>是关于<i>x</i>，<i>y</i>的二元一次方程，且<i>mn</i><0，0<<i>m+n</i>≤3，则<i>m-n</i>的值是（　　）",
+                       "opts":[
+				"-4","2","4","-2"
+			],
+			"way":"二元一次方程满足的条件：含有2个未知数，未知数的项的次数是1的整式方程．",
+			"step":"由<span class=\"mathquill-rendered-math\">{{x}^{4-3\\left| m \\right|}}+{{y}^{\\left| n \\right|-2}}=2015</span>是关于<i>x</i>，<i>y</i>的二元一次方程，得<br><img src=\"1.svg\" style=\"vertical-align:middle\">．<br>解得<i>m</i>=±1，<i>n</i>=±3．<br>由<i>mn</i><0,<i>m+n</i>≤3，得<br><i>m</i>=-1，<i>n</i>=3．<br><i>m-n</i>=-1-3=-4，<br>故选：A．",
+                        "notice":"主要考查二元一次方程的概念，要求熟悉二元一次方程的形式及其特点：含有2个未知数，未知数的项的次数是1的整式方程．"
+		},
+                {
+			"kind":"ques",
+			"type":9,
+			"Q":"已知方程<span class=\"mathquill-rendered-math\">\\left( m+2 \\right){{x}^{\\left| m \\right|-1}}+\\left( n-3 \\right){{y}^{{{n}^{2}}-8}}=5</span>是关于<i>x</i>、<i>y</i>的二元一次方程，求<span class=\"mathquill-rendered-math\">{{m}^{2}}+2mn+{{n}^{2}}</span>的值．",
+                        "way":"根据二元一次方程的定义，则<i>x</i>、<i>y</i>的次数均为1，系数均不为0，即可解答．",
+			"step":"已知方程<span class=\"mathquill-rendered-math\">\\left( m+2 \\right){{x}^{\\left| m \\right|-1}}+\\left( n-3 \\right){{y}^{{{n}^{2}}-8}}=5</span>是关于<i>x</i>、<i>y</i>的二元一次方程，<br>则|<i>m</i>|-1，<i>m</i>+2≠0，<i>n</i>²-8=1，<i>n</i>-3≠0<br>所以<i>m</i>=2，<i>n</i>=-3．<br>故<span class=\"mathquill-rendered-math\">{{m}^{2}}+2mn+{{n}^{2}}=1</span>",
+			"notice":"此题主要是考查二元一次方程的定义，即含有两个未知数，未知数的次数是1．特别注意：未知数的系数不得为0．"
+		},
+                {
+			"kind":"kpt",
+			"name":"二元一次方程的解",
+			"sub":["　　<b>定义</b>：一般地，使二元一次方程两边的值相等的两个未知数的值，叫做二元一次方程的解．<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>注意</b>：在二元一次方程中，任意给出一个未知数的值，总能求出另一个未知数的一个唯一确定的值，所以二元一次方程有无数解．<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b class=\"key\">学霸秘籍</b>：在求一个二元一次方程的整数解时，往往采用“给一个，求一个”的方法，即先给出其中一个未知数（一般是系数绝对值较大的）的值，再依次求出另一个的对应值．"]
+		},
+                {
+			"kind":"example",
+			"label":"题型一  二元一次方程的解",
+			"type":1,
+			"Q":"小明解方程组<i>x</i>+<i>y</i>=■的解为<i>x</i>=5 ，由于不小心滴下了两滴墨水，刚好把<img src=\"2.svg\" style=\"vertical-align:middle\">两个数■和★遮住了，则这个数■和★的值为（　　）",
+                       "opts":[
+				"<img src=\"3.svg\" style=\"vertical-align:middle\">","<img src=\"4.svg\" style=\"vertical-align:middle\">","<img src=\"5.svg\" style=\"vertical-align:middle\">","<img src=\"6.svg\" style=\"vertical-align:middle\">"
+			],
+			"way":"把<i>x</i>=5代入已知方程组求出■的值，进而求出★的值即可．",
+			"step":"把<i>x</i>=5代入方程组得：<img src=\"7.svg\" style=\"vertical-align:middle\"><br>解得：<i>y</i>=★=3，<br>把<i>x</i>=5,<i>y</i>=3代入得：■=3+5=8，<br>故选A",
+                        "notice":"此题考查了二元一次方程组的解，方程组的解即为能使方程组中两方程都成立的未知数的值．"
+		},
+                {
+			"kind":"ques",
+			"type":2,
+			"Q":"若<img src=\"8.svg\" style=\"vertical-align:middle\">是方程<i>x</i>-3<i>y</i>+2<i>k</i>-2=0的一个解，则<i>k</i>的值是<u>&nbsp;&nbsp;&nbsp;&nbsp;9&nbsp;&nbsp;&nbsp;&nbsp;</u>．",
+                        "way":"根据二元一次方程解的定义，直接把<img src=\"8.svg\" style=\"vertical-align:middle\">代入方程<i>x</i>-3<i>y</i>+2<i>k</i>-2=0，得到关于<i>k</i>的方程，然后解此方程即可．",
+			"step":"把<img src=\"8.svg\" style=\"vertical-align:middle\">代入方程<i>x</i>-3<i>y</i>+2<i>k</i>-2=0，得2<i>k</i>-1-3(<i>k</i>+2)+2<i>k</i>-2=0，解得<i>k</i>=9．",
+			"notice":"解题关键是把方程的解代入原方程，得到关于<i>k</i>的方程，然后解方程求<i>k</i>的值．"
+		},
+                {
+			"kind":"example",
+			"label":"题型二 求二元一次方程的特殊解",
+			"type":2,
+			"Q":"已知甲种物品每个重4kg，乙种物品每个重7kg，现有甲种物品<i>x</i>个，乙种物品<i>y</i>个，共重76kg．<br>（1）列出关于<i>x</i>，<i>y</i>的二元一次方程；<br>（2）若<i>x</i>=12，则<i>y</i>=<u>&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;</u>；<br>（3）若乙种物品有8个，则甲种物品有<u>&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;&nbsp;</u>个；<br>（4）请你用含<i>x</i>的代数式表示<i>y</i>，然后再写出满足条件的<i>x</i>，<i>y</i>的全部整数解．",
+			"way":"根据题意知，甲种物品的质量+乙种物品的质量=76，所以可得4<i>x</i>+7<i>y</i>=76，把<i>x</i>=12代入方程可得7的值；把<i>y</i>=8代入方程可得<i>x</i>的值，即甲种物品的个数．",
+			"step":"（1）关于<i>x</i>，<i>y</i>的二元一次方程为4<i>x</i>+7<i>y</i>=76；<br>（2）把<i>x</i>=12代入方程4<i>x</i>+7<i>y</i>=76，得<i>y</i>=4；<br>（3）把<i>y</i>=8代入方程4<i>x</i>+7<i>y</i>=76，得<i>x</i>=5，即甲种物品有5个；<br>（4）用含<i>x</i>的代数式表示<span class=\"mathquill-rendered-math\">y=\\frac{76-4x}{7}</span>，其整数解为：<img src=\"9.svg\" style=\"vertical-align:middle\">，<img src=\"10.svg\" style=\"vertical-align:middle\">，<img src=\"11.svg\" style=\"vertical-align:middle\">．",
+                        "notice":"结合实际问题，本题中整数解实际是非负整数解，因为物品的个数不能是负数．"
+		},
+                {
+			"kind":"ques",
+			"type":2,
+			"Q":"我们知道一个二元一次方程有无数组解，但在实际生活中我们往往只需要求出其符合条件的特定解，如正整数解、非负整数解等等．问题：<br>（1）请你写出方程2<i>x</i>+<i>y</i>=5的一组正整数解：______<br>（2）足球比赛规定：胜一场得3分，平一场得1分，负一场得0分．某足球队共进行了6场比赛，得了12分，该队获胜的场数可能是<u>&nbsp;&nbsp;&nbsp;&nbsp;3场或4场&nbsp;&nbsp;&nbsp;&nbsp;</u>．",
+                        "way":"（1）根据题意可知，方程2<i>x</i>+<i>y</i>=5的一组正整数解<img src=\"12.svg\" style=\"vertical-align:middle\">或<img src=\"13.svg\" style=\"vertical-align:middle\">，只要写出一组即可；<br>（2）根据题意可以利用分类讨论的数学思想写出相应的可能性即可．",
+			"step":"（1）方程2<i>x</i>+<i>y</i>=5的一组正整数解是<img src=\"12.svg\" style=\"vertical-align:middle\">，<br>故答案为：<img src=\"12.svg\" style=\"vertical-align:middle\">；<br>（2）由题意可得，<br>当胜4场时，则负2场；<br>当胜3场时，则平3场；<br>故答案为：3场或4场．",
+			"notice":"本题考查二元一次方程的应用，解答本题的关键是明确题意，找出所求问题需要的条件．"
+		},
+                {
+			"kind":"example",
+			"label":"题型三  根据二元一次方程解求字母系数的值",
+			"type":1,
+			"Q":"甲、乙两人同求方程<i>a</i><i>x</i>-<i>b</i><i>y</i>=7的整数解，甲正确地求出一个解为<img src=\"14.svg\" style=\"vertical-align:middle\">，乙把<i>a</i><i>x</i>-<i>b</i><i>y</i>=7看成1<i>a</i><i>x</i>-<i>b</i><i>y</i>=1，求得一个解为<img src=\"15.svg\" style=\"vertical-align:middle\"> ，则<i>a</i>，<i>b</i>的值分别为（　　）",
+                        "opts":[
+				"<img src=\"16.svg\" style=\"vertical-align:middle\">","<img src=\"17.svg\" style=\"vertical-align:middle\">","<img src=\"18.svg\" style=\"vertical-align:middle\">","<img src=\"19.svg\" style=\"vertical-align:middle\">"
+			],
+			"way":"首先根据题意把<img src=\"14.svg\" style=\"vertical-align:middle\">代入<i>a</i><i>x</i>-<i>b</i><i>y</i>=7中得<i>a</i>+<i>b</i>=7，把<img src=\"15.svg\" style=\"vertical-align:middle\">代入<i>a</i><i>x</i>-<i>b</i><i>y</i>=1中得：<i>a</i>-2<i>b</i>=1，组成方程组可解得<i>a</i>，<i>b</i>的值．",
+			"step":"把<img src=\"14.svg\" style=\"vertical-align:middle\">代入<i>a</i><i>x</i>-<i>b</i><i>y</i>=7中得：<br><i>a</i>+<i>b</i>=7①，<br>把<img src=\"15.svg\" style=\"vertical-align:middle\">代入<i>a</i><i>x</i>-<i>b</i><i>y</i>=1中得：<br><i>a</i>-2<i>b</i>=1②，<br>把①②组成方程组得：<img src=\"20.svg\" style=\"vertical-align:middle\">，<br>解得：<img src=\"17.svg\" style=\"vertical-align:middle\">，<br>故选：B．",
+                        "notice":"此题主要考查了二元一次方程组的解，关键是正确把握二元一次方程的解的定义．"
+		},
+                {
+			"kind":"ques",
+			"type":1,
+			"Q":"两位同学在解同一个方程组时，甲同学由<img src=\"21.svg\" style=\"vertical-align:middle\">正确的解出<img src=\"22.svg\" style=\"vertical-align:middle\">，乙同学因看错了<i>c</i>而解得<img src=\"23.svg\" style=\"vertical-align:middle\">，那么<i>a</i>、<i>b</i>、<i>c</i>的正确的值为（　　）",
+                        "opts":[
+                            "<i>a</i>=3,<i>b</i>=-2,<i>c</i>=2","<i>a</i>=1,<i>b</i>=<span class=\"mathquill-rendered-math\">\\frac{-4}{3}</span>,<i>c</i>=2","<i>a</i>=3,<i>b</i>=-2,<i>c</i>=-2","<i>a</i>=1,<i>b</i>=<span class=\"mathquill-rendered-math\">\\frac{-4}{3}</span>,<i>c</i>=-2"
+			],
+                        "way":"把甲的结果代入方程组第一个方程与第二个方程，将乙的结果代入第一个方程，求出<i>a</i>与<i>b</i>，<i>c</i>的值即可．",
+			"step":"根据题意得：<img src=\"24.svg\" style=\"vertical-align:middle\">，<br>解得：<img src=\"25.svg\" style=\"vertical-align:middle\">，<br>把<img src=\"22.svg\" style=\"vertical-align:middle\">代入方程组第二个方程得：5+3<i>c</i>=11，<br>解得：<i>c</i>=2，<br>故选A．",
+			"notice":"此题考查了二元一次方程组的解，方程组的解即为能使方程组中两方程都成立的未知数的值．"
+		},
+                {
+			"kind":"example",
+			"label":"题型四  根据二元一次方程的解求代数式的值",
+			"type":2,
+			"Q":"阅读材料：写出二元一次方程6<i>x</i>-3<i>y</i>=6的几个解：<img src=\"26.svg\" style=\"vertical-align:middle\">，<img src=\"27.svg\" style=\"vertical-align:middle\">，<img src=\"28.svg\" style=\"vertical-align:middle\">，…，发现这些解的一般形式可表示为<img src=\"29.svg\" style=\"vertical-align:middle\">（m为有理数）．把一般形式再变形为<img src=\"30.svg\" style=\"vertical-align:middle\">，可得<span class=\"mathquill-rendered-math\">\\frac{x}{3}=y+2</span>整理得原方程<i>x</i>-3<i>y</i>=6．根据阅读材料解答下列问题：若二元一次方程<i>a</i><i>x</i>+<i>b</i><i>y</i>=<i>c</i>的解，可以写成<img src=\"31.svg\" style=\"vertical-align:middle\">（为有理数），则<u>&nbsp;&nbsp;&nbsp;&nbsp;-3或3&nbsp;&nbsp;&nbsp;&nbsp;</u>．",
+			"way":"根据题目中的信息可以求得<i>a</i>、<i>b</i>、<i>c</i>的值，从而可以求得<i>a</i>+<i>b</i>+<i>c</i>的值．",
+			"step":"∵<img src=\"31.svg\" style=\"vertical-align:middle\">（为有理数），<br>∴<img src=\"32.svg\" style=\"vertical-align:middle\">，∴<span class=\"mathquill-rendered-math\">\\frac{x}{2}=y-1</span>，∴<i>x</i>-2<i>y</i>=-2或-<i>x</i>+2<i>y</i>=2，<br>∵二元一次方程<i>a</i><i>x</i>+<i>b</i><i>y</i>=<i>c</i>的解，可以写成<img src=\"31.svg\" style=\"vertical-align:middle\">（为有理数），<br>∴<i>a</i>=1,<i>b</i>=-2,<i>c</i>=-2或<i>a</i>=-1,<i>b</i>=2,<i>c</i>=2，<br>∴ <i>a</i>+<i>b</i>+<i>c</i>=1+(-2)+(-2)=-3或<i>a</i>+<i>b</i>+<i>c</i>=(-1)+2+2=3，<br>故答案为：-3或3．",
+                        "notice":"本题考查二元一次方程的解，解题的关键是明确题意，找出所求问题需要的条件．"
+		},
+                {
+			"kind":"kpt",
+			"name":"二元一次方程组",
+			"sub":["　　二元一次方程组：由几个一次方程组成并且含有两个未知数的方程组，叫二元一次方程组。二元一次方程组不一定是由两个二元一次方程合在一起，有的方程可以只有一元(一元方程在这里可以看作另一个未知数系数为0的二元方程)，方程可以超过两个。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>注意</b>：一般情况下，一个二元一次方程组只有唯一一组解；二元一次方程组的解还有另外两种情0况：无解或无数组解."]
+		},
+                {
+			"kind":"example",
+			"label":"题型一  二元一次组的识别",
+			"type":1,
+			"Q":"下列各方程组中二元一次方程组的个数是（　　）<br>①<img src=\"33.svg\" style=\"vertical-align:middle\"> ②<img src=\"34.svg\" style=\"vertical-align:middle\"> ③<img src=\"35.svg\" style=\"vertical-align:middle\"> ④<img src=\"36.svg\" style=\"vertical-align:middle\"> ⑤<img src=\"37.svg\" style=\"vertical-align:middle\">",
+                        "opts":[
+                            "1个","2个","4个","5个"
+			],
+			"way":"组成二元一次方程组的两个方程应共含有两个未知数，且未知数的项最高次数都应是一次的整式方程．",
+			"step":"①本方程组中含有3个未知数；故本选项错误；<br>②第二个方程中的<i>x</i><i>y</i>是二次的，故本选项错误；<br>③符合二元一次方程组的定义；故本选项正确；<br>④第二个方程是分式方程；故本选项错误；<br>⑤符合二元一次方程组的定义；故本选项正确．<br>综上所述，正确的个数是2．<br>故选B．",
+                        "notice":"本题考查了二元一次方程组的定义．解题时，一定要紧扣二元一次方程组的定义“由两个二元一次方程组成的方程组”，细心观察排除，得出正确答案．"
+		},
+                {
+			"kind":"ques",
+			"type":1,
+			"Q":"下列各式：①<img src=\"38.svg\" style=\"vertical-align:middle\"> ②<img src=\"39.svg\" style=\"vertical-align:middle\"> ③<img src=\"40.svg\" style=\"vertical-align:middle\"> ④<img src=\"41.svg\" style=\"vertical-align:middle\"> ⑤<img src=\"42.svg\" style=\"vertical-align:middle\"> ⑥<img src=\"43.svg\" style=\"vertical-align:middle\"> 其中是二元一次方程组的有（　　）",
+                        "opts":[
+                            "3个","4个","5个","6个"
+			],
+                        "way":"二元一次方程组也满足三个条件：方程组中的两个方程都是整式方程；方程组中共含有两个未知数；每个方程都是一次方程．",
+			"step":"①未知数的最高次数是2次，不是二元一次方程组；<br>②是二元一次方程组；<br>③是二元一次方程组；<br>④方程<span class=\"mathquill-rendered-math\">\\frac{1}{x}-y=0</span>不是整式方程，故不是二元一次方程组；<br>⑤是二元一次方程组；<br>⑥是二元一次方程组．<br>故选：B．",
+			"notice":"本题主要考查的是二元一次方程组的定义，掌握二元一次方程组的定义是解题的关键．"
+		},
+                {
+			"kind":"example",
+			"label":"题型二  建立二元一次方程组",
+			"type":2,
+			"Q":"若<span class=\"mathquill-rendered-math\">\\frac{2x+y}{3}=\\frac{x+3y}{5}=1</span>，将原方程组化为<img src=\"44.svg\" style=\"vertical-align:middle\">的形式为________．",
+			"way":"把原式化为：<span class=\"mathquill-rendered-math\">\\frac{2x+y}{3}=1</span>和<span class=\"mathquill-rendered-math\">\\frac{x+3y}{5}=1</span>，然后进行整理，得到二元一次方程组．",
+			"step":"原式可化为：<span class=\"mathquill-rendered-math\">\\frac{2x+y}{3}=1</span>和<span class=\"mathquill-rendered-math\">\\frac{x+3y}{5}=1</span>，<br>整理得，<img src=\"45.svg\" style=\"vertical-align:middle\">．",
+                        "notice":"本题考查的是二元一次方程组的定义，把连等式化为两式相等的形式，然后根据等式的性质整理，可以化为二元一次方程组．"
+		},
+                {
+			"kind":"ques",
+			"type":2,
+			"Q":"胜利中学组织一批学生参加社会实践活动，活动中男生戴白色安全帽，女生戴红色安全帽，大家发现一个有趣的现象：每位男生看到的白色安全帽比红色多6顶，而每位女生看到的白色安全帽是红色的2倍．设男生有<i>x</i>人，女生有<i>y</i>人，那么可列方程组为________．",
+                        "way":"根据题意可以列出相应的二元一次方程组，本题得以解决．",
+			"step":"由题意可得，<img src=\"46.svg\" style=\"vertical-align:middle\">，<br>故答案为：<img src=\"46.svg\" style=\"vertical-align:middle\">．",
+			"notice":"本题考查由实际问题抽象出二元一次方程组，解题的关键是明确题意，找出所求问题需要的条件．"
+		},
+                {
+			"kind":"kpt",
+			"name":"二元一次方程组的解",
+			"sub":["　　<b>二元一次方程组的解：</b>一般地，二元一次方程组的两个方程的公共解，叫做二元一次方程组的解．<br><b>注：</b><br>（1）二元一次方程组的解是一组数对，它必须同时满足方程组中的每一个方程，一般写成<img src=\"47.svg\" style=\"vertical-align:middle\">的形式．<br>(2)一般地，二元一次方程组的解只有一个，但也有特殊情况，如方程组<img src=\"48.svg\" style=\"vertical-align:middle\">无解，而方程组<img src=\"49.svg\" style=\"vertical-align:middle\">的解有无数个．"]
+		},
+                {
+			"kind":"example",
+			"label":"题型一 由二元一次方程组的解确定字母系数的值",
+			"type":1,
+			"Q":"二元一次方程组<img src=\"50.svg\" style=\"vertical-align:middle\">的解满足2<i>x</i>-<i>k</i><i>y</i>=10，则<i>k</i>的值等于（　　）",
+                        "opts":[
+                            "4","-4","8","-8"
+			],
+			"way":"求出二元一次方程组的解得到<i>x</i>与<i>y</i>的值，代入已知方程即可求出<i>k</i>的值．",
+			"step":"<img src=\"51.svg\" style=\"vertical-align:middle\">，<br>②×9-①得：50<i>y</i>=-100，即<i>y</i>=-2，<br>将<i>y</i>=-2代入②得：<i>x</i>=1，<br>将<i>x</i>=1,<i>y</i>=-2代入2<i>x</i>-<i>k</i><i>y</i>=10得：2+2<i>k</i>=10，<br>解得：<i>k</i>=4．<br>故选A．",
+                        "notice":"此题考查了二元一次方程组的解，方程组的解即为能使方程组中两方程成立的未知数的值．"
+		},
+                {
+			"kind":"ques",
+			"type":9,
+			"Q":"小明和小文同解一个二元一次方程组<img src=\"52.svg\" style=\"vertical-align:middle\">小明把方程（1）抄错，求得解为<img src=\"53.svg\" style=\"vertical-align:middle\">，小文把方程（2）抄错，求得的解为<img src=\"54.svg\" style=\"vertical-align:middle\">，求<i>a</i>²+<i>b</i>²的值．",
+                        "way":"把小明的解代入第二个方程，小文的解代入第一个方程组成方程组，然后利用代入消元法求出<i>a</i>、<i>b</i>的值，再代入代数式进行计算即可得解．",
+			"step":"由题意得<img src=\"55.svg\" style=\"vertical-align:middle\">，由①得，<i>b</i>=3<i>a</i>-1③，<br>代入②得，3<i>a</i>+2(3<i>a</i>-1)=16，解得<i>a</i>=2，把<i>a</i>=2代入③得，<i>b</i>=3×2-1=5，<br>所以方程组的解是<img src=\"56.svg\" style=\"vertical-align:middle\">，把<img src=\"56.svg\" style=\"vertical-align:middle\">代入<i>a</i>²+<i>b</i>²=2²+5²=4+25=29．",
+			"notice":"本题考查了二元一次方程组的解，根据一个方程抄错知另一个方程没有抄错把方程组的解代入组成关于<i>a</i>、<i>b</i>的二元一次方程组是解题的关键．"
+		},
+                {
+			"kind":"example",
+			"label":"题型二 由二元一次方程组的解确定代数式的值",
+			"type":9,
+			"Q":"甲乙两人共同解方程组<img src=\"57.svg\" style=\"vertical-align:middle\">，由于甲看错了方程中的<i>a</i>，得到方程组的解为<img src=\"58.svg\" style=\"vertical-align:middle\">，乙看错了方程中的<i>b</i>，得到方程组的解为<img src=\"59.svg\" style=\"vertical-align:middle\">，试计算<span class=\"mathquill-rendered-math\">{{a}^{2017}}+{{\\left( -\\frac{1}{10}b \\right)}^{2018}}</span>的值．",
+			"way":"将<i>x</i>=3,<i>y</i>=-1代入方程组的第二个方程，<i>x</i>=5,<i>y</i>=4代入方程组的第一个方程，联立求出<i>a</i>与<i>b</i>的值，即可求出所求式子的值．",
+			"step":"将<img src=\"58.svg\" style=\"vertical-align:middle\">代入方程组中的4<i>x</i>-<i>b</i><i>y</i>=-2得：-12+<i>b</i>=-2，即<i>b</i>=10；<br>将<i>x</i>=5,<i>y</i>=4代入方程组中的<i>a</i><i>x</i>+5<i>y</i>=15得：5<i>a</i>+20=15，即<i>a</i>=-1，<br>则<span class=\"mathquill-rendered-math\">{{a}^{2017}}+{{\\left( -\\frac{1}{10}b \\right)}^{2018}}</span>=-1+1=0．",
+                        "notice":"此题考查了二元一次方程组的解，方程组的解即为能使方程组中两方程成立的未知数的值．"
+		},
+                {
+			"kind":"ques",
+			"type":1,
+			"Q":"解方程组<img src=\"60.svg\" style=\"vertical-align:middle\">时，小强正确解得<img src=\"61.svg\" style=\"vertical-align:middle\">，而小刚只看错了<i>c</i>，解得<img src=\"62.svg\" style=\"vertical-align:middle\">，则当<i>x</i>=-1时，<i>a</i><i>x</i>²+<i>b</i><i>x</i>+<i>c</i>的值是（　　）",
+                        "opts":[
+                            "6","2","0","-8"
+			],
+                        "way":"根据题意把<img src=\"61.svg\" style=\"vertical-align:middle\">和<img src=\"62.svg\" style=\"vertical-align:middle\">代入<i>a</i><i>x</i>+<i>b</i><i>y</i>=6组成方程组，解方程组求出<i>a</i>、<i>b</i>的值，把<img src=\"61.svg\" style=\"vertical-align:middle\">代入<i>c</i><i>x</i>-4<i>y</i>=-2求出<i>c</i>，计算得到答案．",
+			"step":"由题意得，<br><img src=\"63.svg\" style=\"vertical-align:middle\">，解得<img src=\"64.svg\" style=\"vertical-align:middle\">，把<img src=\"61.svg\" style=\"vertical-align:middle\">代入<i>c</i><i>x</i>-4<i>y</i>=-2，得<i>c</i>=3，<br>当<i>x</i>=-1时，<i>x</i>²+2<i>x</i>+3=2<i>x</i>，<br>故选：B．",
+			"notice":"本题考察的是二元一次方程组的解的定义和解法，正确理解题意组成新的方程组是解题的关键．"
+		},
+                {
+			"kind":"example",
+			"label":"题型三 求二元一次方程组的特殊解",
+			"type":1,
+			"Q":"阅读下列材料，解答下面的问题：<br>我们知道方程2<i>x</i>+3<i>y</i>=12有无数个解，但在实际问题中往往只需求出其正整数解．<br>例：由2<i>x</i>+3<i>y</i>=12，得：<span class=\"mathquill-rendered-math\">y=\\frac{12-2x}{3}=4-\\frac{2}{3}x</span>（<i>x</i>、<i>y</i>为正整数）．要使<span class=\"mathquill-rendered-math\">y=4-\\frac{2}{3}x</span>为正整数，则<span class=\"mathquill-rendered-math\">\\frac{2}{3}x</span>为正整数，可知：<i>x</i>为3的倍数，从而<i>x</i>=3，代入<span class=\"mathquill-rendered-math\">y=4-\\frac{2}{3}x=2</span>．所以2<i>x</i>+3<i>y</i>=12的正整数解为<img src=\"54.svg\" style=\"vertical-align:middle\">．<br>问题：<br>（1）请你直接写出方程3<i>x</i>+2<i>y</i>=8的正整数解________．<br>（2）若<span class=\"mathquill-rendered-math\">\\frac{6}{x-3}</span>为自然数，则满足条件的正整数 的值有<u>&nbsp;&nbsp;&nbsp;&nbsp;B&nbsp;&nbsp;&nbsp;&nbsp;</u><br>&nbsp;&nbsp;A．3个&nbsp;&nbsp;&nbsp;&nbsp;B．4个&nbsp;&nbsp;&nbsp;&nbsp;C．5个&nbsp;&nbsp;&nbsp;&nbsp;D．6个<br>（3）关于<i>x</i>，<i>y</i>的二元一次方程组<img src=\"65.svg\" style=\"vertical-align:middle\">的解是正整数，求整数<i>k</i>的值．",
+			"way":"（1）根据二元一次方程的解得定义求出即可；<br>根据题意得出<i>x</i>-3=6或3或2或1，求出即可；<br>（3）先求出<i>y</i>的值，即可求出<i>k</i>的值．",
+			"step":"（1）方程3<i>x</i>+2<i>y</i>=8的正整数解为<img src=\"12.svg\" style=\"vertical-align:middle\">，故答案为<img src=\"12.svg\" style=\"vertical-align:middle\">；<br>（2）正整数有9，6，5，4，共4个，<br>故选B；<br>（3）<img src=\"66.svg\" style=\"vertical-align:middle\"><br>①×2﹣②得：(4-<i>k</i>)<i>y</i>=8，<br>解得：<span class=\"mathquill-rendered-math\">y=\\frac{8}{4-k}</span>，∵<i>x</i>，<i>y</i>是正整数，<i>k</i>是整数，<br>4-<i>k</i>=1,2,4,8，<br>∴<i>k</i>=3,2,0,-4，<br>但<i>k</i>=3时，<i>x</i>不是正整数，故<i>k</i>=2,0,-4．",
+                        "notice":"本题考查了二元一次方程组的解，二元一次方程的解的应用，能灵活运用知识点求出特殊解是解此题的关键．"
+		},
+                {
+			"kind":"example",
+			"label":"题型四  二元一次方程组的解的应用",
+			"type":2,
+			"Q":"三个同学对问题“若方程组<img src=\"44.svg\" style=\"vertical-align:middle\">的解是<img src=\"67.svg\" style=\"vertical-align:middle\">，求方程组<img src=\"68.svg\" style=\"vertical-align:middle\">的解”提出各自的想法．甲说：“这个题目好像条件不够，不能求解”；乙说：“它们的系数有一定的规律，可以试试”；丙说：“能不能把第二个方程组中两个方程的两边都除以9，通过换元替代的方法来解决”．参照他们的讨论，你认为这个题目的解应该是________．",
+			"way":"第二格方程组方程组变形为<img src=\"69.svg\" style=\"vertical-align:middle\"> 设<span class=\"mathquill-rendered-math\">\\frac{4}{9}x=m</span>，<span class=\"mathquill-rendered-math\">\\frac{5}{9}y=n</span>，得出<img src=\"70.svg\" style=\"height:1.6rem\">，根据方程组<img src=\"44.svg\" style=\"vertical-align:middle\"> 的解是<img src=\"67.svg\" style=\"vertical-align:middle\">，求出此方程组的解是<img src=\"71.svg\" style=\"vertical-align:middle\">，得出<span class=\"mathquill-rendered-math\">\\frac{4}{9}x=4</span>，<span class=\"mathquill-rendered-math\">\\frac{5}{9}y=10</span>，求出即可．",
+			"step":"方程组<img src=\"72.svg\" style=\"vertical-align:middle\"> 变形为：<img src=\"69.svg\" style=\"vertical-align:middle\">，<br>设<span class=\"mathquill-rendered-math\">\\frac{4}{9}x=m</span>，<span class=\"mathquill-rendered-math\">\\frac{5}{9}y=n</span>， 则<img src=\"70.svg\" style=\"vertical-align:middle\">，<br>∵方程组<img src=\"44.svg\" style=\"vertical-align:middle\"> 的解是<img src=\"67.svg\" style=\"vertical-align:middle\">，<br>∴<img src=\"70.svg\" style=\"vertical-align:middle\"> 的解释：<img src=\"71.svg\" style=\"vertical-align:middle\">，即<span class=\"mathquill-rendered-math\">\\frac{4}{9}x=4</span>，<span class=\"mathquill-rendered-math\">\\frac{5}{9}y=10</span>，<br>解得：<i>x</i>=9,<i>y</i>=18，<br>故答案为：<img src=\"73.svg\" style=\"vertical-align:middle\">．",
+                        "notice":"本题考查了二元一次方程组的解的应用，此题主要考查学生的理解能力和思维能力，此题比较好，但有一定的难度，能发现其中的规律是解此题的关键．"
+		},
+                {
+			"kind":"ques",
+			"type":2,
+			"Q":"阅读下列材料并填空：<br>对于二元一次方程组<img src=\"74.svg\" style=\"vertical-align:middle\">，我们可以将<i>x</i>，<i>y</i>的系数和相应的常数项排成一个数表<img src=\"75.svg\" style=\"vertical-align:middle\">，求得的一次方程组的解<img src=\"47.svg\" style=\"vertical-align:middle\">，用数表可表示为<img src=\"76.svg\" style=\"vertical-align:middle\">．用数表可以简化表达解一次方程组的过程如下，请补全其中的空白：<br><br><img src=\"1.png\" style=\"height:4.5rem;vertical-align:middle\"><br><br>从而得到该方程组的解为<i>x</i>=<u>&nbsp;&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;&nbsp;</u>，<i>y</i>=<u>&nbsp;&nbsp;&nbsp;&nbsp;10&nbsp;&nbsp;&nbsp;&nbsp;</u>．<br>（2）仿照（1）中数表的书写格式写出解方程组<img src=\"77.svg\" style=\"vertical-align:middle\">的过程．",
+                        "way":"（1）下行﹣上行后将下行除以3将 的系数化为1即可得方程组的解；<br>（2）类比（1）中方法通过加减法将 、 的系数化为1可得．",
+			"step":"（1）下行﹣上行，<img src=\"78.svg\" style=\"vertical-align:middle\">，<img src=\"79.svg\" style=\"vertical-align:middle\"><br>故答案为：6，10；<br><br>（2）<img src=\"2.png\" style=\"height:4.5rem;vertical-align:middle\"><br><br>所以方程组的解为<img src=\"80.svg\" style=\"vertical-align:middle\">．",
+			"notice":"本题主要考查矩阵法解二元一次方程组，熟练掌握加减消元法解二元一次方程组是解题的关键．"
+		}
+	]
+}

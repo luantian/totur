@@ -1,0 +1,275 @@
+{
+    "couID":1,
+    "pages":
+    [
+        {
+            "kind":"cover",
+            "title":"第一讲：变量与函数",
+            "description":"1. 理解常量与变量的概念以及二者之间的区别；<br>2. 理解函 数的概念，能准确识别出函数关系中的自变量和函数；<br>3. 学会用图像描述变量的变化规律，会准确地画出函数图象；<br>4. 了解三种表示方法的优缺点，会根据具体情况选择适当方法．"
+        },
+        {
+            "kind":"kpt",
+            "name":"",
+            "sub":[
+                {
+                    "kind":"kpt",
+                    "name":"变量与常量",
+                    "sub":[
+                        "　　在一个变化过程中，我们称数值发生变化的量为变量；数值始终保持不变的量为常量．比如：在圆的面积公式<span class=\"mathquill-rendered-math\">S=\\pi {{R}^{2}}</span>中，π是常数，是一个常量；而 <i>S</i>随 <i>R</i>的变化而变化，所以 <i>S</i>，<i>R</i>是变量．",
+                    ]
+                }
+            ]
+        },
+        {
+            "kind":"example",
+            "label":"题型一　利用常量与变量的定义进行识别",
+            "type":9,
+            "Q":"在△ABC中,若它的底边为<i>a</i> ,底边上的高为<i>h</i> 则三角形的面积为<span class=\"mathquill-rendered-math\"><i>S=\\frac{1}{2}ah</i></span>,指出下列各式的常量和变量：<br>(1)<i>S=6h</i>,它的实际意义是?<br>(2)<span class=\"mathquill-rendered-math\"><i>a=\\frac{6}{h}</i></span>,它的实际意义是?<br>(3)<i>S=3a</i>,它的实际意义是?",
+            "step":"(1)常量是<i>a</i>=12 ,变量是<i>S</i> 和<i>h</i>,它的实际意义是三角形底边固定,面积和高成正比;<br>(2)常量是<i>S=3</i> ,变量是<i>a </i>和<i>h</i> ,它的实际意义是三角形面积固定,底边和高成反比;<br>(3)常量是<i>h=6</i> ,变量是<i>a </i>和<i>S</i> ,它的实际意义是三角形高固定,面积和底边成正比.",
+            "notice":"(1)常量是已知数,是指在整个变化过程中保持不变的量.不能认为式子中出现的字母都是变量，如<i>π</i> 不是变量,而是常量;<br>(2)数值是否发生变化是判断一个量是变量还是常量的重要依据.区分常量与变量,就是看在某个变化过程中,该量的值是否可以改变(即是否会取不同的数值"
+        },
+        {
+            "kind":"ques",
+            "type":2,
+            "Q":"指出下列各关系中的变量和常量：<br>①周长<i>C</i> 与半径 <i>r</i>的关系式是 <span class=\"mathquill-rendered-math\"><i>C=2\\pi r</i></span>；<br>常量是_________，变量是_________；<br>②多边形的内角和<i>A</i> 与边数<i>n</i> 之间的关系式是<span class=\"mathquill-rendered-math\"><i>A=\\left( n-2 \\right)\\times 180° </i></span>；<br>常量是_________，变量是_________；<br>③底边为定值<i>a</i> 的三角形面积与底边上的高<i>h</i> 之间的关系式为<span class=\"mathquill-rendered-math\"><i>S=\\frac{1}{2}ah</i></span>；<br>常量是_________，变量是_________；",
+            "way":"根据函数的意义可知：变量是改变的量，常量是不变的量，据此即可确定变量与常量.<br>①在<span class=\"mathquill-rendered-math\"><i>C=2\\pi r</i></span>中 ，<i>π</i>是不变的，<i>C、r</i>是改变的，则2 ，<i>π</i>是常量，<i>C、r</i>是变量；<br>②在<span class=\"mathquill-rendered-math\"><i>A=\\left( n-2 \\right)\\times 180°</i></span>中 ，180° 是不变的，<i>A，n</i>是改变的，<br>则2，180°是常量，<i>A，n</i>是变量；<br>③在<span class=\"mathquill-rendered-math\"><i>S=\\frac{1}{2}ah</i></span>中<span class=\"mathquill-rendered-math\">\\frac{1}{2}</span> 是不变的，<i>a，S</i>是改变的，则<span class=\"mathquill-rendered-math\">\\frac{1}{2}</span> 是常量，<i>a，S</i>是变量；",
+            "step":"①<span class=\"mathquill-rendered-math\"><i>2\\pi</i></span> ； <i>C， r</i>；② 2，180° ；<i>A ，n </i>；③<span class=\"mathquill-rendered-math\">\\frac{1}{2}</span> ；<i>a ，S<i>.",
+        },
+        {
+            "kind":"kpt",
+            "name":"函数的概念",
+            "sub":[
+                {
+                    "kind":"kpt",
+                    "name":"函数",
+                    "sub":[
+                        "　　一般地，在一个变化过程中,如果有两个变量<i>x</i>与<i>y</i>,并且对于x的每一个确定的值,都有唯一确定的<i>y</i>值与其对应,那么我们就说是<i>x</i>自变量,<i>y</i>是<i>x</i>的函数,也叫因变量.",
+                    ]
+                },
+                {
+                    "kind":"kpt",
+                    "name":"函数值",
+                    "sub":[
+                        "　　如果在自变量取值范围内给定一个数值<i>a</i>,函数对应的值为<i>b</i>,那么<i>b</i>叫做当自变量的值为<i>a</i>时的函数值.",
+                    ]
+                }
+            ]
+        },
+        {
+            "kind":"example",
+            "label":"题型一　利用函数的定义判断两个变量之间是否是函数关系",
+            "type":9,
+            "Q":"判断下列各量之间的关系是否是函数关系？若是，请指出自变量与因变量<br>（1）长方形的宽<i>b</i>一定时，其长<i>a</i>与周长<i>C</i>，其中<i>C=2(a+b)</i>；<br>（2）三角形的底边长<i>a</i>与面积<i>S</i>,<i>h</i>为底边上<i>a</i>的高；<br>（3）<i>y=|x|</i>中的<i>x</i>与<i>y</i>；<br>（4）小明计划用20元购买本子，所能购买的本子数<i>n</i>(本)与单价<i>a</i>(元)，其中<span class=\"mathquill-rendered-math\"><i>n=\\frac{20}{a}</i></span><br>",
+            "step":"（1）是函数关系，自变量为<i>a</i>，因变量为<i>C</i><br>（2）是函数关系，自变量为<i>a</i>与<i>h</i>，因变量为<i>S</i><br>（3）是函数关系，自变量为<i>X</i>，因变量为<i>Y</i><br>（4）是函数关系，自变量为<i>a</i>,因变量为<i>n</i>",
+            "notice":"理解函数的定义应注意以下三点(简称函数“三要素”):<br>(1)有两个变量;<br>(2)一个变量的数值随着另一个变量数值的变化而变化;<br>(3)对于自变量的每一个确定的值,函数有且只有一个值与之对应.对于自变量<i>x</y> 取不同的数值，与之对应的<i>y</i> 的值不一定不同;只要是有唯一值与之对应即可."
+        },
+        {
+            "kind":"example",
+            "type":1,
+            "Q":"<img src=\"1.png\" style=\"vertical-align:middle;FLOAT:right;width:8.81em;\"> （中考真题）下列各曲线中表示 <i>y</i>是<i>x</i> 的函数的是（   ）",
+            "way":"根据函数的定义可知：对于自变量<i>x</i>的任何值，<i>y</i>都有唯一的值与之相对应，反映在图象上简单的判断方法是：做垂直<i>x</i>轴的直线在左右平移的过程中与函数图象只会有一个交点，所以可知<i>D项所对图象符合函数的定义。",
+            "step":"<i>D</i>",
+            "notice":"判断两个变量是否具有函数关系，不能只看是否有关系式存在,有些函数关系是没有关系式的(如心电图中的时间与心脏部位的生物电流的关系)."
+        },
+        {
+            "kind":"example",
+            "label":"题型二　利用求函数值的方法求函数值",
+            "type":1,
+            "Q":"<img src=\"2.png\" style=\"vertical-align:middle;FLOAT:right;width:14.25em;\">根据如图所示程序计算函数值，若输入的的值<i>x</i>为<span class=\"mathquill-rendered-math\">\\frac{5}{2}</span>，则输出的函数值为（   ）",
+            "opts":[
+                "<span class=\"mathquill-rendered-math\">\\frac{3}{2}</span>","<span class=\"mathquill-rendered-math\">\\frac{2}{5}</span>","<span class=\"mathquill-rendered-math\">\\frac{4}{25}</span>","<span class=\"mathquill-rendered-math\">\\frac{25}{4}</span>"
+            ],
+            "way":"根据题意，如果<span class=\"mathquill-rendered-math\">x=\\frac{5}{2}</span>，因为<span class=\"mathquill-rendered-math\">{2\\leq \\frac{5}{2}\\leq 4}</span>，所以<span class=\"mathquill-rendered-math\"><i>y=\\frac{1}{\\frac{5}{2}}=\\frac{2}{5}</i></span>",
+            "step":"<i>B</i>",
+            "notice":"(1)函数表示的是两个变量之间的一种关系，而函数值是一个数值.<br> (2)一个函数的函数值是随着自变量的变化而变化的,故在求函数值时，一定要指明自变量为多少时的函数值."
+        },
+        {
+            "kind":"example",
+            "type":2,
+            "Q":"<img src=\"3.png\" style=\"vertical-align:middle;FLOAT:right;width:16.56em;\"> 如图是一个运算程序的示意图,若开始输入<i>x</i>的值为81,则第2018次输出的结果为______",
+            "way":"第1次,<span class=\"mathquill-rendered-math\">\\frac{1}{3}\\times 81=27</span>,第2次,<span class=\"mathquill-rendered-math\">\\frac{1}{3}\\times 27=9</span>,第3次,<span class=\"mathquill-rendered-math\">\\frac{1}{3}\\times 9=3</span>,第4次,<span class=\"mathquill-rendered-math\">\\frac{1}{3}\\times 3=1</span>,第5次,1+2=3,第6次,<span class=\"mathquill-rendered-math\">\\frac{1}{3}\\times 3=1</span>,…，依此类推,偶数次运算输出的结果是1,奇数次运算输出的结果是3. 因为2018是偶数，所以第2018次输出的结果为1.",
+            "step":"1"
+        },
+        {
+            "kind":"kpt",
+            "name":"",
+            "sub":[
+                {
+                    "kind":"kpt",
+                    "name":"函数中自变量的取值范围",
+                    "sub":[
+                        "1、函数自变量的取值范围是指使函数有意义的自变量的取值的全体．<br>2、求自变量的取值范围通常从两个方面考虑：<br>（1）要使函数的解析式有意义；<br>（2）符合客观实际．<br>",
+                    ]
+                }
+            ]
+        },
+        {
+            "kind":"example",
+            "type":9,
+            "Q":"  求下列函数中自变量的取值范围.<br>(1)<span class=\"mathquill-rendered-math\"><i>y=-3x+5</i></span>;&nbsp;&nbsp;&nbsp;&nbsp;(2)<span class=\"mathquill-rendered-math\"><i>y=\\frac{3x}{x-4}</i></span>; &nbsp;&nbsp;&nbsp;&nbsp;(3)<span class=\"mathquill-rendered-math\"><i>y=\\sqrt{2x-4}</i></span>;<br>(4)<span class=\"mathquill-rendered-math\"><i>y=\\frac{x}{\\sqrt{x+3}}</i></span>;            &nbsp;&nbsp;&nbsp;&nbsp;               (5)<span class=\"mathquill-rendered-math\"><i>y=\\sqrt{x-1}+3\\sqrt{6-2x}</i></span>.",
+            "way":"根据整式、分式、二次根式有意义的条件进行求解即可。",
+            "step":"(1)<i>x</i>的取值范围为全体实数;<br> (2)解不等式<span class=\"mathquill-rendered-math\"><i>x-4≠0</i></span>,得<span class=\"mathquill-rendered-math\"><i>x≠0</i></span>,故<i>x</i>的取值范围为<span class=\"mathquill-rendered-math\"><i>x≠4</i></span>;<br>(3)解不等式<span class=\"mathquill-rendered-math\"><i>2x-4\\ge 0</i></span>,得<span class=\"mathquill-rendered-math\"><i>x\\ge 2</i></span>,故<i>x</i>的取值范围为<span class=\"mathquill-rendered-math\"><i>x\\ge 2</i></span>;<br>(4)解不等式<i>x+3>0</i>,得<i>x>-3</i>,故<i>x</i>的取值范围为<i>x>-3</i>;<br>(5)解不等式组<img src=\"4.svg\" style=\"vertical-align:middle;width:5em;\">,得<span class=\"mathquill-rendered-math\"><i>1\\le x\\le 3</i></span>,故<i>x</i>的取值范围为<span class=\"mathquill-rendered-math\"><i>1\\le x\\le 3</i></span>.",
+            "notice":"自变量的取值范围，其确定方法是：<br>(1)当解析式是整式时,自变量为全体实数;<br>(2)当解析式是分式时,自变量的取值必须保证分母不为;<br>(3)当解析式是二次根式时,其自变量的取值范围必须使被开方数为非负实数;<br>(4)当解析式有零指数幂(或负整数指数幂)时,其自变量应使相应的底数不为;<br>(5)当解析式是复合形式时，则需列不等式组，使所有式子同时有意义，<br>(6)当解析式是实际问题的解析式时,其自变量必须有实际意义。"
+        },
+        {
+            "kind":"example",
+            "type":2,
+            "Q":"<img src=\"6.png\" style=\"vertical-align:middle;FLOAT:right;width:10em;\"> (易错)李大爷要围成一个长方形菜园，菜园的一边利用足够长的墙，用篱笆围成的另外三边总长恰好为<i>24m</i>，要围成的菜园是如图所示的长方形<i>ABCD</i>，设<i>BC</i>边的长为<i>x</i>米，<i>AB</i>边的长为<i>y</i>米，则<i>y</i>与<i>x</i>之间的函数关系式<span class=\"mathquill-rendered-math\"><i>y=-\\frac{1}{2}x+12</i></span>中<i>x</i>的取值范围是________.",
+            "step":"<i>0< x< 24</i>",
+            "notice":"当解析式是实际问题的解析式时,其自变量必须有实际意义。"
+        },
+        {
+            "kind":"kpt",
+            "name":"",
+            "sub":[
+                {
+                    "kind":"kpt",
+                    "name":"定义",
+                    "sub":[
+                        "用关于自变量的数学式子表示函数与自变量之间的关系,这种式子叫做函数的解析式",
+                    ]
+                },
+                {
+                    "kind":"kpt",
+                    "name":"要点精析",
+                    "sub":[
+                        "(1)函数解析式是等式;<br>(2)函数解析式的书写是有顺序的:单独写在等式左边的一个变量表示函数，等式右边的式子中的变量为自变量.例如:<i>y=2x-1</i>表示<i>y</i>是<i>x</i>的函数,即等式的左边是一个变量<i>y</i>,右边是一个含<i>x</i>的式子，",
+                    ]
+                }
+            ]
+        },
+        {
+            "kind":"example",
+            "label":"题型一  求实际问题的函数解析式",
+            "type":9,
+            "Q":" (易错) 弹簧挂上物体后在弹性限度内会伸长，测得一弹簧的总长度<i>y</i>与所挂物体的质量<i>x</i>之间有如下关系.<br><img src=\"5.png\" style=\"vertical-align:middle;width:24em;\"><br>的总长度<span class=\"mathquill-rendered-math\"><i>y\\left ( cm \\right )</i></span>可以看作是所挂物体质量<span class=\"mathquill-rendered-math\"><i>x\\left ( kg \\right )</i></span>的函数吗？若不能，说明理由；若能，求出<i>y</i>关于<i>x</i>的函数表达式.",
+            "way":"由上表可知12.5-12=0.5，13-12.5=0.5，13.5-13=0.5，14-13.5=0.5，14.5-14=0.5，0.5为常量，12也为常量．故可求出弹簧总长<span class=\"mathquill-rendered-math\"><i>y\\left ( cm \\right )</i></span>所挂重物<span class=\"mathquill-rendered-math\"><i>x\\left ( kg \\right )</i></span>的函数关系式．所以，弹簧总长<span class=\"mathquill-rendered-math\"><i>y\\left ( cm \\right )</i></span>所挂重物<span class=\"mathquill-rendered-math\"><i>x\\left ( kg \\right )</i></span>的函数关系式为<span class=\"mathquill-rendered-math\"><i>y=0.5x+12</i></span>",
+            "step":"<span class=\"mathquill-rendered-math\"><i>y=0.5x+12</i></span>",
+            "notice":"确定函数解析式的步骤： 根据题意，运用等量关系建立二元方程；用含自变量的式子表示函数. 列实际问题的函数解析式时,常要写明自变量的取值范围;"
+        },
+        {
+            "kind":"example",
+            "type":9,
+            "Q":"若汽车以70千米/小时的平均速度由<i>A</i>地驶往相距840千米的<i>B</i>地,<i>t</i>小时后,汽车距离<i>B</i>地<i>s</i>千米.<br>(1)求<i>s</i>与<i>t</i>的函数关系式,并写出自变量<i>t</i>的取值范围;<br>(2)经过2小时后,汽车距<i>B</i>地多少千米?<br>(3)多少小时后,汽车距<i>B</i>地还有140千米?",
+            "way":"(1)根据题意,<span class=\"mathquill-rendered-math\"><i>s=840-70t</i></span>,<span class=\"mathquill-rendered-math\"><i>840-70t\\geq 0</i></span>,计算得出<span class=\"mathquill-rendered-math\"><i>t\\leq 12</i></span>,所以,<i>t</i>的取值范围是<span class=\"mathquill-rendered-math\"><i>0\\leq t\\leq 2</i></span>;<br>(2)把<span class=\"mathquill-rendered-math\"><i>t=2</i></span>时，<span class=\"mathquill-rendered-math\"><i>s=840-70\\times2=700</i></span>千米;<br>(3)把<span class=\"mathquill-rendered-math\"><i>s=140</i></span>时,<span class=\"mathquill-rendered-math\"><i>840-70t=140</i></span>，<br>计算得出<span class=\"mathquill-rendered-math\"><i>t=10</i></span>小时.",
+        },
+        {
+            "kind":"example",
+            "label":"题型二  求几何问题的函数解析式",
+            "type":9,
+            "Q":" 等腰<i>△ABC</i>周长为<i>10cm</i>,底边<i>BC</i>长<span class=\"mathquill-rendered-math\"><i>y\\left ( cm \\right )为</i></span>,腰长为<span class=\"mathquill-rendered-math\"><i>x\\left ( cm \\right )</i></span>.<br>(1)写出<i>y</i>关于<i>x</i>的函数关系式;<br>(2)求<i>x</i>的取值范围.",
+            "way":"(1)等腰三角形的两个腰是相等的,根据题中条件即可列出腰长和底边长的关系式.<br>(2)根据腰长的和大于底边长及底边长为正数可得自变量的取值.<br>",
+            "step":"(1)∵等腰三角形的两腰相等,周长为10，<br>∴<span class=\"mathquill-rendered-math\"><i>2x+y=10</i></span>，<br>∴底边长<i>y</i>与腰长<i>x</i>的函数关系式为:<span class=\"mathquill-rendered-math\"><i>y=-2x+10</i></span>;<br>∵两边之和大于第三边,<br>∴<span class=\"mathquill-rendered-math\"><i>2x>y</i></span>,<br>∴<span class=\"mathquill-rendered-math\"><i>x>2.5</i></span>,<br>∵<span class=\"mathquill-rendered-math\"><i>y>0</i></span>,<br>∴<span class=\"mathquill-rendered-math\"><i>x<5</i></span>,<br>(2)<i>x</i>的取值范围是:<span class=\"mathquill-rendered-math\"><i>2.5< x< 5</i></span>",
+            "notice":"(1) 求几何问题的函数解析式，实质上是建立几何中两个变量之间的数量关系，要熟悉一些常用的几何关系式. 如：周长与半径，立方体的体积与棱长等.<br>(2) 确定自变量的取值范围时，一方面要考虑是函数解析式有意义，另一方面还要注意使几何问题有意义."
+        },
+        {
+            "kind":"example",
+            "type":2,
+            "Q":"    等腰三角形的周长是<i>50cm</i>，底边长是<i>x cm</i>，一腰长为<i>y cm</i>，则<i>y</i>与<i>x</i>之间的函数关系式是_________________ ；自变量<i>x</i>的取值范围是__________________ .",
+            "way":"三角形的周长＝2×腰长＋底边长，所以<span class=\"mathquill-rendered-math\"><i>50=2y+x</i></span>，所以<span class=\"mathquill-rendered-math\"><i>y=\\frac{50-x}{2}</i></span> ，又因为三角形的两边之和大于第三边<span class=\"mathquill-rendered-math\"><i>2y >x</i></span>,解得<span class=\"mathquill-rendered-math\"><i>x<25</i></span>，所以<span class=\"mathquill-rendered-math\"><i>0< x < 25</i></span>.",
+            "step":"<span class=\"mathquill-rendered-math\"><i>y=\\frac{50-x}{2}</i></span>；<i>0< x< 25</i>"
+        },
+        {
+            "kind":"kpt",
+            "name":"函数的图象",
+            "sub":[
+                {
+                    "kind":"kpt",
+                    "name":"定义",
+                    "sub":[
+                        "一般地,对于一个函数，如果把自变量与函数的每对对应值分别作为点的横、纵坐标，那么坐标平面内由这些点组成的图形，就是这个函数的图象."
+                    ]
+                },
+                {
+                    "kind":"kpt",
+                    "name":"要点精析",
+                    "sub":[
+                        "1)函数图象上的任意点<i>P(x,y)</i>中的<i>x,y</i>都满足函数关系,另一方面，满足函数关系的任意一对有序实数对<i>(x,y)</i>所对应的点一定在函数的图象上.<br>2)函数图象上的所有点与函数关系中的两个变量的关系是一一对应的.它们是函数中的两个变量间的关系的两种不同(一种是“数”，一种是“形”)的呈现方式.",
+                    ]
+                }
+            ]
+        },
+        {
+            "kind":"example",
+            "label":"题型一  点和图像的位置关系",
+            "type":9,
+            "Q":" 已知函数<span class=\"mathquill-rendered-math\"><i>y=2x-1</i></span>.<br>(1)试判断点<span class=\"mathquill-rendered-math\"><i>A\\left ( -1,3 \\right )</i></span>和点<span class=\"mathquill-rendered-math\"><i>B\\left( \\frac{1}{3}-\\frac{1}{3} \\right)</i></span>是否在此函数的图象上;(2)已知点<span class=\"mathquill-rendered-math\"><i>C\\left ( a,a+1 \\right )</i></span>在此函数的图象上,求<i>a</i>的值.",
+            "way":"(1)把点<i>A、B</i>的坐标分别代入函数解析式进行一一验证即可;<br>(2)把点<span class=\"mathquill-rendered-math\"><i>C\\left ( a,a+1 \\right )</i></span>代入<span class=\"mathquill-rendered-math\"><i>=2x-1</i></span>得到<span class=\"mathquill-rendered-math\"><i>a+1=2a-1</i></span>,解关于<i>a</i>的方程即可.",
+            "step":"(1)∵函数的解析式为<span class=\"mathquill-rendered-math\"><i>y=2x-1</i></span>,<br>∴当<span class=\"mathquill-rendered-math\"><i>x=-1</i></span>时,<span class=\"mathquill-rendered-math\"><i>y=2\\times (-1)-1=-3</i></span>,即<span class=\"mathquill-rendered-math\"><i>A\\left ( -1,3 \\right )</i></span>不在该函数图象上.当<span class=\"mathquill-rendered-math\"><i>x=\\frac{1}{3}</i></span>时,<span class=\"mathquill-rendered-math\"><i>y=2\\times \\frac{1}{3}-1=-\\frac{1}{3}</i></span>,即点<span class=\"mathquill-rendered-math\"><i>B\\left( \\frac{1}{3},-\\frac{1}{3} \\right)</i></span>在该函数图象上.<br>(2)点<span class=\"mathquill-rendered-math\"><i>C\\left ( a,a+1 \\right )</i></span>在函数<span class=\"mathquill-rendered-math\"><i>y=2x-1</i></span>的图象上,<br>∴<span class=\"mathquill-rendered-math\"><i>a+1=2a-1</i></span>,计算得出<span class=\"mathquill-rendered-math\"><i>a=2</i></span>.",
+        },
+        {
+            "kind":"example",
+            "type":2,
+            "Q":" 如果点<span class=\"mathquill-rendered-math\"><i>\\left ( 1,2 \\right )</i></span>同时在函数<span class=\"mathquill-rendered-math\"><i>y=ax+b</i></span>与<span class=\"mathquill-rendered-math\"><i>y=\\frac{x-b}{a}</i></span>的图象上,那么<i>a,b</i>的值分别为_.",
+            "way":"把点<span class=\"mathquill-rendered-math\"><i>\\left ( 1,2 \\right )</i></span>代入两函数解析式得到方程组<img src=\"7.svg\" style=\"vertical-align:middle;width:5em;\">，然后解方程组即可.",
+            "step":"把点<span class=\"mathquill-rendered-math\"><i>\\left ( 1,2 \\right )</i></span>代入<span class=\"mathquill-rendered-math\"><i>y=ax+b</i></span>与<span class=\"mathquill-rendered-math\"><i>y=\\frac{x-b}{a}</i></span>中得<img src=\"7.svg\" style=\"vertical-align:middle;width:5em;\">,解方程组得<img src=\"8.svg\" style=\"vertical-align:middle;width:5em;\">"
+        },
+        {
+            "kind":"example",
+            "label":"题型二  解读函数图像，获取相关信息",
+            "type":1,
+            "Q":" 小李与小陆从<i>A</i>地出发，骑自行车沿同一条路行驶到<i>B</i>地，他们离出发地的距离<i>S</i>（单位：<i>km</i>）和行驶时间<i>t</i>（单位：<i>h</i>）之间的函数关系的图象如图所示，根据图中提供的信息，有下列说法：①他们都行驶了<i>20km</i>；②小陆全程共用了<i>1.5h</i>；③小李与小陆相遇后，小李的速度小于小陆的速度；④小李在途中停留了<i>0.5</i>。其中正确的有（  ）.<img src=\"9.png\" style=\"vertical-align:middle;FLOAT:right;width:14.13em;\">",
+            "opts":[//选择题的选项，解答题无此项
+                "4个",
+                "3个",
+                "2个",
+                "1个"
+            ],
+            "way":"本题主要考查函数的图象。<br>①项，由函数图象可知，他们行驶的距离相等均为<span class=\"mathquill-rendered-math\"><i>20\\left ( km \\right )</i></span>。故①项正确。<br>②项，由函数图象可知，小陆全程共用了<span class=\"mathquill-rendered-math\"><i>2-0.5=1.5\\left ( h \\right )</i></span>。故②项正确。<br>③项，小李和小陆相遇后，设他们相遇后剩余的路程为<span class=\"mathquill-rendered-math\"><i>S'\\left ( km \\right )</i></span>，则小陆的速度为<span class=\"mathquill-rendered-math\"><i>S'\\left ( km/h \\right )</i></span>，小李的速度为<span class=\"mathquill-rendered-math\"><i>\\frac{S'}{1.5}\\left ( km/h \\right )</i></span>。因为<span class=\"mathquill-rendered-math\"><i>S' >\\frac{S'}{1.5}</i></span>所以小李的速度小于小陆的速度。④项，由函数图象可知小李在途停留的时间为<span class=\"mathquill-rendered-math\"><i>1-0.5=0.5\\left ( h \\right )</i></span>。故④项正确。综上所述，正确的有①②③④。",
+            "step":"<i>A</i>",
+            "notice":"(1)从函数图象中获取信息时要做到: ①看清横、纵坐标各表示哪个量,这一变化过程属于哪种变化; ②从左向右,分析每段图象上，自变量和函数值如何变化; ③平行于横轴的线段，自变量在变，函数值不变.<br>(2)从函数图象中获取信息时应注意三点:其一是函数的最大值或最小值:其二是随着自变量逐渐增加时函数值是增加了还是减少了，还是不变(变化趋势);其三是观察图象是否是几种变化情况的组合，以便分情况讨论变化规律."
+        },
+        {
+            "kind":"example",
+            "label":"题型三  根据已知信息，识别函数图像",
+            "type":1,
+            "Q":"小刚以400米/分的速度匀速骑车5分钟，在原地休息了6分，然后以500米/分的速度骑回出发地。下列函数图象能表达这一过程的是（   ）<br><img src=\"10.png\" style=\"vertical-align:middle;width:16em;\">",
+            "way":"<i>A、B</i>项，因为小刚以400米/分的速度匀速骑车5分，所以在0到5分钟里，图象应该是<span class=\"mathquill-rendered-math\"><i>v=0.4</i></span>的水平直线；在5到11分钟里，小刚速度为0米/分；在11到15分钟里，小刚以500米/分的速度匀速返回，所以图象应是<span class=\"mathquill-rendered-math\"><i>v=0.5</i></span>的水平直线。故<i>A、B</i>项错误。<br><i>C、D</i>项，纵坐标<i>s</i>为小刚与出发点的距离，在0到5分钟里，小刚以400米/分的速度匀速远离，到达<span class=\"mathquill-rendered-math\"><i>s=2</i></span>（千米）的地方，图象为从<span class=\"mathquill-rendered-math\"><i>\\left ( 0,0 \\right )</i></span>到<span class=\"mathquill-rendered-math\"><i>\\left ( 5,2 \\right )</i></span>的斜线；在5到11分钟里，他原地休息，<i>s</i>不变，图象是<span class=\"mathquill-rendered-math\"><i>s=2</i></span>的水平直线；在11到15分钟里，小刚以500米/分的速度匀速返回原地，图象为经过<span class=\"mathquill-rendered-math\"><i>\\left ( 11,2 \\right )</i></span>和<span class=\"mathquill-rendered-math\"><i>\\left ( 15,0 \\right )</i></span>的直线。故<i>C</i>项正确，<i>D</i>项错误。",
+            "step":"<i>C</i>",
+        },
+        {
+            "kind":"kpt",
+            "name":"描点法画函数图象",
+            "sub":[
+                "描点法画函数图形的一般步骤：<br>第一步：列表（表中给出一些自变量的值及其对应的函数值）；<br>第二步：描点（在直角坐标系中，以自变量的值为横坐标，相应的函数值为纵坐标，描出表格中数值对应的各点）；<br>第三步：连线（按照横坐标由小到大的顺序把所描出的各点用平滑曲线连接起来）。"
+            ]
+        },
+        {
+            "kind":"example",
+            "label":"题型一  描点法画函数图像",
+            "type":1,
+            "Q":" (1)画出函数<span class=\"mathquill-rendered-math\"><i>y=\\frac{1}{2}x^{2}</i></span>的图象;<br>(2)画出函数<span class=\"mathquill-rendered-math\"><i>y=x+1</i></span>的图象;<br>(3)试判断点<span class=\"mathquill-rendered-math\"><i>\\left ( -3,-2 \\right )</i></span>是否在上述函数图象上.",
+            "step":"<img src=\"11.png\" style=\"vertical-align:middle;width:13.5em;\"><br>点<span class=\"mathquill-rendered-math\"><i>\\left ( -3,-2 \\right )</i></span>不在函数<span class=\"mathquill-rendered-math\"><i>y=\\frac{1}{2}x^{2}</i></span>的图象上，在函数<span class=\"mathquill-rendered-math\"><i>y=x+1</i></span>的图象上。",
+            "notice":"(1)列表时要根据自变量的取值范围取值,从小到大或自中间向两边选取,取值要有代表性,尽量使画出的函数图象能反映出函数的全貌.(2)描点时要以表中每对对应值为坐标，点取得越多,图象越准确.(3)连线时要用平滑的曲线把所描的点顺次连接起来，函数的图象可以是直线、射线、线段、曲线等,它形象、直观地反映两个变量之间的对应关系,在确定函数图象时要注意自变量的取值范围."
+        },
+        {
+            "kind":"example",
+            "type":2,
+            "Q":" (易错) 某蜡烛原长<i>20 cm</i>,点燃后每小时燃烧<i>5 cm</i>,求剩余的蜡烛长度<i> y(cm)</i>与点燃的时间 <i>x(h)</i>之间的函数解析式,并画出函数的图象.",
+            "step":"根据题意得函数解析式为<span class=\"mathquill-rendered-math\"><i>y=20-5 x(0≤ x≤4).</i></span><br>函数图象如图所示<img src=\"12.png\" style=\"vertical-align:middle;width:5em;\">",
+            "notice":"画函数图像时，易忽视自变量的取值范围导致出错."
+        },
+        {
+            "kind":"kpt",
+            "name":"函数的表示方法",
+            "sub":[
+                "<img src=\"13.png\" style=\"vertical-align:middle;width:32.25em;\">"
+            ]
+        },
+        {
+            "kind":"example",
+            "label":"题型一  利用函数三种表示方法之间的关系进行相互转化",
+            "type":1,
+            "Q":"  某地区出现干旱，水库的蓄水量也随时间的增加而减少，如图是某水库的蓄水量<i>y</i>（万立方米）与干旱持续时间<i>x</i>（天）之间的函数关系。根据图象回答问题：<br>（1）这个图象反映了哪两个变量之间的关系？  （2）根据图象填表：<br><img src=\"14.png\" style=\"vertical-align:middle;width:9em;\"><img src=\"15.png\" style=\"vertical-align:middle;width:20em;\"><br>（3）<i>y</i>可以看成<i>x</i>的函数吗？如果可以，试写出用自变量表示函数的式子。",
+            "step":"（1）图象反映了干旱持续时间<i>x</i>（天）和蓄水量<i>y</i>（万立方米）之间的关系。<br>（2）表格如下：<br><img src=\"16.png\" style=\"vertical-align:middle;width:28em;\"><br>（3）<i>y</i>可以看成<i>x</i>的函数。<br>由图象可知，<i>y</i>与<i>x</i>成一次函数的关系，设<span class=\"mathquill-rendered-math\"><i>y=kx+b</i></span>将<span class=\"mathquill-rendered-math\"><i>(0,1200)</i></span>，<span class=\"mathquill-rendered-math\"><i>(60,0)</i></span>代入，得：<br><img src=\"17.svg\" style=\"vertical-align:middle;width:7em;\">解得<img src=\"18.svg\" style=\"vertical-align:middle;width:6em;\"><br>因此用自变量表示函数的式子为：<span class=\"mathquill-rendered-math\"><i>y=-20x+1200(\\leq x\\leq 60)</i></span>",
+        },
+        {
+            "kind":"example",
+            "type":9,
+            "Q":" 一个小球由静止开始在一个斜坡上向下滚动，通过仪器观察得到小球滚动的距离<i>s（m）</i>与时间<i>t（s）</i>的数据如下表：<br><img src=\"19.png\" style=\"vertical-align:middle;width:12.81em;\"><br>（ 1 ）写出<i> t</i>表示<i> s</i>的函数关系式，并画出图象;<br>（ 2 ）若小球滚动 <i>6.5 s</i>时，其滚动的距离是多少？<br>（ 3 ）经过多少秒时，小球滚动 <i>128 m</i>？",
+            "way":"（1）根据表格中的数据可得规律 <span class=\"mathquill-rendered-math\"><i>s=2t^{2}</i></span>；<br>（2）代入相应的数据<i>t</i>的值进行计算即可；<br>（3）代入<i>s</i>的值进行计算可得t的值.",
+            "step":"（1）由表格可得<span class=\"mathquill-rendered-math\"><i>s=2t^{2}</i></span>；<br>（2）当<i>t=6.5</i>时，<i>s=2×6.5×6.5=84.5（m）</i>；<br>（3）当<i>s=128</i>时，<span class=\"mathquill-rendered-math\"><i>128=2t^{2}</i></span><span class=\"mathquill-rendered-math\"><i>t=8s</i></span>",
+        },
+    ]
+}
+

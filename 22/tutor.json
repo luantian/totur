@@ -1,0 +1,277 @@
+{
+	"couID":1,
+	"pages":
+	[
+		{
+			"kind":"cover",
+			"title":"第一讲：不等式及其解集和性质",
+			"description":"1. 了解不等式的概念<br>2. 了解不等式的解与解集<br>3. 学会用数轴表示不等式的解集<br>4. 掌握不等式的性质"
+		},
+		{
+			"kind":"kpt",
+			"name":"",
+			"sub":[
+        {
+					"kind":"kpt",
+					"name":"不等式",
+					"sub":[
+						"<b>1.定义:</b>用不等号表示不等关系的式子叫做不等式.<br><b>注:</b>(1)不等式表示式子之间的不等关系，与方程表示的相等关系相对应；<br> (2)判断一个式子是否为不等式,关键是看所给式子是否含不等号；<br>  (3)对于含有未知数的不等式,当未知数取某些值时,不等式的左右两边符合不等号所表示的大小关系，我们就说不等式成立，否则不等式不成立.   <br><b>2.基本的表达形式<br>(1)常见的不等号：<br><img src=\"3.png\" style=\"width: 20em; vertical-align:middle \"><br>(2)常见的不等式基本语言与符号表示:</b><br>① 是正数表示为<i> a &gt 0 </i>, 是负数表示为<i> a &gt 0 </i>；</br>② 是非负数表示为:<i>a ≥ b</i><br> 是非正数表示为:<i>a ≤ b</i><br>③<i>a, b</i>同号表示 <i>ab > 0</i> ; <i>a , b</i> 异号表示为  <i>ab &lt 0 .</i>"
+					]
+				}
+			]
+		},
+		{
+			"kind":"example",
+			"label":"题型一　利用不等式的定义识别不等式",
+			"type":1,
+			"Q":"下列式子中，是不等式的有（　　）<br>①<i>2x = 7</i> ;②<i> 3x + 4y </i> ; ③<i>-3 &lt 2</i>; ④<i> 2a - 3 ≥0；</i>⑤<i> x &gt 1；</i>⑥<i> a - b &gt 1 .</i>",
+			"opts":[
+				"5个","4个","3个","1个"
+			],
+			"way":"要依据不等式的定义用&lt、&gt、≤、≥、≠表示不相等关系的式子是不等式，来判断．",
+			"step":"（1）<i> 2x = 7 </i>是等式;（2）<i> 3x + 4y </i>是多项式;（3）<i> -3 &lt 2 </i>是不等式;（4）<i> 2a - 3 ≥ 0</i>是不等式;（5）<i> x &gt 1 </i>是不等式;（6）<i> a - b &gt 1</i>是不等式",
+			"notice":"本题考查不等式的定义，一般地，用不等号表示不相等关系的式子叫做不等式．解答此类题关键是要识别常见不等号&lt、&gt、≤、≥、≠"
+		},
+		{
+			"kind":"ques",
+			"type":1,
+			"Q":"在式子<i> -3 &lt 0 , x ≥ 2, x = a, x<sup>2</sup> - 2x , x ≠ 3 , x + 1 &gt y</i>中，是不等式的有（　　）",
+			"opts":[
+				"2个","3个","4个","5个"
+			],
+			"step":"答案：C．",
+			},
+		{
+			"kind":"example",
+			"label":"题型二　利用不等关系列不等式",
+			"type":2,
+			"Q":"列不等式(1)	<i>a</i>与<i>1</i>的和是正数：_____________.<br>(2)a与3的和小于-3：_____________.<br>(3)a与-2的差大于5:___________.<br>(4)a的5倍小于10:_______________.<br>(5)a的三分之一大于-7:_________________.",
+			"way":"根据题中语言叙述体现的数量关系列出式子，然后结合体现不等关系的关键字列出不等式.",
+			"step":"（1）<i> a + 1 &gt 0 </i> （2）<i> a + 3 &lt -3</i>（3）<i> a - (-2) &gt 5 </i> (4)<i> 5a &lt 10</i> （5）<span class=\"mathquill-rendered-math\">{\\frac{1}{3}a} &gt -7</span>",
+      "notice":"列不等式首先要找出表示不等关系的关键词,然后用表示数量关系的式子表示不等式的左边和右边.",
+		},
+		{
+			"kind":"ques",
+			"type":2,
+			"Q":"用不等式表示：<br>（1）<i> 6 </i>与<i> x </i>倍的和是正数：_____________<br>（2）<i> a </i>的5倍不大于2：____________<br>（3）<i> y </i>的一半与5的差是负数:__________<br>（4）<i> a </i>的7倍与<i> b </i>的和不小于15：_____________",
+			"step":"答案：<i> 6+3x &gt 0、5a ≥ 2、</i><span class=\"mathquill-rendered-math\">{\\frac{1}{2}}</span><i> y - 5 &lt 0、7a+b ≥ 15</i>"
+		},
+		
+		{
+			"kind":"kpt",
+			"name":"（难点）不等式的解（集）与解不等式",
+			"sub":[
+				{
+					"kind":"kpt",
+					"name":"不等式的解",
+					"sub":[
+						"　　使不等式成立的<b>未知数的值</b>叫做不等式的解.<br><b>注:</b>判断一个数是否为不等式的解,就是将这个数代入不等式的左右两边，看不等式是否成立，若成立，则该数就是不等式的一个解；若不成立,则该数就不是不等式的解.",
+					]
+				},
+				  {
+					"kind":"kpt",
+					"name":"不等式的解集",
+					"sub":[
+						"（1）<b>定义:</b>一般地，一个含有未知数的不等式的<b>所有的解</b>，组成这个不等式的解集.<br>（2）<b>不等式的解集必须符合两个条件:</b><br>①解集中的每一个数值都能使不等式成立;<br>②能够使不等式成立的所有数值都在解集中<br>(3)不等式的解与不等式的解集的关系:解集包括解,所有的解组成解集.；<br>（3）解决线段的不等关系.",
+					]
+				},
+				    {
+				     	"kind":"kpt",
+					    "name":"解不等式",
+					    "sub":[
+						"求不等式的解集的过程叫做解不等式.",
+					   ]
+					},
+				]
+		},
+		{
+			"kind":"example",
+			"label":"题型一　利用不等式的解的定义找解",
+			"type":9,
+			"Q":"下列各数中，是不等式<i> 2(2x+1) &gt 25 </i>解的数有哪些？哪些不是不等式的解？<br> 1、2、10、12.",
+			"way":"判断一个数是不是不等式的解，一般方法是将该数代入不等式， 验证不等式是否成立.",
+			"step":"把<i> x = 1 </i>代入不等式<i> 2(2x + 1) &gt 25 </i>，得<i> 2(21 + 1) &gt 25 </i>，即<i> 6 &gt 25 </i>,不成立；同理：将2、10、12分别代入不等式，可知<i> x = 2 </i>不成立；<i> x = 10 </i>成立;<i> x = 12 </i>成立.所以1、2不是不等式<i> 2(2x + 1) &gt 25 </i>的解，10、12是不等式<i> 2(2x + 1) &gt 25 </i>的解.",
+			"notice":"解决此类问题通常采用“代入法”进行验证，将未知教的值代入不等式，若不等式成立，则该值是不等式的解;若不等式不成立，则该值不是不等式的解."
+		},
+		{
+			"kind":"ques",
+			"type":9,
+			"Q":"下列各数中，哪些是不等式<i> 2x - 1 &gt 1 </i>的解？哪些是不等式<i> x + 13 &lt 12 </i>的解？<br>-9, 2, -0.4, 6, 0, -5, <span class=\"mathquill-rendered-math\">{\\frac{2}{7}}</span> , 5.1 .</br>",
+			"step":"答案：2, 6, 5.1是不等式<i> 2x - 1 &gt 1</i>的解 ; -9，-5 不是不等式<i> x + 13 &lt 12 </i>的解."
+		},
+		{
+			"kind":"kpt",
+			"name":"不等式的解集的表示方法",
+			"sub":[
+				{
+					"kind":"kpt",
+					"name":"用最简单的不等式表示",
+					"sub":[
+						"　　一般地，一个含有未知数的不等式有无数个解,其解集是一个范围,这个范围可用最简单的不等式来表示，如:不等式 的解集为 .",
+					]
+				},
+				  {
+					"kind":"kpt",
+					"name":"用数轴表示",
+					"sub":[
+						"可以在数轴上标出某一区间直观地表示不等式的解集,其中的点对应的数值都是不等式的解.如图：<img src=\"4.jpg\" style=\"width: 4em; vertical-align:middle; \"><br><b>注：</b>(1)在图中,在表示 的点上画空心圆圈,表示不包括这一点，在表示 的点上画实心圆圈,表示包括这一点.<br>(2)在数轴上表示不等式的解集时,要先确定边界点,再确定方向.确定方向的原则是“大于向右画，小于向左画",
+					]
+				},
+			]
+		},
+		{
+			"kind":"example",
+			"label":"题型一  用数轴表示不等式的解集",
+			"type":9,
+			"Q":"在数轴上表示下列不等式的解集<br>(1)<i> x &lt 2 </i>   <br>(2)<i> x &gt -1 </a>  <br>(3)<span class=\"mathquill-rendered-math\">S=\\frac{1}{2}ah</span>",
+			"way":"先解不等式，再画出数轴即可直观解答．",
+		  "notice":"本题考查了在数轴上表示不等式的解集，不等式的解集在数轴上表示出来的方法：“&gt”空心圆点向右画折线，“≥”实心圆点向右画折线，“&lt”空心圆点向左画折线，“≤”实心圆点向左画折线．",
+		},
+		{
+			"kind":"ques",
+			"type":9,
+			"Q":"在数轴上表示下列不等式的解集.<br>(1)<i> x ≥ -3.5 </i>     (2)<i> x &lt -1.5</i>",
+			"step":"(1) <img src=\"5.png\" style=\"width: 15rem; vertical-align: middle;\">;<br>(2).<img src=\"6.png\" style=\"width: 15rem; vertical-align: middle;\">"
+		},
+		{
+			"kind":"example",
+			"label":"题型二  利用不等式的特殊解确定字母的取值范围",
+			"type":9,
+			"Q":"已知不等式<i> 3x - a ≤ 0 </i>的正整数解恰是1, 2, 3,求<i>a</i>的取值范围",
+			"way":"先解不等式，再画出数轴即可直观解答．",
+			"step":"<i> 3x-a ≤ 0 </i>，<br>移项得，<i> 3x ≤ a </i>, <br>系数化为1得，<i> x ≤ <span class=\"mathquill-rendered-math\">\\frac{a}{3}</span></i> <br>∵不等式<i> 3x - a ≤ 0</i>的正整数解恰是1, 2, 3,<br>∴ 3 ≤ <span class=\"mathquill-rendered-math\">\\frac{a}{3}</span></i> &lt 4,<br>∴当 3 ≤ <span class=\"mathquill-rendered-math\">\\frac{a}{3}</i></span> &lt 4时，即 9 ≤ a < 12时，不等式<i> 3x - a ≤ 0 </i>的解恰为1, 2, 3.<br>故a的取值范围为<i> 9 ≤ a &lt 12 </i>",
+			"notice":"已知不等式的特殊解确定字母的取值范围时，因为特殊解有限，所以该字母的范围一定是在某一区间内,最关键是包不包括端点的问题，为了防止错误，可以把包括和不包括分情况讨论.",
+		},
+		{
+			"kind":"ques",
+			"type":1,
+			"Q":"关于<i>x</i>的不等式<i> x - b ≥ 0 </i>恰有两个负整数解，则<i>b</i>的取值范围是（　　）",
+			"opts":[
+				"<i> -3 &lt b &lt -2 </i>","<i> -3 ≤ b ≤ -2 </i>","<i> -3 ≤ b ≤ -2 </i> ","<i> -3 ≤ b < -2 </i>"
+			],
+			"step":"答案：B"
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		{
+			"kind":"kpt",
+			"name":"不等式性质",
+			"sub":[
+				{
+					"kind":"kpt",
+					"name":"性质1",
+					"sub":[
+						"不等式两边加(或减)<b>同一个数</b>(或式子),不等号的方向<b>不变</b>;即如果<i> a &gt b </i>,那么<span class=\"mathquill-rendered-math\">a\\pm c>b\\pm c</span>",
+					]
+				},
+				  {
+					"kind":"kpt",
+					"name":"性质二",
+					"sub":[
+						"不等式两边乘(或除以)同一个正数,不等号的方向不变;即如果<i> a &gt b, c &gt 0 </i>,那么<i> ac &gt bc </i>或<span class=\"mathquill-rendered-math\">\\frac{a}{c}>\\frac{b}{c}</span>.",
+					]
+				},
+				{
+					"kind":"kpt",
+					"name":"性质三",
+					"sub":[
+						"  不等式两边乘(或除以)同一个负数,不等号的方向改变;即如果<i> a &gt b , c &gt 0 </i>,那么<i> ac &gt bc </i>或<span class=\"mathquill-rendered-math\">\\frac{a}{c}>\\frac{b}{c}</span>. <br><b>注</b><br>(1)运用不等式的性质时,不等号两边是同时变形，同样变形;<br>(2)运用不等式的性质可将不等式化为简单形式，从而求出不等式的解集;<br>(3)运用不等式的性质对不等式进行变形时,要特别注意性质2与性质3的区别,在乘(或除以)同一个数时,先要分清这个数是正数还是负数,其次判断不等号方向是否要改变.<br><b>不等式性质与等式性质的关系:</b><br><b>联系:</b>不等式两边加(或减)同一个数(或式子)、乘(或除以)同一个正数,不等号的方向不变;而等式两边加(或减)同一个数(或式子)、乘(或除以)同一个正数，结果仍相等.</br><br><b>区别:</b>对于等式来说，两边乘(或除以)同一个负数，结果仍相等;而对于不等式来说，两边乘(或除以)同一个负数时，不等号的方向要改变.",
+					]
+				},
+			]
+		},
+		{
+			"kind":"example",
+			"label":"题型一  利用不等式的性质识别变形",
+			"type":1,
+			"Q":"若<i> a &lt b &lt 0 </i>,则下列式子中：<i>(1) a + 1 &lt b + 2; </i>(2)<span class=\"mathquill-rendered-math\">\\frac{a}{b}>1</span>;<i> (3) a + b &lt ab </i>; <i>(4)<span class=\"mathquill-rendered-math\">\\frac{1}{a}&lt\\frac{1}{b}</span>中，正确的有（）",
+			"opts":["1个", "2个", "3个", "4个"],
+			"way":"根据不等式的性质判断",
+			"step":"<br>(1)∵<i> a &lt b </i>,∴<i> a + 1 &lt b + 1 </i>,而<i> b + 1 &lt b + 2 </i>,∴<i> a + 1 &lt b + 2 </i>（正确）；<br>(2)<i> a &lt b &lt 0 </i>,即<i> a &lt b，b &lt 0 </i>,∴<span class=\"mathquill-rendered-math\">\\frac{a}{b}>1</span>（正确）<br>∵<i> a &lt b &lt 0</i>,∴<i> a + b &gt 0, ab &gt 0 </i>,∴<i> a + b &gt ab </i>（正确）；<br><i> a &lt b &lt 0 </i>,即<i> a &lt b, ab &gt 0 </i>, <i>a &lt b</i> 两边除以<i> ab </i>,得<span class=\"mathquill-rendered-math\">\\frac{1}{b}<\\frac{1}{a}</span>，即<span class=\"mathquill-rendered-math\">\\frac{1}{a}>\\frac{1}{b}</span>。（4）错误。<br>故选C.",
+			"notice":"<b>(1)由一个不等式变形到另一个不等式的方法:</b>先判断出第二个不等式是由第一个不等式经过怎样的变形得到的，再确定出每一步变形的依据，最后确定不等号是否改变方向.<br>(2)对于判断从一个不等式变形到另一个不等式正确与否，我们可以采用<b>数值验证法</b>来解符合第一个不等式条件的数值，代入另一个不等式进行验证，看它正确与否进行判断；本例可以取 ,  对每个式子分别进行验证.",
+		},
+		{
+			"kind":"ques",
+			"type":1,
+			"Q":"(易错题)若<i> m &gt n </i>,则下列不等式中成立的是(　　)",
+			"opts":[
+				"<i> m + a &lt n + b </i> ","<i> ma &lt nb </i> ","<span class=\"mathquill-rendered-math\">m{{a}^{2}}>n{{a}^{2}} </span>","<i> a - m &lt a - n </i>"
+			],
+			"step":"答案：D"
+		},
+		{
+			"kind":"example",
+			"label":"题型二  利用不等式的性质确定字母常数的范围",
+			"type":1,
+			"Q":"若<i>（m - 1）x &gt m - 1 </i>的解集为<i> x &lt 1 </i>,则<i> m </i>的取值范围是（）",
+			"opts":[
+				"<i> m > 1 </i> <br> ","<i> m &lt 1 </i> ","<i> m &gt 0 </i>","<i> m &lt 0 </i>"
+			],
+			"way":"从<i> (m - 1) x &gt m - 1 </i>变形到<i> x &lt 1 </i>,是将不等式两边同时除以<i> (m - 1) </i>并且改变了不等号的方向，说明不等式两边同时除以了同一个负数,即<i> (m - 1) </i>为负数.",
+			"step":"<br>∵<i>(m - 1)x &gt m - 1 </i>的解集为<i> x &lt 1 </i> <br>∴<i> m - 1 &lt 0 </i><br>解得<i> m &lt 1</i>,<br>故选B.",
+			"notice":"判断不等式两边乘(或除以)的同一个数的符号时，只需看不等号的方向是否改变,若不变，则这个数为正数；若改变，则这个数为负数.",
+		},
+		{
+			"kind":"ques",
+			"type":1,
+			"Q":"(中考真题)关于<i>x</i>的一元一次不等式<span class=\"mathquill-rendered-math\">\\frac{m-2x}{3}\\le -2</span>的解集为<span class=\"mathquill-rendered-math\">x\\ge 4</span>，则<i> m </i>的值为（ ）",
+			"opts":[
+				"14","7 ","-2","2"
+			],
+			"step":"答案：D"
+		},
+		{
+			"kind":"example",
+			"label":"题型三  利用不等式的性质解简单不等式",
+			"type":9,
+			"Q":"利用不等式的性质解下列不等式，并在数轴上表示解集.<br>(1)<span class=\"mathquill-rendered-math\">\\frac{1}{3}x &lt 2 </span>;<br>(2)<i> -4x ≥ x + 5 </i>.",
+			"way":"解不等式，就是借助不等式的性质使不等式逐步化为<i> x &gt a </i>或<i> x &lt a </i>（<i> a </i>为常数）的形式.",
+			"step":"(1)不等式的两边同时乘以3得，<i> x &lt 6 </i>.<br>在数轴上表示为： <br>(2)使不等式的两边同时减去<i> x </i>得，<i> -5x ≥ 5,两边同时除以-5得,<i> x ≤ -1 </i>.<br>在数轴上表示为：",
+			"notice":"利用不等式的性质1可简化为“移项”;利用不等式的性质2或性质3就是把未知数的系数化为1,要注意不等式两边乘(或除以)同一个负数时，不等号要改变方向.",
+		},
+		{
+			"kind":"ques",
+			"type":9,
+			"Q":"利用不等式的性质解下列不等式，并把解集在数轴上表示出来.<br>(1)<i> -3x + 2 ≤ 8 </i>.<br>(2)<i> -3x - 4 ≥ 6x + 2 </i>.<br>(3)<i> -8x - 6 ≥ 4(2 - x) + 3</i>. ",
+			"step":"(1)移项合并得：<i> -3 ≤ 6 </i>,<br>解得：<i> x ≥ -2 </i>, <br>(2)移项合并得：<i> 9x ≤ -6 </i>,<br>解得：<i> x ≤ -<span class=\"mathquill-rendered-math\">\\frac{2}{3}</span> </i>,<br>(3)去括号得：<i> -8x - 6 ≥ 8 - 4x + 3</i>移项合并得：<i> -4x ≥ 17 </i>,<br>解得<span class=\"mathquill-rendered-math\"> x\\le -\\frac{17}{4}</span>,"
+		},
+		{
+			"kind":"example",
+			"label":"题型四  利用不等式的性质解绝实际问题",
+			"type":9,
+			"Q":"战士张华要完成一个工程，需要进行爆破作业，为保证安全，点燃导火线的人应在爆破前至少离开爆破点<i>120m</i>远，若导火线燃烧的速度是<i>0.75cm/s</i>，人离开的速度是<i>4.5m/s</i>，为保证张华的安全，导火线至少需要______<i>cm</i>．",
+			"way":"设导火线的长度至少需要<i> x </i>，根据导火线燃烧速度是<i> 0.75cm/s </i>，人离开的速度是<i> 4.5m/s </i>，到<i> 120m </i>以外的安全区域可列不等式求解．",
+			"step":"设导火索的长度需要<i> xcm </i>,根据题意得出<span class=\"mathquill-rendered-math\">\\frac{x}{0.75}\\times 4.5\\ge 120 </span><br>解得，<i> x ≥ 20 </i>得，<br>故导火索的长度至少需要<i>20cm</i>.<br>故答案为：20.",
+			"notice":"(1)利用不等式解决实际问题时，其关键是寻找能体现全题的不等关系，建立不等式模型，即列出不等式;<br>(2)列不等式时，要注意列的不等式是否包含等号;<br>(3)求出不等式的解集后，确定实际问题的解时，往往是先求出取值范围，然后再取符合取值范围的解;<br>(4)实际问题的解，需要满足两个要求，一是满足不等式，二是要满足实际情况.",
+		},
+		{
+			"kind":"ques",
+			"type":9,
+			"Q":"一次奥运知识竞赛中,一共有25道题,答对一题得10分,答错(或不答)一题扣5分.设小明同学在这次竞赛中答对<i> x </i>道题.<br>根据所给条件,完成下表:<br><img src=\"1.png\" style=\"width: 12em; vertical-align:middle \"><br>(2)若小明同学的竞赛成绩超过100分,则他至少答对几道题? ",
+			"step":"(1)补全表格:<br><img src=\"2.png\" style=\"width: 12em; vertical-align:middle;\"><br>根据题意，得<i> 10x - 5(25-x) &gt 100 </i>,即<i> 15x-125 &gt 100 </i>,<br>计算得出<i> x &gt 15</i>.<br><i> x </i>的最小正整数解是<i> x = 16 </i>.<br>答:小明同学至少答对<i>16</i>道题."
+		},
+			{
+			"kind":"example",
+			"label":"题型五  解含字母的不等式",
+			"type":9,
+			"Q":"已知关于<i> x </i>的不等式<i> 2(a - b)x + a - 5b &gt 0</i>的解集为<span class=\"mathquill-rendered-math\">x<\\frac{7}{10}</span>，求关于<i> x </i>的不等式<i> ax &gt b </i>的解集．",
+			"way":"不等式去括号,移项合并,表示出解集,根据已知解集确定出<i>a</i>与<i>b</i>的值,即可求出所求不等式的解集.",
+			"step":"不等式移项得：<i> 2(a - b)x &gt 5b - a </i>,<br>由不等式的解集为<span class=\"mathquill-rendered-math\">x<\\frac{7}{10}</span>得到<i> a - b <&lt 0</i> ,且<span class=\"mathquill-rendered-math\">\\frac{5b-a}{2(a - b)}=\\frac{7}{10}</span> ,<br>整理得：<i> a &lt b </i>且<i> 3a = 8b </i>即<span class=\"mathquill-rendered-math\">a=\\frac{8}{3}b</span>   <br>当<i> a &gt 0 </i>时，不等式<i> ax &gt b </i>变形得<span class=\"mathquill-rendered-math\">x>\\frac{b}{a}=\\frac{3}{8}</span>;   <i> a &lt 0 </i>时，不等式<i> ax &gt b </i>变形得：<span class=\"mathquill-rendered-math\">x<\\frac{b}{a}=\\frac{3}{8}</span>;   ",
+			"notice":"解题时要充分挖掘题中的已知条件,包括隐含的条件,如确定<i>a</i>的取值范围(正负性)之后,才能正确解决本题.",
+		},
+		{
+			"kind":"ques",
+			"type":9,
+			"Q":"关于<i> x </i>的不等式<i> 3ax + 4a - 2bx - b &gt 0</i>的解集为<i> x &lt -2 </i>,试求关于<i> x </i>的不等式<i> ax &gt b </i>的解集 ",
+			"step":"由<i> x </i>的不等式<i> 3ax + 4a - 2bx - b &gt 0</i>的解集为<i> x &lt -2 </i>，得 <span class=\"mathquill-rendered-math\">\\frac{b-4a}{3a-2b} = -2</span>,且<i> 3a - 2b &lt 0</i><br><span class=\"mathquill-rendered-math\">$\\therefore $x$a=\\frac{\\text{3}}{2}b$</span>,代入<i> 3a - 2b &lt 0</i>中，得<span class=\"mathquill-rendered-math\">\\frac{\\text{5}}{2}b &lt 0</span>即<i> b &lt 0 </i>，<br>将<span class=\"mathquill-rendered-math\">a=\\frac{\\text{3}}{2}b</span>代入<i> ax &gt b </i>中得<span class=\"mathquill-rendered-math\">\\frac{\\text{3}}{\text{2}} bx &gt b </span>,又∵<i> b &lt 0 </i>，<span class=\"mathquill-rendered-math\">\\therefore $$\\frac{3}{2}x &lt 1</span>,<span class=\"mathquill-rendered-math\">x<\\frac{\\text{2}}{\\text{3}}</span> 即不等式的解集为,<span class=\"mathquill-rendered-math\">x<\frac{\\text{2}}{\\text{3}}</span> "
+		},
+	]
+}

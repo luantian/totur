@@ -1,0 +1,245 @@
+{
+	"couID":1,
+	"pages":
+	[
+		{
+			"kind":"cover",
+			"title":"第1讲 一元二次方程的定义和解法",
+			"description":"1．理解一元二次方程的概念和一元二次方程根的意义，会把一元二次方程化为一般形式；<br>2．掌握直接开平方法和配方法解一元二次方程，会应用此判定方法解决有关问题；<br>3．理解解法中的降次思想，分类讨论与换元思想．"
+		},
+		{
+			"kind":"kpt",
+			"name":"一元二次方程的定义",
+			"sub":[
+                               "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>定义：</b>等号两边都是<b>整式</b>，只含有一个未知数，并且未知数的最高次数是2的方程，叫做一元二次方程．<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>注：</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1)理解定义，要掌握三个关键点：方程是整式方程；“一元”是指方程中只含有一个未知数；“二次”是指该未知数的最高次数是2，隐含条件是二次项系数不能为0．"
+			]
+		},
+		{
+			"kind":"example",
+			"label":"题型一  利用定义识别一元二次方程",
+			"type":1,
+			"Q":"下列关于<i>x</i>的方程是一元二次方程的是（　　）",
+                        "opts":[
+				"<i>ax²+bx+c</i>=0","<span class=\"mathquill-rendered-math\">\\frac{1}{{{x}^{2}}}+\\frac{1}{x}=2</span>","8<i>x</i>+3=0","5<i>x²</i>=0"
+			],
+			"way":"本题根据一元二次方程的定义解答．一元二次方程必须满足三个条件：(1)是整式方程；(2)只含有一个未知数；(3)未知数的最高次数是2,二次项系数不为0．由这四个条件对四个选项进行验证，满足这三个条件的为正确答案．",
+			"step":"A、方程二次项系数可能为0，故错误；<br>B、不是整式方程，故错误；<br>C、未知数为1次，故错误；<br>D、符合一元二次方程的定义，故正确；<br>故选：D．",
+			"notice":"本题考查了一元二次方程的概念，判断一个方程是否是一元二次方程，首先要看是否是整式方程，然后看化简后是否是只含有一个未知数且未知数的最高次数是2，且系数不为0．"
+		},
+		{
+			"kind":"ques",
+			"type":1,
+			"Q":"下列方程中，是关于<i>x</i>的一元二次方程的是（    ）",
+                        "opts":[
+				"3(<i>x</i>-1)²=2(<i>x</i>-1)","<span class=\"mathquill-rendered-math\">-\\frac{1}{3x}+2{{x}^{2}}=1</span>","<i>ax²+bx+c</i>=0","<i>x</i>²+2<i>x</i>=(<i>x</i>-1)(<i>x</i>+1)"
+			],
+			"step":"A、原式可化为3<i>x</i>²-6<i>x</i>+3=2<i>x</i>-2，整理后为3<i>x</i>²-8<i>x</i>+5=0，是一元二次方程，故本选项正确；<br>B、分母中含有未知数，是分式方程，故本选项错误；<br>C、当<i>a</i>=0时，不是一元二次方程；<br>D、原式可化为<i>x</i>²+2<i>x</i>=<i>x</i>²-1，即2<i>x</i>=-1，不是一元二次方程，故本选项错误．<br>故选A．"
+		},
+		{
+			"kind":"example",
+			"label":"题型二  利用一元二次方程的定义确定字母的取值",
+			"type":1,
+			"Q":"如果方程<span class=\"mathquill-rendered-math\">\\left( m-3 \\right){{x}^{{{m}^{2}}-7}}-x+3=0</span>是关于<i>x</i>的一元二次方程，那么<i>m</i>的值为（　　）",
+			"opts":[
+				"±3","3","-3","都不对"
+			],
+			"way":"本题根据一元二次方程的定义解答，一元二次方程必须满足四个条件：<br>(1)未知数的最高次数是2；<br>(2)二次项系数不为0；<br>(3)是整式方程；<br>(3)含有一个未知数．据此即可得到<i>m</i>²-7=2，<i>m</i>-3≠0，即可求得<i>m</i>的范围．",
+			"step":"由一元二次方程的定义可知<img src=\"1.svg\" style=\"vertical-align:middle\">， 解得<i>m</i>=-3．<br>故选C．",
+                        "notice":"要特别注意二次项系数<i>m</i>-3≠0这一条件，当<i>m</i>-3=0时，上面的方程就是一元一次方程了．"
+		},
+		{
+			"kind":"ques",
+			"type":1,
+			"Q":"已知关于<i>x</i>的方程<span class=\"mathquill-rendered-math\">\\left( m-1 \\right){{x}^{{{m}^{2}}+1}}+2x-3=0</span>是一元二次方程，则<i>m</i>的值",
+                        "opts":[
+				"1","-1","±1","不能确定"
+			],
+			"step":"∵关于<i>x</i>的方程<span class=\"mathquill-rendered-math\">\\left( m-1 \\right){{x}^{{{m}^{2}}+1}}+2x-3=0</span>是一元二次方程，<br>∴<i>m</i>-1≠0且<i>m</i>²+1=2，<br>即<i>m</i>=±1且<i>m</i>≠1，<br>解得：<i>m</i>=-1．<br>故选B．"
+		},
+                {
+			"kind":"example",
+			"type":1,
+			"Q":"若方程<span class=\"mathquill-rendered-math\">\\left( {{m}^{2}}-1 \\right){{x}^{2}}+\\sqrt{m+1}\\cdot x-1=0</span>是关于<i>x</i>的一元二次方程，则<i>m</i>的取值范围是（　　）",
+                        "opts":[
+				"<i>m</i> ≠ ±1","<i>m</i> ≥ -1且<i>m</i> ≠ 1","<i>m</i> ≥ -1","<i>m</i> > -1且<i>m</i> ≠ 1"
+			],
+                        "way":"本题根据一元二次方程的定义和二次根式有意义的条件求解．<br>一元二次方程必须满足两个条件：<br>(1)未知数的最高次数是2；<br>(2)二次项系数不为0．<br>由这两个条件以及<i>m</i>+1 ≥ 0得到相应的关系式，再求解即可．",
+			"step":"根据题意得<img src=\"2.svg\" style=\"vertical-align:middle\">， 解得<i>m</i> > -1且<i>m</i> ≠ 1．<br>故选D．"
+		},
+                {
+			"kind":"ques",
+			"type":1,
+			"Q":"方程<span class=\"mathquill-rendered-math\">\\left( m+2 \\right){{x}^{\\left| m \\right|}}+3mx+1=0</span>是关于<i>x</i>的一元二次方程，则（　　）",
+                        "opts":[
+				"<i>m</i> = ±2","<i>m</i> = 2","<i>m</i> = -2","<i>m</i> ≠ ±2"
+			],
+			"step":"由一元二次方程的定义可得<img src=\"3.svg\" style=\"vertical-align:middle\">， 解得：<i>m</i>=2．故选B．"
+		},
+		{
+			"kind":"kpt",
+			"name":"一元二次方程的一般形式",
+			"sub":[
+                               "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一般地，任何一个关于<i>x</i>的一元二次方程，经过整理，都能化成如下形式：<i>a²x+by+c</i>=0(<i>a</i>≠0)．这种形式叫做一元二次方程的一般形式，其中<i>a²x</i>是二次项, <i>a</i>是二次项的系数，<i>bx</i>是一次项，<i>b</i>是一次项的系数，<i>c</i>是常数项．<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>注：</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1)<i>a²x+by+c</i>=0，当<i>a</i>≠0时，方程才是一元二次方程，但<i>b</i>，<i>c</i>可以是0．<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)将一个一元二次方程化成一般形式，可以通过<b>去分母、去括号、移项、合并同类项</b>等步骤．<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3)指出一元二次方程的某项时，应连同未知数的系数一起；指出某项系数时应连同它前面的符号一起．<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4)二次项系数不等于零是一元二次方程的必要条件．<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>易错警示：</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1)忽略一元二次方程<i>a²x+by+c</i>=0中二次项系数<i>a</i>≠0的条件．"
+			]
+		},
+                {
+			"kind":"example",
+                        "label":"题型一  利用一元二次方程的一般形式确定各项及其系数",
+			"type":9,
+			"Q":"把方程(2<i>x</i>-4)(3<i>x</i>+2)=<i>x</i>化成一元二次方程的一般形式，并写出其中的二次项系数，一次项系数及常数项．",
+                        "way":"根据去括号、移项、合并同类项，可得一元二次方程的一般形式，根据<i>a²x+by+c</i>=0，<i>a</i>是二次项系数，<i>b</i>是一次项系数，<i>c</i>是常数项，可得答案．",
+			"step":"去括号、移项、合并同类项，得<br>6<i>x</i>²-9<i>x</i>-8=0，<br>6是二次项系数，-9是一次项系数，-8是常数项．",
+                        "notice":"本题考查了一元二次方程的一般形式，<i>a²x+by+c</i>=0(<i>a</i>≠0)是一元二次方程的一般形式，<i>a</i>是二次项系数，<i>b</i>是一次项系数，<i>c</i>是常数项，注意移项要变号．确定各项系数时，不要忽略系数的符号．"
+		},
+                {
+			"kind":"ques",
+			"type":9,
+			"Q":"将一元二次方程(<i>x</i>-2)(<i>x</i>+1)=2<i>x</i>+5化为一般形式，并写出它的二次项系数、一次项系数和常数项．",
+			"step":"(<i>x</i>-2)(<i>x</i>+1)=2<i>x</i>+5<br>化简得<i>x</i>²-3<i>x</i>-7=0<br>即它的二次项系数是1，一次项系数是－3，常数项是－7．<br>故答案为：1，－3，－7．"
+		},
+                {
+			"kind":"kpt",
+			"name":"(难点)一元二次方程的解",
+			"sub":[
+                               "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>定义：</b>能使一元二次方程左右两边相等的<b>未知数</b>的值叫做一元二次方程的解(根)．<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>注：</b>判断某个数是方程的根的条件：使方程左右两边相等．"
+			]
+		},
+                {
+			"kind":"example",
+                        "label":"题型一  利用一元二次方程根的定义验证解",
+			"type":9,
+			"Q":"下面哪些数是方程<i>x</i>²-<i>x</i>-2=0的根? &nbsp;&nbsp;-3、-2、-1、0、1、2、3",
+                        "way":"方程的根即方程的解，就是能使方程左右两边相等的未知数的值，将<i>x</i>的值分别代入已知方程进行一一验证即可作出正确的判断．",
+			"step":"将<i>x</i> = -3代入方程<i>x</i>²-<i>x</i>-2=0，左式=(-3)²-(-3)-2=10≠0，即左式 ≠ 右式，故<i>x</i> = -3不是方程<i>x</i>²-<i>x</i>-2=0的根．<br>同理可得，<i>x</i> = -2，0，1，3时，都不是方程<i>x</i>²-<i>x</i>-2=0的根，<br>当<i>x</i> = -1，2时，左式=右式，故<i>x</i> = -1，2都是方程<i>x</i>²-<i>x</i>-2=0的根．",
+                        "notice":"一般地，一元二次方程的根不止一个,只要符合定义都是方程的根．"
+		},
+                {
+			"kind":"ques",
+			"type":1,
+			"Q":"下表是某同学求代数式<i>x</i>²-<i>x</i>的值的情况，根据表格可知方程<i>x</i>²-<i>x</i>=2的根是 ( 　　)<br><table width=\"50%\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\"><tr align=\"center\"><td><i>x</i></td><td>-2</td><td>-1</td><td>0</td><td>1</td><td>2</td><td>3</td><td>…</td></tr><tr align=\"center\"><td><i>x</i>²-<i>x</i></td><td>6</td><td>2</td><td>0</td><td>0</td><td>2</td><td>6</td><td>…</td></tr></table>",
+                        "opts":[
+				"<i>x</i> = -1","<i>x</i> = 0","<i>x</i> = 2","<i>x</i> = -1和<i>x</i> = 2"
+			],
+			"step":"答案D．"
+		},
+                {
+			"kind":"example",
+                        "label":"题型二  利用方程的解求方程中待定字母的值",
+			"type":1,
+			"Q":"(中考真题) 若关于<i>x</i>的方程<i>x</i>²+3<i>x</i>+<i>a</i>=0有一个根为-1，则<i>a</i>的值为(     )",
+                        "opts":[
+				"-2","2","4","-3"
+			],
+                        "way":"根据一元二次方程的解的定义，把<i>x</i> = -1代入方程得到关于<i>a</i>的一次方程，然后解此一次方程即可．",
+			"step":"把<i>x</i> = -1代入方程<i>x</i>²+3<i>x</i>+<i>a</i>=0得1-3+<i>a</i>=0，<br>解得<i>a</i>=2．<br>故选B．",
+                        "notice":"若已知一元二次方程的解求方程中待定系数的值，则根据一元二次方程的解的定义，将解替换方程中的未知数，然后通过解方程求出待定系数的值．"
+		},
+                {
+			"kind":"ques",
+			"type":9,
+			"Q":"(中考真题)已知关于<i>x</i>的一元二次方程<i>x</i>²+<i>x</i>+<i>m</i>²-2<i>m</i>=0有一个实数根为-1，求<i>m</i>的值及方程的另一实根．",
+			"step":"因为方程有一个实数根-1，所以将<i>x</i> = -1代入原方程得(-1)²-1+<i>m</i>²-2<i>m</i>=0，<br>即<i>m</i>²-2<i>m</i>=0，解得<i>m</i><sub>1</sub>=0，<i>m</i><sub>2</sub>=2．<br>将<i>m</i>²-2<i>m</i>=0代入原方程得<i>x</i>²+<i>x</i>=0，解得<i>x</i><sub>1</sub>=-1，<i>x</i><sub>1</sub>=0．<br>所以<i>m</i>的值为0或2，方程的另一实根为0．"
+		},
+                {
+			"kind":"example",
+                        "label":"题型三  利用一元二次方程根的定义求代数式的值",
+			"type":9,
+			"Q":"已知<i>a</i>是方程<i>x</i>²-2016<i>x</i>+1=0的解，求<span class=\"mathquill-rendered-math\">2{{a}^{2}}-4031a+1-\\frac{2016{{a}^{2}}}{{{a}^{2}}+1}</span>的值．",
+                        "way":"根据方程的解的定义，将<i>a</i>作为未知数的值代入方程中，得到关于<i>a</i>的等量关系，然后分析待求值式子的结构，直接代入或变形后代入求值．",
+			"step":"把<i>x=a</i>代入<i>x</i>²-2016<i>x</i>+1=0，得<i>a</i>²-2016<i>a</i>+1=0，<br>∴<i>a</i>²-2016<i>a</i>=-1，变形可得：<span class=\"mathquill-rendered-math\">\\frac{2016{{a}^{2}}}{{{a}^{2}}+1}=a</span>．<br>∴<span class=\"mathquill-rendered-math\">2{{a}^{2}}-4013a+1-\\frac{2016{{a}^{2}}}{{{a}^{2}}+1}=2\\left( {{a}^{2}}-2016a \\right)+a+1-a=2\\times \\left( -1 \\right)+1=-1</span>",
+                        "notice":"如果<i>x</i><sub>0</sub>是方程<i>ax²+bx+c</i>=0的解，则有式子<i>ax<sub>0</sub>²+bx<sub>0</sub>+c</i>=0成立．当求含有<i>x</i><sub>0</sub>的代数式的值时，找出该代数式与<i>ax<sub>0</sub>²+bx<sub>0</sub>+c</i>相类似的结构进行整体代入求值．"
+		},
+                {
+			"kind":"ques",
+			"type":9,
+			"Q":"已知<i>a</i>是一元二次方程<i>x</i>²-3<i>x</i>+1=0的一个根，求<span class=\"mathquill-rendered-math\">\\frac{{{a}^{3}}-2{{a}^{2}}-5a+1}{{{a}^{2}}+1}</span>的值．",
+			"step":"<i>a</i>是一元二次方程<i>x</i>²-3<i>x</i>+1=0的一个根，<br>∴<i>a</i>²+1=3<i>a</i>，<br>∴原式=<span class=\"mathquill-rendered-math\">\\frac{a\\left( {{a}^{2}}+1 \\right)-2\\left( {{a}^{2}}+1 \\right)-6a+3}{{{a}^{2}}+1}</span><br>=<span class=\"mathquill-rendered-math\">\\frac{3{{a}^{2}}-12a+3}{3a}</span><br>=<span class=\"mathquill-rendered-math\">\\frac{3\\left( {{a}^{2}}+1 \\right)-12a}{3a}</span><br>=<span class=\"mathquill-rendered-math\">\\frac{-3a}{3a}</span><br>= -1．"
+		},
+                {
+			"kind":"kpt",
+			"name":"用直接开平方法解一元二次方程(重点)",
+			"sub":[
+                               "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>1．定义：</b>利用<b>平方根</b>的意义，直接开平方求一元二次方程的解的方法叫做直接开平方法．<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>2．直接开平方法求方程的解的方法：</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1)<img src=\"4.svg\" style=\"vertical-align:middle\">；<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)<img src=\"5.svg\" style=\"vertical-align:middle\">；<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3)<img src=\"6.svg\" style=\"vertical-align:middle\">．<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>3．易错警示：</b>直接开平方法利用的是平方根的意义，所以要注意两点：<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1)不要只取正的平方根而遗漏负的平方根；<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)只有非负数才有平方根，所以直接开平方法的前提条件是<i>x</i>² = <i>p</i>中<i>p</i> ≥ 0．"
+			]
+		},
+                {
+			"kind":"example",
+                        "label":"题型一  利用直接开平方法解一元二次方程",
+			"type":9,
+			"Q":"用直接开平方法解下列方程：<br>(1)&nbsp;&nbsp;9<i>x</i>²=25； (2)&nbsp;&nbsp;(<i>x</i>-3)²-9=0；",
+                        "way":"(1)先利用方程两边同时除以9，再利用开平方求解即可；(2)先移项，再利用开平方，再移项求解即可．",
+			"step":"(1)&nbsp;&nbsp;9<i>x</i>²=25；<br>方程两边同时除以9得，<span class=\"mathquill-rendered-math\">{{x}^{2}}=\\frac{25}{9}</span>，<br>利用开平方得，<span class=\"mathquill-rendered-math\">x=\\pm \\frac{5}{3}</span>．<br>(2)&nbsp;&nbsp;(<i>x</i>-3)²-9=0；<br>移项得，(<i>x</i>-3)²=9，<br>利用开平方得，<i>x</i>-3=±3，<br>移项得：<i>x</i>=0或6．"
+		},
+                {
+			"kind":"ques",
+			"type":9,
+			"Q":"用直接开平方法解下列方程：<br>(1)&nbsp;&nbsp;(<i>x</i>-1)²=4； (2)&nbsp;&nbsp;<span class=\"mathquill-rendered-math\">{{x}^{2}}-\\sqrt{256}=0</span>；",
+			"step":"(1)∵(<i>x</i>-1)²=4，<br>直接开平方得：<br><i>x</i>-1= ± 2，<br>∴ <i>x</i><sub>1</sub>=3, <i>x</i><sub>2</sub>=-1．<br>(2)<span class=\"mathquill-rendered-math\">{{x}^{2}}-\\sqrt{256}=0</span>；<br>移项得，<span class=\"mathquill-rendered-math\">{{x}^{2}}=\\sqrt{256}=16</span>，<br>利用开平方得，<i>x</i>=±4．"
+		},
+                {
+			"kind":"example",
+                        "label":"题型二  利用直接开平方的意义求值",
+			"type":2,
+			"Q":"(中考真题)若一元二次方程<i>ax²=b</i>(<i>ab</i>>0)的两个根分别是<i>m</i>+1与2<i>m</i>-4，则<span class=\"mathquill-rendered-math\">\\frac{b}{a}</span>=________．",
+                        "way":"利用直接开平方法得到<span class=\"mathquill-rendered-math\">x=\\pm \\sqrt{\\frac{b}{a}}</span>，得到方程的两个根互为相反数，所以<i>m</i>+1+2<i>m</i>-4=0，解得<i>m</i>=1，则方程的两个根分别是2与-2，则有<span class=\"mathquill-rendered-math\">\\sqrt{\\frac{b}{a}}=2</span>，然后两边平方得到<span class=\"mathquill-rendered-math\">\\frac{b}{a}=4</span>．",
+			"step":"由题意两根不相等，<br>∵<span class=\"mathquill-rendered-math\">{{x}^{2}}=\\frac{b}{a}</span>，<br>∴<span class=\"mathquill-rendered-math\">x=\\pm \\sqrt{\\frac{b}{a}}</span>，<br>∴方程的两个根互为相反数，<br>∴<i>m</i>+1+2<i>m</i>-4=0，解得<i>m</i>=1，<br>∴一元二次方程<i>ax²=b</i>的两个根分别是2与-2，<br>∴<span class=\"mathquill-rendered-math\">\\sqrt{\\frac{b}{a}}=2</span>，<br>∴<span class=\"mathquill-rendered-math\">\\frac{b}{a}=4</span>．<br>故答案为：4．"
+		},
+                {
+			"kind":"ques",
+			"type":2,
+			"Q":"若一元二次方程<i>x</i>²=<i>p</i>-2有实数根，则<i>p</i>的取值范围是________．",
+			"step":"∵一元二次方程<i>x</i>²=<i>p</i>-2有实数根<br>∴<i>p</i>-2 ≥ 0<br>∴<i>p</i> ≥ 2<br>故答案为：<i>p</i> ≥ 2．"
+		},
+                {
+			"kind":"kpt",
+			"name":"用配方法解一元二次方程(重点)",
+			"sub":[
+                               "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>1．配方及配方法</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1)配方就是将一个多项式配成完全平方的形式；<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)配方法：通过配成完全平方形式来解一元二次方程的方法．<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>注：</b>对一个二次三项式的配方，关键就是扣住完全平方式的结构特征．<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>2．用配方法解一元二次方程</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用配方法解一元二次方程的步骤：(1)配方，将方程化成(<i>x+n</i>)²=<i>p</i>的形式．<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)开方，当<i>p</i> > 0时，方程有两个不相等的实数根：<span class=\"mathquill-rendered-math\">{{x}_{1}}=-n+\\sqrt{p}</span>, <span class=\"mathquill-rendered-math\">{{x}_{2}}=-n-\\sqrt{p}</span>；当<i>p</i> = 0时，方程有两个相等的实数根：<i>x</i><sub>1</sub>=<i>x</i><sub>2</sub> = -n；当<i>p</i> < 0时，方程没有实数根．<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>3．易错警示：</b>利用配方法解一元二次方程时，<b>易忘记将二次项系数化为1或方程的两边同时加上一次项系数一半的平方．</b>"
+			]
+		},
+                {
+			"kind":"example",
+                        "label":"题型一  利用配方法进行配方",
+			"type":2,
+			"Q":"填空<br>(1)<i>x</i>² + 10<i>x</i> +______ = (<i>x</i> + ______)²；<br>(2)<i>x</i>² + (______)<i>x</i> + 36 = [<i>x</i> + (______)]²；<br>(3)<i>x</i>²-4<i>x</i>-5 = (<i>x</i> - ______)² - ______．",
+                        "way":"配方就是要配成完全平方式，根据完全平方式的结构特征，当二次项系数为1时，常数项是一次项系数一半的平方．",
+			"step":"（1）25；5    （2）±12；±6    （3）2；9",
+                        "notice":"(1)当二次项系数为1时，已知一次项的系数，则常数项为一次项系数一半的平方；已知常数项，则一次项系数为常数项的平方根的两倍，注意平方根(0除外)有两个．<br>(2)当二次项系数不为1时，则先化二次项系数为1，然后再配方．"
+		},
+                {
+			"kind":"ques",
+			"type":2,
+			"Q":"用适当的数填空：<br>(1)<i>x</i>² - 4<i>x</i> +______ = (<i>x</i> - ______)²；<br>(2)<i>m</i>² + ______ <span class=\"mathquill-rendered-math\">m+\\frac{9}{4}=</span>(<i>m</i> + ______)²．",
+			"step":"答案：(1) 4、2；(2) (±3)、(±<span class=\"mathquill-rendered-math\">\\frac{3}{2}</span>)"
+		},
+                {
+			"kind":"example",
+                        "label":"题型二  用配方法解一元二次方程",
+			"type":9,
+			"Q":"用配方法解下列方程：<br>(1)<i>x</i>²-6<i>x</i>+1=0；<br>(2)2<i>x</i>²+3<i>x</i>-5=0；<br>(3)(<i>x</i>-2)²-4(<i>x</i>-2)-5=0．",
+                        "way":"(1)移项，配方，开方，即可得出两个一元一次方程，求出方程的解即可；<br>(2)移项，系数化成1，配方，开方，即可得出两个一元一次方程，求出方程的解即可；<br>(3)把方程看作关于<i>x</i>-2的一元二次方程，则利用配方法得到[(<i>x</i>-2)-2]²=9，然后利用直接开平方法解方程．",
+			"step":"(1)<i>x</i>²-6<i>x</i>+1=0，<br><i>x</i>²-6<i>x</i>=-1，<br><i>x</i>²-6<i>x</i>+9=-1+9，<br>(<i>x</i>-3)²=8，<br><span class=\"mathquill-rendered-math\">x-3=\\pm \\sqrt{8}</span>，<br><span class=\"mathquill-rendered-math\">{{x}_{1}}=3+2\\sqrt{2}，{{x}_{2}}=3-2\\sqrt{2}</span>；<br>(2)2<i>x</i>²+3<i>x</i>-5=0，<br>2<i>x</i>²+3<i>x</i>=5，<br><span class=\"mathquill-rendered-math\">{{x}^{2}}+\\frac{3}{2}x=\\frac{5}{2}</span>，<br><span class=\"mathquill-rendered-math\">{{x}^{2}}+\\frac{3}{2}x+{{\\left( \\frac{3}{4} \\right)}^{2}}=\\frac{5}{2}+{{\\left( \\frac{3}{4} \\right)}^{2}}</span>，<br><span class=\"mathquill-rendered-math\">{{\\left( x+\\frac{3}{4} \\right)}^{2}}=\\frac{49}{16}</span>，<br><span class=\"mathquill-rendered-math\">x+\\frac{3}{4}=\\pm \\frac{7}{4}</span>，<br><span class=\"mathquill-rendered-math\">{{x}_{1}}=1，{{x}_{2}}=-\\frac{5}{2}</span>；<br>(3)(<i>x</i>-2)²-4(<i>x</i>-2)=5，<br>(<i>x</i>-2)²-4(<i>x</i>-2)+4=9，<br>[(<i>x</i>-2)-2]²=9，<br><i>x</i>-4=±3，<br>所以<i>x</i><sub>1</sub>=7, <i>x</i><sub>2</sub>=1；"
+		},
+                {
+			"kind":"ques",
+			"type":9,
+			"Q":"用配方法解下列方程：<br>(1)4<i>x</i>² - 4<i>x</i>-1=0；<br>(2)7<i>x</i>²-23<i>x</i>+6=0．",
+			"step":"(1)方程变形得：(2x-1)²=0，<br>解得：<span class=\"mathquill-rendered-math\">{{x}_{1}}={{x}_{2}}=\\frac{1}{2}</span>；<br>(2)方程变形得：<span class=\"mathquill-rendered-math\">{{x}^{2}}-\\frac{23}{7}x=-\\frac{6}{7}</span>，<br>配方得：<span class=\"mathquill-rendered-math\">{{x}^{2}}-\\frac{23}{7}x+{{\\left( \\frac{23}{14} \\right)}^{2}}=\\frac{361}{196}</span>，即<span class=\"mathquill-rendered-math\">{{\\left( x-\\frac{23}{14} \\right)}^{2}}=\\frac{361}{196}</span>，<br>开方得：<span class=\"mathquill-rendered-math\">x-\\frac{23}{14}=\\pm \\frac{19}{14}</span>，<br>解得：<span class=\"mathquill-rendered-math\">{{x}_{1}}=3，{{x}_{2}}=\\frac{2}{7}</span>．"
+		},
+                {
+			"kind":"example",
+                        "label":"题型三  利用配方法求最值",
+			"type":9,
+			"Q":"当<i>x</i>取何值时，代数式2<i>x</i>²-6<i>x</i>+7的值最小？并求出这个最小值．",
+                        "way":"求代数式的最小值，要先将代数式配成<i>a(x+m)</i>²+<i>n</i>的形式，然后根据完全平方的非负性求代数式的最小值．",
+			"step":"<img src=\"1.png\" style=\"vertical-align:middle\"><br>即当<span class=\"mathquill-rendered-math\">x=\\frac{3}{2}</span>时，2<i>x</i>²-6<i>x</i>+7的值最小，最小值为<span class=\"mathquill-rendered-math\">\\frac{5}{2}</span>．",
+                        "notice":"1．代数式<i>ax²+bx+c</i>(<i>a</i>≠0)配成<i>a(x+m)²</i>后，若<i>a</i> > 0，则当<i>x = -m</i>时，代数式取得最小<i>n</i>；若<i>a</i> < 0,则当<i>x = -m</i>时，代数式取得最大值<i>n</i>．<br><b>2．对代数式的配方和对方程的配方有两点区别：</b><br>(1)将二次项系数化为1时，代数式是提出二次项系数，而方程是两边直接除以二次项系数；<br>(2)配方时，代数式是先加上一次项系数一半的平方，再减去一次项系数一半的平方，而方程是两边同时加上一次项系数一半的平方．"
+		},
+                {
+			"kind":"ques",
+			"type":9,
+			"Q":"求代数式 的最小值<i>m</i>²+<i>m</i>+4．",
+			"step":"<i>m</i>²+<i>m</i>+4<br>=<img src=\"7.svg\" style=\"vertical-align:middle\"><br>=<img src=\"8.svg\" style=\"vertical-align:middle\"><br>∵<img src=\"9.svg\" style=\"vertical-align:middle\"><br>∴<img src=\"10.svg\" style=\"vertical-align:middle\"><br>∴<i>m</i>²+<i>m</i>+4的最小值是<span class=\"mathquill-rendered-math\">\\frac{15}{4}</span>．"
+		}
+	]
+}
