@@ -1,0 +1,295 @@
+{
+	"note":"<i>因式分解</i>",
+	"couID":1,
+	"pages":
+	[
+		{
+			"kind":"cover",
+			"title":"因式分解",
+			"description":"1.理解因式分解的意义，并感受因式分解与整式乘法是相反方向的变形.<br/> 2.掌握提公因式法和公式法这两种因式分解的基本方法，了解因式分解的一般步骤.<br/> 3.能熟练地用提公因式法或公式法进行多项式的因式分解."
+		},
+		{
+			"kind":"kpt",
+			"name":"因式分解的定义",
+			"sub":[
+				"　　把一个<b>多项式</b>化成几个<b>整式的积</b>的形式，这种变形叫做这个多项式的因式分解，也叫做把这个多项式分解因式.<br/><s class=\"key\"><b>注：</b></s><br/>(1)研究的对象是多项式，结果是整式的积；<br/>(2)整式乘法与因式分解的关系：多项式<img src=\"1.png\" style=\"vertical-align:middle;width:3.5em\">整式乘积<br/><s class=\"key\"><b>易错警示：</b>分解不彻底</s><br/>",
+				
+			]
+		},
+		{
+			"kind":"example",
+			"label":"题型一   因式分解的识别",
+			"type":1,
+			"Q":"下列变形中是因式分解的是（    ）",
+			"opts":[
+				"<span class=\"mathquill-rendered-math\">{{a}^{2}}+1=a(a+\\frac{1}{a})</span>",
+				"<span class=\"mathquill-rendered-math\">({x+1})(x-1)={{x}^{2}}-1</span>",
+				"<span class=\"mathquill-rendered-math\">{{a}^{2}}+a-5=(a-2)(a+3)+1</span>",
+				"<span class=\"mathquill-rendered-math\">{{x}^{2}}y+x{{y}^{2}}=xy(x+y)</span>"
+			],
+			"way":"把一个多项式在一个范围（如有理数范围内因式分解，即所有项均为有理数）化为几个最简整式的积的形式，这种变形叫做因式分解",//思路
+			"step":"解：<i>A</i>中<span class=\"mathquill-rendered-math\">\\frac{1}{a}</span> 不是整式.<i>B</i>和<i>C</i>不是积的形式.<i>D</i>是因式分解.<br/>故选：<i>D</i>.",//解/步骤
+			"notice":"识别某个等式的变形是因式分解的方法，关键扣住两点：一是等式的左边是多项式；二是等式的右边是整式的积."//注意/总结
+		},
+		{
+			"kind":"ques",
+			"type":1,
+			"Q":"（中考真题）下列等式从左到右的变形，属于因式分解的是（  ）",
+			"opts":[
+				"<span class=\"mathquill-rendered-math\">a(x-y)=ax-ay</span>",
+				"<span class=\"mathquill-rendered-math\">{{x}^{2}}+2x+1=x(x+2)+1</span>",
+				"<span class=\"mathquill-rendered-math\">(x+1)(x+3)={{x}^{2}}+4x+3</span>",
+				"<span class=\"mathquill-rendered-math\">{{x}^{2}}-x=x(x+1)(x-1)</span>"
+			],
+
+			"step":"答案：<i>D</i>",
+
+		},
+		{
+			"kind":"example",
+			"label":"题型二   因式分解正确性的判断",
+			"type":1,
+			"Q":"下列因式分解正确的是（  ）",
+			"opts":[
+				"<span class=\"mathquill-rendered-math\">{{a}^{4}}b-6{{a}^{3}}+9{{a}^{2}}b={{a}^{2}}b({{a}^{2}}-6a+9)</span>",
+				"<span class=\"mathquill-rendered-math\">{{x}^{2}}-x+\\frac{1}{4}={{(x-\\frac{1}{2})}^{2}}</span>",
+				"<span class=\"mathquill-rendered-math\">{{x}^{2}}-2x+4={{(x-2)}^{2}}</span>",
+				"<span class=\"mathquill-rendered-math\">4{{x}^{2}}-{{y}^{2}}=(4x+y)(4x-y)</span>"
+			],
+			"way":"根据因式分解与整式乘法的关系逆向判断，利用整式的乘法法则将各选项等式的右边展开，与等式的左边相比较，左右两边相同的即为正确答案.",//思路
+			"step":"A项，提取公因式得<span class=\"mathquill-rendered-math\">{{a}^{4}}b-6{{a}^{3}}+9{{a}^{2}}b={{a}^{2}}({{a}^{2}}b-6a+9b)</span>故A项错误<br/>B项，利用完全平方公式得<span class=\"mathquill-rendered-math\">{{x}^{2}}-x+\\frac{1}{4}={{(x-\\frac{1}{2})}^{2}}</span>.故B项正确<br/>C项， <span class=\"mathquill-rendered-math\">{{x}^{2}}-2x+4</span>不能因式分解.故C项错误<br/>D项，利用平方差公式进行因式分解得<span class=\"mathquill-rendered-math\">4{{x}^{2}}-{{y}^{2}}=(2x+y)(2x-y)</span>.  故D项错误<br/>故本题正确答案为<i>B</i>",//解/步骤
+			"notice":"因式分解与整式乘法是互逆变形，可以通过逆向变形检验因式分解的正确性."
+		},
+		{
+			"kind":"ques",
+			"type":1,
+			"Q":"<b>（中考真题）</b>下列因式分解错误的是（　　）",
+			"opts":[
+				"<span class=\"mathquill-rendered-math\">{{x}^{2}}-{{y}^{2}}=(x+y)(x-y)</span>",
+				"<span class=\"mathquill-rendered-math\">{{x}^{2}}+6x+9={{(x+3)}^{2}}</span>",
+				"<span class=\"mathquill-rendered-math\">{{x}^{2}}+xy=x(x+y)</span>",
+				"<span class=\"mathquill-rendered-math\">{{x}^{2}}+{{y}^{2}}={{(x+y)}^{2}}</span>"
+			],
+
+			"step":"答案：<i>D</i>",
+
+		},
+		{
+			
+			"kind":"example",
+			"label":"题型三   利用因式分解求字母的值",
+			"type":9,
+			"Q":"已知二次三项式<span class=\"mathquill-rendered-math\">{{x}^{2}}-4x+m</span>有一个因式是(<i>x+3</i>)，求另一个因式以及<i>m</i>的值",
+			
+
+			"step":"设另一个因式为(<i>x+n</i>)，得<span class=\"mathquill-rendered-math\">{{x}^{2}}-4x+m=( x+3 )( x+n )</span>则<span class=\"mathquill-rendered-math\">{{x}^{2}}-4x+m=( x+3 )( x+n )</span><br/><span class=\"mathquill-rendered-math\">∴ n+3=-4m=3n.</span><br/>解得<i>n=-7</i>，<i>m=-21</i><br/><span class=\"mathquill-rendered-math\">∴</span>另一个因式为(<i>x-7</i>)，<i>m</i>的值为-21.",
+			
+		},
+		{
+			"kind":"example",
+			
+			"type":2,
+			"Q":"（1）若二次三项式<span class=\"mathquill-rendered-math\">{{x}^{2}}-5x+6</span>可分解为(<i>x-2</i>)(<i>x+a</i>)，则<i>a</i>=____；<br/>（2）若二次三项式<span class=\"mathquill-rendered-math\">2{{x}^{2}}+bx-5</span>可分解为(<i>2x-1</i>)(<i>x+5</i>)，则<i>b</i>=____；<br/>（3）仿照上述方法解答问题：已知二次三项式<span class=\"mathquill-rendered-math\">2{{x}^{2}}+5x-k</span>有一个因式是(<i>2x-3</i>)，求另一个因式以及<i>k</i>的值",
+			
+
+			"way":"对于（1），将(<i>x-2</i>)(<i>x+a</i>)展开，根据所给出的二次三项式即可求出a的值；对于（2），将(<i>2x-1</i>)(<i>x+5</i>)展开，可得出一次项的系数，继而即可求出b的值；对于（3），不妨设另一个因式为（<i>x+n</i>），得<span class=\"mathquill-rendered-math\">2{{x}^{2}}+5x-k= ( 2x-3) ( x+n)=2{{x}^{2}}+ ( 2n-3)x-3n</span>，可知<i>2n-3=5</i>，<i>k=3n</i>，继而求出n和k的值及另一个因式.",//思路
+			"step":"(1)<span class=\"mathquill-rendered-math\">∵ ( x-2) ( x+a)={{x}^{2}}+ ( a-2)x-2a={{x}^{2}}-5x+6</span>，<br/><span class=\"mathquill-rendered-math\">∴a-2=-5</span>，<br/>解得：<i>a=-3</i>；<br/>(2)<span class=\"mathquill-rendered-math\">∵( 2x-1) ( x+5)=2{{x}^{2}}+9x-5=2{{x}^{2}}+bx-5</span>，<br/><span class=\"mathquill-rendered-math\">∴b=9</span>；<br/>（3）设另一个因式为（<i>x+n</i>），得<span class=\"mathquill-rendered-math\">2{{x}^{2}}+5x-k= ( 2x-3) ( x+n)=2{{x}^{2}}+ ( 2n-3)x-3n</span>，<br/>则<i>2n-3=5</i>，<i>k=3n</i>，<br/>解得：<i>n=4</i>，<i>k=12</i>，<br/>故另一个因式为（<i>x+4</i>），<i>k</i>的值为12.",
+			"notice":"此题考查因式分解的实际运用，正确读懂例题，理解如何利用待定系数法求解是解本题的关键．"
+
+		},
+		{
+			"kind":"ques",
+			"type":9,
+			"Q":"若<span class=\"mathquill-rendered-math\">42{{x}^{2}}-31x+2</span> 能分解成两个因式的乘积，且有一个因式为<span class=\"mathquill-rendered-math\">6x-4</span>，设另一个因式为<span class=\"mathquill-rendered-math\">mx-n</span> ，其中m，n为常数，请你求m，n的值",
+			
+
+			"step":"根据题意得：<br/><span class=\"mathquill-rendered-math\">42{{x}^{2}}-31x+2= ( 6x-4) ( mx-n)=6m{{x}^{2}}- ( 4m+6n)x+4n</span>，可得<img src=\"2.svg\" style=\"vertical-align:middle;width:4.0em\">，<br/>计算得出：<span class=\"mathquill-rendered-math\">m=7</span> ，<span class=\"mathquill-rendered-math\">n=0.5</span>  ",//解/步骤
+
+		},	
+		{
+			"kind":"kpt",
+			"name":"提公因式法因式分解",
+			"sub":[
+				"<b>	1.公因式的定义：</b> 多项式中各项都含有的公共的因式，叫做多项式各项的公因式<br/><b>2.提公因式法：</b>如果多项式的各项有公因式，可以把这个公因式提取出来，将多项式写成公因式与另一个因式的乘积的形式，这种分解因式的方法叫做提公因式法.<br/>用字母表示为：<span class=\"mathquill-rendered-math\">ma+mb+mc=m(a+b+c)</span><br/><b>提公因式法的一般步骤：</b><br/>第一步找出公因式；<br/>第二步确定另一个因式；<br/>第三步写成积的形式.",
+				
+			]
+		},
+		{
+			"kind":"example",
+			"label":"题型一 利用公因式的定义确定公因式",
+			"type":9,
+			"Q":"指出下列多项式的公因式<br/>(1)<span class=\"mathquill-rendered-math\">3{{a}^{2}}y-3ay+6y</span><br/>(2)<span class=\"mathquill-rendered-math\">\\frac{4}{9}x{{y}^{2}}-\\frac{8}{27}{{x}^{3}}{{y}^{2}}</span><br/>(3)<span class=\"mathquill-rendered-math\">a{{(x-y)}^{2}}+b{{(x-y)}^{2}}+{{(x-y)}^{3}}</span><br/>(4)<span class=\"mathquill-rendered-math\">-27{{a}^{2}}{{b}^{3}}+36{{a}^{3}}{{b}^{2}}+9{{a}^{2}}b</span>",
+			
+
+			"way":"如何确定公因式：比如在多项式<span class=\"mathquill-rendered-math\">ma+mb+mc</span>中，各项都含有一个公共的因式m，因式m叫做这个多项式各项的公因式．",//思路
+			"step":"（1）中多项式各项系数的最大公约数是3，所以公因式的系数为3，有相同字母<i>y</i>，并且<i>y</i>的最低次数是l，所以公因式为<i>3y</i>.（2）多项式各项的系数是分数，分母的最小公倍数是27，分子的最大公约数是4，所以公因式的系数是<span class=\"mathquill-rendered-math\">\\frac{4}{27}</span>，两项都有<i>x</i>，<i>y</i>，且<i>x</i>的最低次数是l，<i>y</i>的最低次数是2，所以公因式为： <span class=\"mathquill-rendered-math\">\\frac{4}{27}x{{y}^{2}}</span>.<br/>（3）观察发现三项都含有（<i>x-y</i>）这个因式，且（<i>x-y</i>）的最低次数为2，所以公因式为<span class=\"mathquill-rendered-math\">{{(x-y)}^{2}}</span><br/>（4）此多项式的第一项含“-”，应将“-”提取变为<span class=\"mathquill-rendered-math\">-(27{{a}^{2}}{{b}^{3}}-36{{a}^{3}}{{b}^{2}}-9{{a}^{2}}b)</span>，多项式<span class=\"mathquill-rendered-math\">27{{a}^{2}}{{b}^{3}}-36{{a}^{3}}{{b}^{2}}-9{{a}^{2}}b</span>各项系数的最大公约数是9，且a的最低次数为2，b的最低次数是1，所以这个多项式的公因式为<span class=\"mathquill-rendered-math\">-9{{a}^{2}}b</span>",
+			"notice":"<b>找准公因式要“五看”</b>，即：<br/>一看系数：若各项系数都是整数，应提取各项系数的最大公约数；<br/>二看字母：公因式的字母是各项相同的字母；<br/>三看字母的指数：各相同字母的指数取次数最低的；<br/>四看整体：如果多项式中含有相同的多项式，应将其看作整体，不要拆开；<br/>五看首项符号：若多项式中项是“一”号，一般情况下公因式符号为负."//注意/总结
+
+		},
+		{
+			"kind":"ques",
+			"type":1,//1=选择 2=填空 9=解答
+			"Q":"把多项式<span class=\"mathquill-rendered-math\">6{{a}^{3}}{{b}^{2}}-3{{a}^{2}}{{b}^{3}}-9{{a}^{2}}{{b}^{2}}</span>分解因式时，应提取公因式 ( 　　) ",
+			"opts":[
+				"<span class=\"mathquill-rendered-math\">3{{a}^{2}}b</span>",
+				"<span class=\"mathquill-rendered-math\">3a{{b}^{2}}</span>",
+				"<span class=\"mathquill-rendered-math\">3{{a}^{2}}{{b}^{3}}</span>",
+				"<span class=\"mathquill-rendered-math\">3{{a}^{2}}{{b}^{2}}</span>"
+			],
+
+			"step":"答案：<i>D</i>",
+
+		},
+		{
+			"kind":"example",
+			"label":"题型二 利用提公因式法分解因式",
+			"type":9,
+			"Q":"用提公因式法将下列各式分解因式<br/>(1)<span class=\"mathquill-rendered-math\">4{{x}^{2}}{{y}^{3}}+8{{x}^{2}}{{y}^{2}}z-12x{{y}^{2}}z</span>；<br/>(2)<span class=\"mathquill-rendered-math\">-{{a}^{2}}{{b}^{3}}c+2a{{b}^{2}}{{c}^{3}}-a{{b}^{2}}c</span>；<br/>(3)<span class=\"mathquill-rendered-math\">5x{{(x-2y)}^{3}}-20y{{(2y-x)}^{3}}</span>；",
+			
+
+			"way":"运用提公因式法分解因式的第一步是确定公因式，公因式可以是单项式，也可以是多项式；第二步是提取公因式，其中(2)题应先提出“-”号，(3)题可把<span class=\"mathquill-rendered-math\">{{ ( 2y-x)}^{3}}</span>化为<span class=\"mathquill-rendered-math\">-{{ ( x-2y)}^{3}}</span>",//思路
+			"step":"(1)原式＝<span class=\"mathquill-rendered-math\">4x{{y}^{2}}(xy+2xz-3z)</span>.<br/>(2)原式＝<span class=\"mathquill-rendered-math\">-a{{b}^{2}}c(ab-2{{c}^{2}}+1)</span>.<br/>(3)原式＝<span class=\"mathquill-rendered-math\">5x{{(x-2y)}^{3}}+20y{{(x-2y)}^{3}}5{{(x-2y)}^{3}}(x+4y)</span>",
+			"notice":"准确地找出公因式是分解因式的关键，(3)题将<span class=\"mathquill-rendered-math\">{{(x-2y)}^{3}}</span>和<span class=\"mathquill-rendered-math\">{{(2y-x)}^{3}}</span>化成同底数幂时，要注意符号的变化."//注意/总结
+
+		},
+		{
+			"kind":"ques",
+			"type":9,
+			"Q":"用提取公因式法分解因式：<br/>(1)<span class=\"mathquill-rendered-math\">8a{{b}^{2}}-16{{a}^{3}}{{b}^{3}}</span>；<br/>(2)<span class=\"mathquill-rendered-math\">-15xy-5{{x}^{2}}</span>；<br/>(3)<span class=\"mathquill-rendered-math\">{{a}^{3}}{{b}^{3}}+{{a}^{2}}{{b}^{2}}-ab</span>；<br/>(4)<span class=\"mathquill-rendered-math\">-3{{a}^{3}}m-6{{a}^{2}}m+12am</span>",
+			
+
+			"step":"答案：（1）<span class=\"mathquill-rendered-math\">8a{{b}^{2}}(1-2{{a}^{2}}b)</span>；<br/>(2)<span class=\"mathquill-rendered-math\">-5x(3y+x)</span>；<br/>(3)<span class=\"mathquill-rendered-math\">ab{({a}^{2}}{{b}^{2}}+ab-1)</span>；<br/>(4)<span class=\"mathquill-rendered-math\">-3am{({a}^{2}}+2a-4)</span>",
+			"notice":"(1)找底数互为相反数的幂的公因式时符号出错.<br/>(2)提取公因式后，漏掉另一个因式中商是1或-1的项.<br/>(3)提取公因式后，多项式中各项还含有公因式."//注意/总结
+		},
+		{
+			"kind":"kpt",
+			"name":"平方差公式法因式分解",
+			"sub":[
+				"<b>平方差公式法：</b>两个数的<b>平方差</b>，等于这两个数的<b>和</b>与这两个数的<b>差</b>的积.<br/>即：<span class=\"mathquill-rendered-math\">{{a}^{2}}-{{b}^{2}}=( a+b )(a-b)</span><br/><b>注：</b><span class=\"mathquill-rendered-math\">{{a}^{2}}-{{b}^{2}}</span><img src=\"1.png\" style=\"vertical-align:middle;width:3.5em\">(<i>a+b</i>)(<i>a-b</i>)<br/>(2)用平方差公式分解因式时，若多项式有公因式，要先提取公因式，再用平方差公式分解因式.<br/>（3）平方差公式中的字母a，b 可以是一个单项式或一个多项式.",
+				{
+					"kind":"example",
+					"label":"题型一 利用平方差公式分解因式",
+					"type":9,
+					"Q":"分解因式<br/>(1)<span class=\"mathquill-rendered-math\">9{{a}^{2}}-4{{b}^{2}}</span>；<br/>(2)<span class=\"mathquill-rendered-math\">{{x}^{2}}y-4y</span>；<br/>(3)<span class=\"mathquill-rendered-math\">{{ ( a+1)}^{2}}-1</span>；<br/>(4)<span class=\"mathquill-rendered-math\">{{x}^{4}}-1</span>；<br/>(5)<span class=\"mathquill-rendered-math\">{{(x+y+z)}^{2}}-{{( x-y+z )}^{2}}</span>",
+					
+		
+					"way":"对于(1)可先化成平方差形式，再直接利用平方差公式分解因式；<br/>对于(2)可先提取公因式，再利用平方差公式分解因式；<br/>对于(3)将(a+1)视为一个整体运用平方差公式分解因式；<br/>对于(5)分别将(x+y+z)与(x-y+z)视为整体，运用平方差公式分解因式.",//思路
+					"step":"(1)原式=<span class=\"mathquill-rendered-math\">{{( 3a)}^{2}}-{{( 2b )}^{2}}=( 3a+2b )( 3a-2b)</span>.<br/>(2)原式=<span class=\"mathquill-rendered-math\">y( {{x}^{2}}-4)=y( x+2 )( x-2)</span>.<br/>(3)原式=<span class=\"mathquill-rendered-math\">( a+1+1)( a+1-1)=a( a+2 )</span>.<br/>(4)原式=<span class=\"mathquill-rendered-math\">( {{x}^{2}}+1 )( {{x}^{2}}-1 )=( {{x}^{2}}+1 )( x+1 )( x-1)</span>.<br/>(5)原式=<span class=\"mathquill-rendered-math\">[( x+y+z)+( x-y+z ) ][ ( x+y+z )-( x-y+z )]</span><br/><span class=\"mathquill-rendered-math\">    =(x+y+z+x-y+z)(x+y+z-x+y-z)</span><br/><span class=\"mathquill-rendered-math\">    =2y(2x+2z)=4y(x+z)</span>",
+					"notice":"(1)<b>运用平方差公式分解因式</b>的关键是确定公式中的a和b，再运用公式进行因式分解；对于有公因式的多项式，需要先提取公因式再用平方差公式分解因式，同时分解因式要进行到每一个因式都不能再分解为止.<br/>(2)注意：运用平方差公式分解因式，最后的结果除了要求不能再分解因式外，还要注意使每个因式最简.<br/>(3)运用平方差公式分解因式不彻底.<br/>(4)合理使用平方差公式形式的多项式."//注意/总结
+		
+				},
+				
+				
+			]
+		},
+		{
+					"kind":"ques",
+					"type":9,
+					"Q":"因式分解：<br/>(1)<span class=\"mathquill-rendered-math\">4a-b{{}^{2}}-16a+b{{}^{2}}</span>.<br/>(2)<span class=\"mathquill-rendered-math\">81{{a}^{4}}-{{b}^{4}}</span>.<br/>",
+					
+		
+					"step":"（1）原式=<span class=\"mathquill-rendered-math\">[2(a-b)+4(a+b)][2(a-b)-4(a+b)]=-4(3a+b)(a+3b)</span>.<br/>(2)原式=<span class=\"mathquill-rendered-math\">(9{{a}^{2}}+{{b})^({2}}9{{a}^{2}}-{{b}^{2}})=(9{{a}^{2}}+{{b}^{2}})(3a+b)(3a-b)</span>",
+					
+				},
+				
+				{
+					"kind":"example",
+					"label":"题型二 利用平方差公式因式分解求值",
+					"type":2,
+					"Q":"若<span class=\"mathquill-rendered-math\">x-y=2{{x}^{2}}-{{y}^{2}}=6</span>，则<i>x+y</i>=____",
+					
+		
+					"way":"已知条件中的<span class=\"mathquill-rendered-math\">{{x}^{2}}-{{y}^{2}}</span>,是已知中的<i>x-y</i>与所求的结果<i>x+y</i>的积．根据平方差公式可以求出<i>x+y</i>的值．",//思路
+					"step":"<span class=\"mathquill-rendered-math\">∵(x+y)(x-y)={{x}^{2}}-{{y}^{2}}</span>,<br/><span class=\"mathquill-rendered-math\">∴x+y=({{x}^{2}}-{{y}^{2}})\\div (x-y)=6\\div 2=3</span>.<br/>故答案为：3.",
+					"notice":"本题考查了平方差公式，根据公式中的两个因式与积的关系进行求解．"
+		
+				},
+		{
+					"kind":"ques",
+					"type":9,
+					"Q":"设n为整数，求证<span class=\"mathquill-rendered-math\">2n+1{{}^{2}}-25</span>能被4整除．",
+					
+		
+					"step":"<span class=\"mathquill-rendered-math\">∵2n+1{{}^{2}}-25</span>，<br/><span class=\"mathquill-rendered-math\">=(2n+1+5)(2n+1-5)</span>,<br/><span class=\"mathquill-rendered-math\">=(2n+6)(2n-4)</span>,<br/><span class=\"mathquill-rendered-math\">=4(n+3)(n-2)</span>.<br/><span class=\"mathquill-rendered-math\">∴2n+1{{}^{2}}-25</span>能被4整除",
+					
+				},
+		{
+			"kind":"kpt",
+			"name":"完全平方公式法因式分解",
+			"sub":[
+				"1.<b>完全平方式：</b>形如<span class=\"mathquill-rendered-math\">{{a}^{2}}\\pm 2ab+{{b}^{2}}</span>的式子叫做完全平方式.<br/>即：两个数的平方和加上(或减去)这两个数的积的2倍的式子是完全平方式.<br/><s class=\"key\"><b>注：</b>完全平方式是一个二次三项式的多项式.</s><br/>2.<b>完全平方公式法：</b>两个数的平方和加上(或减去)这两个数的积的2倍，等于这两个数的和(或差)的平方<br/>即：<span class=\"mathquill-rendered-math\">{{a}^{2}}\\pm 2ab+{{b}^{2}}={{(a\\pm b)}^{2}}</span>.<br/><s class=\"key\"><b>注：</b>用完全平方公式分解因式时，若多项式各项有公因式，要先提取公因式，再用完全平方公式分解因式.</s>",
+				{
+					"kind":"example",
+					"label":"题型一 利用完全平方式的结构求字母的值",
+					"type":2,
+					"Q":"<b>（易错题） </b>若<span class=\"mathquill-rendered-math\">{{x}^{2}}+m-3x+4</span>是完全平方式，则m的值等于______．",
+					
+		
+					"way":"错解：因为<span class=\"mathquill-rendered-math\">{{x}^{2}}+(m-3)x+4={{x}^{2}}+(m-3)x+{{2}^{2}}</span>，<br/><span class=\"mathquill-rendered-math\">{{x}^{2}}+(m-3)x+4</span>是完全平方式，所以<span class=\"mathquill-rendered-math\">(m-3)x=2x·2</span><br/>因此m-3=4，所以m=7.<br/>错解分析：错在只注意到中间项的符号是正，而忽视中间项的符号是负的情况产生的漏解.",//思路
+					"step":"<span class=\"mathquill-rendered-math\">∵</span>多项式<span class=\"mathquill-rendered-math\">{{x}^{2}}+m-3x+4</span>是完全平方式，<br/><span class=\"mathquill-rendered-math\">∴m-3=\\pm 4</span>，<br/>解得：<i>m=7</i>或<i>m=-1</i>，<br/>则<i>m</i>的值为-1或7.<br/>故答案为：<i>m=7</i>或-1.",
+					"notice":"在求与完全平方式有关的字母取值时，要注意中间项的符号有“+”“-”两种情形，否则容易产生漏解"//注意/总结
+		
+				},
+			]
+		},
+		{
+					"kind":"ques",
+					"type":1,
+					"Q":"已知<span class=\"mathquill-rendered-math\">{{a}^{2}}+ma+\\frac{1}{9}</span>是完全平方式，则m的值等于（    ）",
+					"opts":[
+						"<span class=\"mathquill-rendered-math\">-\\frac{2}{3}</span>",
+						"<span class=\"mathquill-rendered-math\">3</span>",
+						"<span class=\"mathquill-rendered-math\">\\frac{2}{3}</span>",
+						"<span class=\"mathquill-rendered-math\">\\pm \\frac{2}{3}</span>"
+					],
+		
+					"step":"答案：<i>D</i>",
+					
+				},
+		{
+					"kind":"example",
+					"label":"题型二 利用完全平方公式分解因式",
+					"type":9,
+					"Q":"分解因式：<br/>(1)<span class=\"mathquill-rendered-math\">{{a}^{2}}+ab+\\frac{1}{4}{{b}^{2}}</span><br/>(2)<span class=\"mathquill-rendered-math\">-2{{x}^{3}}y+4{{x}^{2}}y-2xy</span><br/>(3)<span class=\"mathquill-rendered-math\">{{( a-b )}^{2}}-6( b-a)+9</span>",
+					
+		
+					"way":"对于(1)可直接运用完全平方公式分解因式；<br/>对于(2)先提取公因式<i>-2xy</i>，再运用完全平方公式分解因式；<br/>对于(3)可先将(<i>b-a</i>)化为-(<i>a-b</i>)，再运用完全平方公式分解因式.",//思路
+					"step":"(1)原式=<span class=\"mathquill-rendered-math\">{{a}^{2}}+2\\times a\\times \\frac{1}{2}b+{{ ( \\frac{1}{2}b)}^{2}}={{( a+\\frac{1}{2}b)}^{2}}</span><br/>(2)原式=<span class=\"mathquill-rendered-math\">-2xy( {{x}^{2}}-2x+1 )=-2xy{{( x-1 )}^{2}}</span><br/>(3)原式=<span class=\"mathquill-rendered-math\">{{( a-b )}^{2}}+6( a-b )+9={{( a-b )}^{2}}+2( a-b)\\times 3+{{3}^{2}}={{( a-b+3 )}^{2}}</span>",
+					"notice":"此题主要考查了公式法分解因式，正确应用公式是解题关键."
+		
+				},
+		{
+					"kind":"ques",
+					"type":9,
+					"Q":"分解因式：<br/>(1) <span class=\"mathquill-rendered-math\">9{{x}^{2}}-6x+1</span><br/>(2) <span class=\"mathquill-rendered-math\">{{(x+y)}^{2}}+4(x+y+1)</span>",
+					
+		
+					"step":"(1)原式<span class=\"mathquill-rendered-math\">={{(3x-1)}^{2}}</span><br/>(2) <span class=\"mathquill-rendered-math\">{{(x+y)}^{2}}+4(x+y+1)</span><br/><span class=\"mathquill-rendered-math\">={{(x+y)}^{2}}+4(x+y)+4</span><br/><span class=\"mathquill-rendered-math\">={{(x+y+2)}^{2}}</span>",
+					
+				},
+		{
+					"kind":"example",
+					"label":"题型三 利用提公因式法和公式法分解因式",
+					"type":2,
+					"Q":"(1)<span class=\"mathquill-rendered-math\">{{x}^{3}}y-xy</span>=____；<br/>(2)<span class=\"mathquill-rendered-math\">9{{x}^{3}}-18{{x}^{2}}+9x</span>=____.",
+					
+		
+					"way":"先提公因式，再运用公式法分解因式.",
+					"step":"(1)原式=<span class=\"mathquill-rendered-math\">xy({{x}^{2}}-1)=xy( x+1 )( x-1)</span><br/>(2)原式=<span class=\"mathquill-rendered-math\">9x( {{x}^{2}}-2x+1 )=9x{{( x-1 )}^{2}}</span>",
+					"notice":"因式分解的一般步骤：首先看有无公因式可提，然后再考虑是否可用公式法分解，若是两项可考虑平方差公式，若是项可考虑完全平方公式；每个因式都要分解到不能再分解为止.即因式分解三步曲：一提(公因式)，二套(公式)，三看(是否分解彻底)."//注意/总结
+		
+				},
+		{
+					"kind":"ques",
+					"type":2,
+					"Q":"(1)<span class=\"mathquill-rendered-math\">(x-1)+{{b}^{2}}(1-x)</span>；<br/>(2)<span class=\"mathquill-rendered-math\">-3{{x}^{7}}+24{{x}^{5}}-48{{x}^{3}}</span>",
+					
+		
+					"step":"(1)原式＝<span class=\"mathquill-rendered-math\">(x-1)-{{b}^{2}}(x-1)</span><br/><span class=\"mathquill-rendered-math\">(x-1)(1-{{b}^{2}})</span><br/><span class=\"mathquill-rendered-math\">＝(x－1)(1＋b)(1－b)</span><br/>(2)原式＝<span class=\"mathquill-rendered-math\">-3{{x}^{3}}({{x}^{4}}-8{{x}^{2}}+16)</span><br/><span class=\"mathquill-rendered-math\">-3{{x}^{3}}{{({{x}^{2}}-4)}^{2}}</span><br/><span class=\"mathquill-rendered-math\">-3{{x}^{3}}{{(x+2)}^{2}}{{(x-2)}^{2}}</span>.",
+					
+				},
+		
+	
+		
+	]
+}

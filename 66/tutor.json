@@ -129,9 +129,81 @@
     {
       "kind": "example",
       "type": 9,
-      "Q": "<img src=\"12.jpg\" style=\"width: 11.375em; vertical-align: middle; float: right; \">如图， <i>P</i>是正方形<i>ABCD</i>的边<i>CD</i>上的点， <i>∠BAP</i>的平分线交边<i>BC</i>于点<i>Q</i>，试证明<i>AP = DP + BQ</i>。",
+      "Q": "<img src=\"13.png\" style=\"width: 8em; vertical-align: middle; float: right; \">如图， <i>P</i>是正方形<i>ABCD</i>的边<i>CD</i>上的点， <i>∠BAP</i>的平分线交边<i>BC</i>于点<i>Q</i>，试证明<i>AP = DP + BQ</i>。",
       "way": "首先把<i>DP</i>与<i>BQ</i>的和转移到一条线段上，因为将△<i>ABQ</i>绕点<i>A</i>逆时针旋转90°可以得到△<i>ADE</i>，所以<i>PE = DP + BQ</i>，再说明<i>AP = PE</i>即可。",
-      "step": "将<span class=\"mathquill-rendered-math\">△ABQ</span>绕点<i>A</i>逆时针旋转90°后得到<span class=\"mathquill-rendered-math\">△ADE</span>.<br>∴<i>∠EAQ</i> = 90°, <span class=\"mathquill-rendered-math\">△AED</span> ≌ <span class=\"mathquill-rendered-math\">△AQB</span> <br> ∴<span class=\"mathquill-rendered-math\">∠E = ∠AQB, ∠EAD = ∠QAB, DE = BQ，∠ADE = ∠B = 90°</span><br>∴<i>E, D, P</i>三点共线。<br>又∵ <span class=\"mathquill-rendered-math\">∠BAP</span>的平分线交边<i>BC</i>于点Q，"
+      "step": "<img src=\"12.jpg\" style=\"width: 11.375em; vertical-align: middle; float: right; \">将<span class=\"mathquill-rendered-math\">△ABQ</span>绕点<i>A</i>逆时针旋转90°后得到<span class=\"mathquill-rendered-math\">△ADE</span>.<br>∴<i>∠EAQ</i> = 90°, <span class=\"mathquill-rendered-math\">△AED</span> ≌ <span class=\"mathquill-rendered-math\">△AQB</span> <br> ∴<span class=\"mathquill-rendered-math\">∠E = ∠AQB, ∠EAD = ∠QAB, DE = BQ，∠ADE = ∠B = 90°</span><br>∴<i>E, D, P</i>三点共线。又∵<i>∠BAP</i>的平分线交边<i>BC</i>于点<i>Q</i>, <br>∴<i>∠PAQ=∠BAQ</i>, <br>又∵<i>AD//BC</i>, ∴<i>∠DAQ = ∠AQB</i>, <br>∴<i>∠PAE = 90° - ∠PAQ = 90° - ∠BAQ = ∠DAQ = ∠AQB = ∠E</i>, <br> ∴ <i>AP = PE = DP + DE = DP + BQ</i>"
+    },
+    {
+      "kind": "ques",
+      "type": 9,
+      "Q": "<img src=\"14.png\" style=\"width: 10em; vertical-align: middle; float: right;\">正方形<i>ABCD</i>和正方形<i>AEFG</i>有一公共点<i>A</i>,点<i>G</i>，<i>E</i> 分别在线段<i>AD</i>、<i>AB</i> 上(如图(1)所示),连接 <i>DE</i>、<i>BF</i> .<br>(1)求证：<i>DF = BF</i><br>(2)若将正方形<i>AEFG</i>绕点<i>A</i>按顺时针方向旋转,连接 <i>DG</i>、<i>BE</i>  (如图(2)所示),在旋转过程中,请猜想线段<i>DG</i> 、<i>BE</i> 始终有什么数量关系和位置关系并证明你的猜想.",
+      "way": "(1)由正方形的性质可证<i>△DGF</i> ≌ <i>△BEF</i>, 即证<i>DF = BF</i><br>(2)由旋转的性质和正方形的性质可证<i>△DAG</i> ≌ <i>△BAE</i>, 得<i>DG = BE</i>,同时延长<i>DG</i>交<i>BE</i>或延长线于 <i>H</i>,交<i>A</i>于 <i>I</i>,可证 <i>∠DHB</i> = 90°,即 <i>DG</i> ⊥ <i>BE</i>.",
+      "step": "<img src=\"15.png\" style=\"width: 6em; vertical-align: middle; float: right;\">(1)证明：∵<i>AD = AB, AG = AE = EF = FG</i>, <br> <i>∠DGF = ∠BEF</i> = 90°, <br>∴<i>DG = BE</i>, <br><i>△DGF</i> ≌ <i>△BEF</i>, ∴<i>DF = BF</i> <br> (2)猜想：<i>DG = BE</i>, <i>DG</i> ⊥ <i>BE</i>. <br>证明:如图,由正方形性质与旋转知<i>AD = AB</i>, <i>AG = AE</i>, <i>∠DAG = ∠BAE</i><br>∴<i>△DAG</i> ≌ <i>△BAE</i><br><i>DG = BE</i>, <i>∠ADG = ∠ABE</i><br>∵延长<i>DG</i>交<i>BE</i>或延长线于<i>H</i>,交<i>AB</i>于<i>I</i>,<br> ∵<i>∠ADG = ∠ABE</i>, <i>∠DIA = ∠BIH</i><br>又∵ <i>∠ADG + ∠DIA</i> = 90°, <br>∴<i>∠ABE + ∠BIH</i> = 90°, <br>∴<i>∠DHB</i> = 90° <br>∴<i>DG</i> ⊥ <i>BE</i>"
+    },
+    {
+      "kind": "example",
+      "label": "题型五 旋转与平移、轴对称的区别与联系",
+      "type": 1,
+      "Q": "在下列平面图形内经过平移和旋转变换可以将甲图变成乙图的是（      ）<br>",
+      "opts": [
+        "<img src=\"16.png\" style=\"width: 5em; vertical-align: middle;\">",
+        "<img src=\"17.png\" style=\"width: 5em; vertical-align: middle;\">",
+        "<img src=\"18.png\" style=\"width: 5em; vertical-align: middle;\">",
+        "<img src=\"19.png\" style=\"width: 5em; vertical-align: middle;\">"
+      ],
+      "way": "根据旋转、平移的特点判断即可",
+      "step": "<i>A</i>、<i>B</i>、<i>C</i>项无法利用平移和旋转变换将甲图变成乙图；<i>D</i>项中，甲图经过两次旋转和两次平移可得到乙图.故选<i>D</i>."
+    },
+    {
+      "kind": "ques",
+      "type": 1,
+      "Q": "<img src=\"20.png\" style=\"width: 8em; vertical-align: middle; float: right;\">如图所示，如果将其中的甲图变成乙图，可经过的变换正确的是（　　）",
+      "opts": [
+        "旋转、平移", "轴对称", "轴对称、旋转", "旋转"
+      ],
+      "way": "根据轴对称、旋转和平移的特点判断即可。<br>【答案】 C"
+    },
+    {
+      "kind": "kpt",
+      "name": "旋转作图",
+      "sub": [
+        "1、已知图形、旋转中心、旋转方向和旋转角就可以做出旋转后的图形，步骤如下：",
+        "　①	确定旋转中心、旋转方向和旋转角；",
+        "　② 在已知图形上找到关键点；",
+        "　③ 作出关键点旋转后的对应点；",
+        "　④ 再顺次连接对应点即可。",
+        "2、确定旋转中心：找到旋转前后两个图形上的两组对应点，然后分别连接两组对应点得到两条线段，最后分别做这两条线段的垂直平分线，垂直平分线的交点即为旋转中心."
+      ]
+    },
+    {
+      "kind": "example",
+      "label": "题型一  利用旋转作图的步骤作旋转后的图形",
+      "type": 9,
+      "Q": "<img src=\"21.png\" style=\"width:10em; float: right;\">如图，<i>△ABC</i>绕点<i>O</i>旋转，使点<i>A</i>旋转到点<i>D</i>处，画出顺时针旋转后的三角形，并写出简单作法。",
+      "way": "抓住<i>△ABC</i>的关键点，旋转中心<i>O</i>以及旋转角<i>∠AOD</i>，按步骤即可作出所求的三角形。",
+      "step": "<img src=\"22.png\" style=\"width:10em; float: right;\">作法：如图，（1）连接<i>OA</i> ，<i>OB</i> ，<i>OC</i> ，<i>OD</i> <br>（2）分别以 <i>OB</i>，<i>OC</i> 为边作<i>∠BOM = ∠CON = ∠AOD</i> <br> （3）分别在 <i>OM</i>、<i>ON</i> 上截取 <i>OE = OB</i>，<i>OF = OC</i> <br> （4）依次连接 <i>DE</i>，<i>EF</i> ，<i>FD</i> ，<i>△DEF</i>就是所求作的三角形。"
+    },
+    {
+      "kind": "example",
+      "label": "题型二  旋转中心的确定",
+      "type": 1,
+      "Q": "<img src=\"23.png\" style=\"width:8em; float: right;\">如图，在4×4的正方形网格中，<i>△MNP</i>绕某点旋转一定的角度，得到<i>△M<sub>1</sub>N<sub>1</sub>P<sub>1</sub></i>，则其旋转中心是（		）",
+      "opts": [
+        "点<i>A</i>", "点<i>B</i>", "点<i>C</i>", "点<i>D</i>"
+      ],
+      "way": "分别找到旋转前后的两组对应点连线，再作他们的垂直平分线，交点即为旋转中心。",
+      "step": "<img src=\"24.png\" style=\"width:8em; float: right;\">如图，分别连接旋转前后两图的两组对应点<i>P<sup>1</sup>P</i>和<i>M<sup>1</sup>M</i>，再分别做<i>P<sup>1</sup>P</i>和<i>M<sup>1</sup>M</i>的垂直平分线，两垂直平分线都过点 <i>B</i>，故点 <i>B</i>是旋转中心。故选B."
+    },
+    {
+      "kind": "ques",
+      "type": 1,
+      "Q": "<img src=\"25.png\" style=\"width:8em; float: right;\">如图,在6×4方格纸中,格点三角形甲经过旋转后得到格点三角形乙,则其旋转中心是(　　)",
+      "opts": [
+        "点<i>M</i>", "格点<i>N</i>", "格点<i>P</i>", "格点<i>Q</i>"
+      ],
+      "way": "根据旋转中心到对应点的距离相等，若分别连接备选的点与两组对应点，会使距离均相等的点即为旋转中心。",
+      "step": "<img src=\"26.png\" style=\"width:8em; float: right;\">如图,连接 和两个三角形的对应点；发现两个三角形的对应点到点 的距离相等,因此格点 就是所求的旋转中心；所以B选项是正确的. ",
+      "notice": "确定旋转中心的方法可以通过作对应线段的垂直平分线找到交点的方法，也可以在备选项中选择能够使得到对应点距离相等的点，即为所求。"
     }
 	]
 }

@@ -4,7 +4,7 @@
     {
       "kind": "cover",
       "title": "第二讲：一次函数的定义、图象及性质",
-      "description": "1.理解正比例函数的概念，能根据实际问题列出简单的正比例函数的解析式．<br>2.能熟配套练习作出正比例函数的图象，理解正比例函数的解析式与图象之间的一一对应关系.<br>3.能熟配套练习作出一次函数的图象,会求一次函数与坐标轴的交点坐标，会作出实际问题中的一次函数的图象."
+      "description": "1.理解正比例函数的概念，能根据实际问题列出简单的正比例函数的解析式．<br>2.能熟配套练习作出正比例函数的图象，理解正比例函数的解析式与图象之间的一一对应关系.<br>3.能熟配套练习作出一次函数的图象，会求一次函数与坐标轴的交点坐标，会作出实际问题中的一次函数的图象."
     },
     {
       "kind": "kpt",
@@ -26,18 +26,26 @@
     {
       "kind": "ques",
       "type": 1,
-      "Q": "下列问题中,是正比例函数的是(    )<br>A.矩形面积固定，长和宽的关系<br>B.正方形面积和边长之间的关系<br>C.三角形的面积一定，底边和底边上的高之间的关系<br>D.匀速运动中，速度固定时，路程和时间的关系",
+      "Q": "下列问题中，是正比例函数的是（     ）",
       "opts": [
+        "矩形面积固定，长和宽的关系",
+        "正方形面积和边长之间的关系",
+        "三角形的面积一定，底边和底边上的高之间的关系",
+        "匀速运动中，速度固定时，路程和时间的关系"
       ],
       "way": "",
-      "step": "答案为D<br>A、∵<span class=\"mathquill-rendered-math\">S=ab</span>，∴矩形的长和宽成反比例，故本选项错误；<br>B、∵<span class=\"mathquill-rendered-math\">S={{a}^{2}}</span>， ∴正方形面积和边长是二次函数，故本选项错误；<br>C、∵<span class=\"mathquill-rendered-math\">S=\\frac{1}{2}ah</span>，∴三角形的面积一定,底边和底边上的高是反比例关系,故本选项错误；<br>D、∵<span class=\"mathquill-rendered-math\">S=vt</span>，∴速度固定时,路程和时间是正比例关系,故本选项正确."
+      "step": "答案为D<br>A、∵<span class=\"mathquill-rendered-math\">S=ab</span>，∴矩形的长和宽成反比例，故本选项错误；<br>B、∵<span class=\"mathquill-rendered-math\">S={{a}^{2}}</span>， ∴正方形面积和边长是二次函数，故本选项错误；<br>C、∵<span class=\"mathquill-rendered-math\">S=\\frac{1}{2}ah</span>，∴三角形的面积一定，底边和底边上的高是反比例关系,故本选项错误；<br>D、∵<span class=\"mathquill-rendered-math\">S=vt</span>，∴速度固定时，路程和时间是正比例关系，故本选项正确."
     },
     {
       "kind": "example",
       "label": "题型二　利用正比例函数的定义求待定字母的值",
       "type": 1,
-      "Q": "如果函数<span class=\"mathquill-rendered-math\">y=\\left( m-2 \\right){{x}^{\\left| m-1 \\right|}}</span>是正比例函数，那么（   ）<br>A.<i>m=2</i>或<i>m=0</i> <span style=\"margin-left:40px;\">B.<i>m=2</i></span><span style=\"margin-left:40px;\">C.<i>m=0</i></span><span style=\"margin-left:40px;\">D.<i>m=1</i></span>",
+      "Q": "如果函数<span class=\"mathquill-rendered-math\">y=\\left( m-2 \\right){{x}^{\\left| m-1 \\right|}}</span>是正比例函数，那么（     ）",
       "opts": [
+        "<i>m=2</i>或<i>m=0</i> <span style=\"margin-left:40px;\">",
+        "<i>m=2</i></span><span style=\"margin-left:40px;\">",
+        "<i>m=0</i></span><span style=\"margin-left:40px;\">",
+        "<i>m=1</i></span>"
       ],
       "way": "考虑到X的指数为1，正比例系数<i>k≠0</i>，即<i>|m-1|=1</i>，<i>m-2≠0</i>，得<i>m=0</i>.",
       "step": "答案：C"
@@ -53,19 +61,223 @@
       "kind": "kpt",
       "name": "正比例函数的图象与性质",
       "sub": [
-        "正比例函数  <i>y=kx</i> （ <i>k</i>为常数，k≠0 ）的图象是经过坐标原点的一条直线。<br><table cellspacing=\"0\" cellpadding=\"0\" style=\"border:1px solid #000;width:100%;margin-top:10px;\"><tr><td style=\"width:10%;border-right:1px solid #000;\"></td><td style=\"width:45%;border-right:1px solid #000;text-indent:5px;5px;font-size: 27px;\"><i>k>0</i></td><td style=\"width:45%;text-indent:5px;font-size: 27px;\"><i>k<0</i></td></tr><tr><td style=\"width:10%;border-right:1px solid #000;    border-top: 1px solid #000;text-indent:5px;font-size: 27px;\">图像</td><td style=\"width:45%;border-right:1px solid #000;text-indent:5px;border-top: 1px solid #000;\"><img src=\"3.png\" style=\"width:6.56em;\"></td><td style=\"width:45%;text-indent:5px;border-top: 1px solid #000;\"><img src=\"4.png\" style=\"width:6.18em;\"></td></tr><tr><td style=\"width:10%;border-right:1px solid #000;    border-top: 1px solid #000;text-indent:5px;font-size: 27px;\">性质</td><td colspan=\"2\" style=\"width:45%;border-top: 1px solid #000;\"><div style=\"width:100%;\"><div style=\"width:50%;display:inline-block;padding-left:5px;box-sizing: border-box;border-right:1px solid #000;font-size: 27px;border-bottom: 1px solid #000;padding-bottom:5px;\"> ①	图象在第一、三象限；<br>②<i>y</i>随<i>x</i>的增大而增大</div><div style=\"width:50%;display:inline-block;padding-left:5px;box-sizing: border-box;font-size: 27px;border-bottom: 1px solid #000;padding-bottom:5px;\">①	图象在第二、四象限；<br>②<i>y</i>随<i>x</>的增大而减小</div></div><div style=\"width:100%;padding-left:5px;box-sizing: border-box;font-size: 27px;\">①	自变量<i>x</i>的取值范围是全体实数；<br>②正比例函数 <i>y=kx</i> 中，<i> |k| </i>越大，直线 <i>y=kx</i> 越靠近<i> y </i>轴，即直线与 <i>x</i> 轴正半轴的夹角越大； <i>|k|</i> 越小，直线 <i>y=kx</i> 越靠近 <i>x</i> 轴，即直线与 <i>x</i> 轴正半轴的夹角越小</div></td></tr></table>"
+        "正比例函数  <i>y=kx</i> （ <i>k</i>为常数，k≠0 ）的图象是经过坐标原点的一条直线。<br><table cellspacing=\"0\" cellpadding=\"0\" style=\"border:1px solid #000;width:100%;margin-top:10px;\"><tr><td style=\"width:10%;border-right:1px solid #000;\"></td><td style=\"width:45%;border-right:1px solid #000;text-indent:5px;5px;font-size: 27px;\"><i>k>0</i></td><td style=\"width:45%;text-indent:5px;font-size: 27px;\"><i>k<0</i></td></tr><tr><td style=\"width:10%;border-right:1px solid #000;border-top: 1px solid #000;text-indent:5px;font-size: 27px;\">图像</td><td style=\"width:45%;border-right:1px solid #000;text-indent:5px;border-top: 1px solid #000;\"><img src=\"3.png\" style=\"width:6.56em;\"></td><td style=\"width:45%;text-indent:5px;border-top: 1px solid #000;\"><img src=\"4.png\" style=\"width:6.18em;\"></td></tr><tr><td style=\"width:10%;border-right:1px solid #000;border-top: 1px solid #000;text-indent:5px;font-size: 27px;\">性质</td><td colspan=\"2\" style=\"width:45%;border-top: 1px solid #000;\"><div style=\"width:100%;\"><div style=\"width:50%;display:inline-block;padding-left:5px;box-sizing: border-box;border-right:1px solid #000;font-size: 27px;border-bottom: 1px solid #000;padding-bottom:5px;\"> ①	图象在第一、三象限；<br>②<i>y</i>随<i>x</i>的增大而增大</div><div style=\"width:50%;display:inline-block;padding-left:5px;box-sizing: border-box;font-size: 27px;border-bottom: 1px solid #000;padding-bottom:5px;\">①	图象在第二、四象限；<br>②<i>y</i>随<i>x</i>的增大而减小</div></div><div style=\"width:100%;padding-left:5px;box-sizing: border-box;font-size: 27px;\">①	自变量<i>x</i>的取值范围是全体实数；<br>②正比例函数 <i>y=kx</i> 中，<i> |k| </i>越大，直线 <i>y=kx</i> 越靠近<i> y </i>轴，即直线与 <i>x</i> 轴正半轴的夹角越大； <i>|k|</i> 越小，直线 <i>y=kx</i> 越靠近 <i>x</i> 轴，即直线与 <i>x</i> 轴正半轴的夹角越小</div></td></tr></table>"
       ]
     },
     {
       "kind": "example",
       "label": "题型一　画正比例函数图象",
-      "type": 1,
+      "type": 9,
       "Q": "画出函数<i>y=-2x</i>的图象",
-      "opts": [
-      ],
       "way": "因为正比例函数的图象必经过原点，所以再找一组点，两点确定一条直线即可.",
       "step": "列表：<br><table cellspacing=\"0\" cellpadding=\"0\" style=\"border:1px solid #000;width:60%;margin-top:10px;font-size:27px;\"><tr><td style=\"width:33.33%;border-right:1px solid #000;border-bottom:1px solid #000;text-indent:15px;\"><i>x</i></td><td style=\"width:33.33%;border-right:1px solid #000;border-bottom:1px solid #000;text-indent:15px;\">0</td><td style=\"width:33.33%;border-bottom:1px solid #000;text-indent:15px;\">1</td></tr><tr><td style=\"width:33.33%;border-right:1px solid #000;text-indent:15px;\"><i>y</i></td><td style=\"width:33.33%;border-right:1px solid #000;text-indent:15px;\">0</td><td style=\"width:33.33%;text-indent:15px;\">-2</td></tr></table>描点、连线:<br><img src=\"5.png\" style=\"width:12.56em;\">",
-      "notice":"画正比例函数  <i>y=kx</i> （ <i>k</i>为常数，k≠0 ）函数图象的一般步骤：<br>①列表：列表给出自变量  与因变量  的两对对应值即可，注意正比例函数必过点（0,0），要根据自变量的取值范围取值；<br>②描点：以表中每对对应值为坐标，在平面直角坐标系内描出相应的点；<br>③连线：把所描出的两个点用直线连接出来."
+      "notice": "画正比例函数  <i>y=kx</i> （ <i>k</i>为常数，k≠0 ）函数图象的一般步骤：<br>①列表：列表给出自变量  与因变量  的两对对应值即可，注意正比例函数必过点（0，0），要根据自变量的取值范围取值；<br>②描点：以表中每对对应值为坐标，在平面直角坐标系内描出相应的点；<br>③连线：把所描出的两个点用直线连接出来."
+    },
+    {
+      "kind": "example",
+      "label": "题型二　利用正比例函数的图像与性质比较函数值的大小",
+      "type": 2,
+      "Q": "已知，函数 <i>y=3x</i> 的图象经过点 <span class=\"mathquill-rendered-math\">A\\left( -1，{{y}_{1}} \\right)</span> ，点 <span class=\"mathquill-rendered-math\">B\\left( -2，{{y}_{2}} \\right)</span> ，则 <span class=\"mathquill-rendered-math\">{{y}_{1}}</span> ____ <span class=\"mathquill-rendered-math\">{{y}_{2}}</span> (填 “ > ” “ < ” 或 “ = ” )",
+      "way": "方法1：分别把点 <span class=\"mathquill-rendered-math\">A\\left( -1，{{y}_{1}} \\right)</span>，点 <span class=\"mathquill-rendered-math\">B\\left( -2，{{y}_{2}} \\right)</span> 代入函数 <i>y=3x</i>，求出点 <span class=\"mathquill-rendered-math\">{{y}_{1}}</span>， <span class=\"mathquill-rendered-math\">{{y}_{2}}</span> 的值，并比较出其大小即可.<br>方法2：画出正比例函数 <i>y=3x</i>  的图象，在函数图像上标出点A、点B，利用数形结合想来比较 <span class=\"mathquill-rendered-math\">{{y}_{1}}</span>，<span class=\"mathquill-rendered-math\">{{y}_{2}}</span>  的大小.<br>方法3：根据正比例函数的增减性来比较函数值的大小.根据正比例函数的性质，当k>0时，y随x的增大而增大，即可得 <span class=\"mathquill-rendered-math\">{{y}_{1}}</span> > <span class=\"mathquill-rendered-math\">{{y}_{2}}</span>.",
+      "step": "答案：<span class=\"mathquill-rendered-math\">{{y}_{1}}</span> > <span class=\"mathquill-rendered-math\">{{y}_{2}}</span>"
+    },
+    {
+      "kind": "ques",
+      "type": 2,
+      "Q": "已知函数 <i>y=-x</i> 的图象经过点 <span class=\"mathquill-rendered-math\">A\\left( -1，{{y}_{1}} \\right)</span> ，点 <span class=\"mathquill-rendered-math\">B\\left( -2，{{y}_{2}} \\right)</span> ，则 <span class=\"mathquill-rendered-math\">{{y}_{1}}</span> ____ <span class=\"mathquill-rendered-math\">{{y}_{2}}</span> (填 “ > ” “ < ” 或 “ = ” )",
+      "way": "本题考查正比例函数的图象和性质，因为 <i>k=-1</i> ，即 <i>k<0</i> ，说明 <i>y</i> 随 <i>x</i> 的增大而减小. 又所以 ∵-1>-2 ， <span class=\"mathquill-rendered-math\">{{y}_{1}}</span> < <span class=\"mathquill-rendered-math\">{{y}_{2}}</span> ",
+      "step": "答案：<"
+    },
+    {
+      "kind": "example",
+      "label": "题型三　通过解析式判定正比例函数图象",
+      "type": 1,
+      "Q": "(中考真题)正比例函数 <i>y=2x</i> 的大致图象是（    ）",
+      "opts": [
+        "<img src=\"6.png\" style=\"width:8.5em;\">",
+        "<img src=\"7.png\" style=\"width:8.5em;\">",
+        "<img src=\"8.png\" style=\"width:8.5em;\">",
+        "<img src=\"9.png\" style=\"width:8.5em;\">"
+      ],
+      "way": "",
+      "step": "答案：B<br>根据题意可知： <i>b=0</i> ，故其图象经过原点，故C、D项不符合题意； <i>k=2>0</i> ，则 <i>y</i> 随 <i>x</i> 的增大而增大，故B项正确。"
+    },
+    {
+      "kind": "ques",
+      "type": 1,
+      "Q": "已知正比例函数 <i>y=kx</i> (k≠0),当 <i>x=-1</i> 时, <i>y=-2</i> ,则它的图象大致是（    ）",
+      "opts": [
+        "<img src=\"10.png\" style=\"width:6.9em;\">",
+        "<img src=\"11.png\" style=\"width:6.9em;\">",
+        "<img src=\"12.png\" style=\"width:6.9em;\">",
+        "<img src=\"13.png\" style=\"width:6.9em;\">"
+      ],
+      "way": "",
+      "step": "将 <i>x=-1</i> ， <i>y=-2</i> 代入正比例函数 <i>y=kx</i> (k≠0) 得，<br> <i>-2=-k</i>，<br> <i>k=2>0</i><br>∴ 函数图象过原点和一、三象限，<br>所以C选项是正确的."
+    },
+    {
+      "kind": "example",
+      "label": "题型四　利用正比例函数图象和性质解相关综合问题",
+      "type": 9,
+      "Q": "已知正比例函数 <span class=\"mathquill-rendered-math\">y=\\left( 1-2a \\right)x</span> .<br>(1)若函数的图象经过第一、三象限，试求a的取值范围.<br>(2)若点 <span class=\"mathquill-rendered-math\">A\\left( {{x}_{1}}，{{y}_{1}} \\right)</span> 和点 <span class=\"mathquill-rendered-math\">B\\left( {{x}_{2}}，{{y}_{2}} \\right)</span> 为函数图象上的两点，且 <span class=\"mathquill-rendered-math\">{{x}_{1}}<{{x}_{2}}</span> ， <span class=\"mathquill-rendered-math\">{{y}_{1}}<{{y}_{2}}</span> ，试求a的取值范围.<br>(3)若函数的图象经过点 <i>(-1，2)</i>，<br>①求此函数关系式并作出其图象；<br>②如果x的取值范围是 <i>-1 < x < 5</i>，求y的取值范围.",
+      "way": "(1)根据正比例函数图象在坐标平面内的位置与系数的关系作答.<br>(2)先根据 <span class=\"mathquill-rendered-math\">{{x}_{1}}<{{x}_{2}}</span> 时， <span class=\"mathquill-rendered-math\">{{y}_{1}}<{{y}_{2}}</span> 得出关于m的不等式，求出m的取值范围即可.<br>(3)①利用正比例函数图象上点的坐标特征，将点 <i>(-1，2)</i> 代入该函数解析式，求得a值即可.<br>②把 <i>x=-1</i> 和 <i>x=5</i> 分别代入解析式求得函数值，即可求得y的取值范围.",
+      "step": "(1)由正比例函数 <span class=\"mathquill-rendered-math\">y=\\left( 1-2a \\right)x</span> 的图象经过第一、三象限，<br>可得: <i>1-2a > 0</i> ，则 <span class=\"mathquill-rendered-math\">a<\\frac{1}{2}</span>.<br>(2) 正比例函数 <span class=\"mathquill-rendered-math\">y=\\left( 1-2a \\right)x</span> 的图象上两点 <span class=\"mathquill-rendered-math\">A\\left( {{x}_{1}}，{{y}_{1}} \\right)</span> 和 <span class=\"mathquill-rendered-math\">B\\left( {{x}_{2}}，{{y}_{2}} \\right)</span> ，且 <span class=\"mathquill-rendered-math\">{{x}_{1}}<{{x}_{2}}</span> 时， <span class=\"mathquill-rendered-math\">{{y}_{1}}<{{y}_{2}}</span>，<br> ∴<i>y</i> 随 <i>x</i> 的增大而减小，<br>∴ <i>1-2a < 0</i> ，<br>计算得出 <span class=\"mathquill-rendered-math\">a>\\frac{1}{2}</span>.<br>(3)①∵ 正比例函数 <span class=\"mathquill-rendered-math\">y=\\left( 1-2a \\right)x</span> 的图象经过点 <i>(-1，2)</i> ，<br> ∴<span class=\"mathquill-rendered-math\">2=-\\left( 1-2a \\right)</span> ，<br>解答，<span class=\"mathquill-rendered-math\">a=\\frac{3}{2}</span><br>∴ 正比例函数的解析式是 <i>y=-2x</i> ；<br>画出函数图象如图:<br><img src=\"14.png\" style=\"width:11.375em；\"><br>②把 <i>x=-1</i> 代入 <i>y=-2x</i> 得: <i>y=2</i>，<br>把 <i>x=5</i> 代入 <i>y=-2x</i> 得: <i>y=-10</i>，<br>∴ <i>y</i>的取值范围为: <i>-10 < y < 2 </i>."
+    },
+    {
+      "kind": "ques",
+      "type": 9,
+      "Q": "已知正比例函数  <i>y=kx</i> 经过点A，点A在第四象限，过点A作轴AH⊥x，垂足为点H，点A的横坐标为3，且 <i>ΔAOH</i> 的面积为3.<br>(1)求正比例函数的解析式；<br>(2)在x轴上能否找到一点P，使 <i>ΔAOP</i> 的面积为5?若存在，求点P的坐标；若不存在，请说明理由.",
+      "way": "(1)根据题意求得点A的坐标，然后利用待定系数法求得正比例函数的解析式；<br>(2)利用三角形的面积公式求得 <i>OP=5</i> ，然后根据坐标与图形的性质求得点P的坐标.",
+      "step": "∵ 点A的横坐标为3，且 <i>ΔAOH</i> 的面积为3<br>∴ 点A的纵坐标为-2，点A<span class=\"mathquill-rendered-math\">\\left( 3，-2 \\right)</span>的坐标为，<br>∵ 正比例函数 <i>y=kx</i> 经过点A，<br>∴<i>3k=-2</i> 计算得出 <span class=\"mathquill-rendered-math\">k=-\\frac{2}{3}</span>，<br>∴正比例函数的解析式是 <span class=\"mathquill-rendered-math\">y=-\\frac{2}{3}x</span><br>(2)∵<i>ΔAOP</i> 的面积为5，点A的坐标为 <span class=\"mathquill-rendered-math\">\\left( 3，-2 \\right)</span><br>∴ <i>OP=5</i><br>∴ 点P的坐标为 <span class=\"mathquill-rendered-math\">\\left( 5，0 \\right)</span> 或 <span class=\"mathquill-rendered-math\">\\left( -5，0 \\right)</span> "
+    },
+    {
+      "kind": "kpt",
+      "name": "一次函数的定义",
+      "sub": [
+        "<table cellspacing=\"0\" cellpadding=\"0\" style=\"border:1px solid #000;width:100%;margin-top:10px;\"><tr><td style=\"width:20%;border-right:1px solid #000;text-indent:5px;\">定义</td><td style=\"width:80%;text-indent:5px;5px;font-size: 27px;padding-left:5px;\">一般地，形如 <i>y=kx+b</i>（ <i>k</i>，<i>b</i>为常数，k≠0 ）的函数，叫做一次函数.特别地，当b=0时，<i>y=kx+b</i>为<i>y=kx</i>.</td></td></tr><tr><td style=\"width:20%;border-right:1px solid #000;text-indent:5px;border-top:1px solid #000;\">知识详解</td><td style=\"width:80%;text-indent:5px;5px;border-top:1px solid #000;font-size: 27px;padding-left:5px;\">(1)一次函数解析式<i>y=kx+b</i>（ k≠0 ）的条件 k≠0 千万不能忽视，如果 k=0，那么 <i>y=b</i> 就不是一次函数<br>(2)正比例函数是特殊的一次函数，但一次函数不一定是正比例函数.从图象上来看，一次函数的图象是一条不一定过原点的直线，而正比例函数的图象是一条过原点的直线<br>(3)判断一个函数是否是一次函数时，要看这个函数解析式能否通过恒等变形转化为<i>y=kx+b</i>（ k≠0 ）的形式，如果能，则是一次函数;否则就不是一次函数<br>(4)一般情况下，一次函数的自变量的取值范围是全体实数. 在实际问题中.受实际情况限制可能取不到全体实数</td></td></tr></table>"
+      ]
+    },
+    {
+      "kind": "example",
+      "label": "题型一　一次函数的识别",
+      "type": 1,
+      "Q": "下列函数：① <span class=\"mathquill-rendered-math\">y=2{{x}^{2}}+1</span> ；② <span class=\"mathquill-rendered-math\">y=\\frac{x}{3}</span> ；③ <i>x+y-1=0</i> ；④ <i>y=7</i> ，其中一次函数的个数是（         ）",
+      "opts": [
+        "4个",
+        "3个",
+        "2个",
+        "1个"
+      ],
+      "way": "① <i>x</i> 的次数是 2 ，所以不是一次函数；②满足一次函数定义，所以是一次函数③可恒等变形为 <i>y=-x+1</i> ，满足一次函数定义，所以是一次函数；④可恒等变形为 <i>y=0x+7</i> ，即 <i>k=0</i>，不满足一次函数定义，所以不是一次函数。故②③是一次函数.",
+      "step": "答案：C"
+    },
+    {
+      "kind": "ques",
+      "type": 1,
+      "Q": "若 <i>3y-4</i> 与 <i>2x-5</i> 成正比例，则 <i>y</i> 与 <i>x</i> 的关系为（         ）",
+      "opts": [
+        "正比例函数",
+        "一次函数",
+        "没有函数关系",
+        "以上均不正确"
+      ],
+      "way": "",
+      "step": "答案B<br>∵ <i>3y-4</i> 与 <i>2x-5</i> 成正比例<br>∴函数关系是<br><i>3y-4=k(2x-5)</i><br><i>3y-4=2kx-5x</i><br><i>3y=2kx-5k-4</i><br><span class=\"mathquill-rendered-math\">y=\\frac{2k}{3}x+\\frac{4-5k}{3}</span><br>∴<i>y</i>是<i>x</i>的一次函数"
+    },
+    {
+      "kind": "example",
+      "label": "题型二　利用一次函数的定义求字母值",
+      "type": 9,
+      "Q": "已知函数 <span class=\"mathquill-rendered-math\">y=\\left( {{n}^{2}}-4 \\right){{x}^{2}}+\\left( 2n-4 \\right){{x}^{m-2}}-\\left( m+n-8 \\right)</span> ，当 <i>m</i> ，<i>n</i> 为何值时，函数是一次函数？",
+      "way": "结合一次函数的定义与原函数解析式的特征求解：①二次项系数必须为 0 ，② <span class=\"mathquill-rendered-math\">\\left( 2n-4 \\right){{x}^{m-2}}</span> 必须是一次项.",
+      "step": "由题意，得<img src=\"16.svg\" style=\"width:4.25em;vertical-align: middle;\"><br>∴ <i>m=3， <i>n=2 .</i><br>∴ <i>m=3<i>， <i>n=2<i> 时，函数是一次函数.",
+      "notice": "根据一次函数定义求待定字母的值时，要注意：（1）函数解析式是自变量的一次式，若含有一次以上的项，则其系数比为0；(2)注意隐含条件：一次项系数不为0."
+    },
+    {
+      "kind": "ques",
+      "type": 1,
+      "Q": "已知 <span class=\"mathquill-rendered-math\">y=\\left( m-3 \\right){{x}^{\\left| m \\right|-2}}+1</span> 是一次函数,则m的值是（         ）",
+      "opts": [
+        "-3",
+        "3",
+        "±3",
+        "±2"
+      ],
+      "way": "",
+      "step": "答案为A<br>由 <span class=\"mathquill-rendered-math\">y=\\left( m-3 \\right){{x}^{\\left| m \\right|-2}}+1</span> 是一次函数，得<br><img src=\"17.svg\" style=\"width:6.17em;vertical-align: middle;\"><br>计算得出 <i>m=-3</i> ， <i>m=3</i> (不符题意，舍去)."
+    },
+    {
+      "kind": "kpt",
+      "name": "一次函数的图像与性质",
+      "sub": [
+        "一次函数<i>y=kx+b</i>的图象是经过（0，b）和（- <span class=\"mathquill-rendered-math\">\\frac{b}{k}</span> ，0）两点的一条直线，我们称它为直线<i>y=kx+b</i>，它可以看作由直线y=kx垂直方向平移|b|个单位长度得到.（当b>0时，向上平移；当b<0时，向下平移）<br>①解析式：<i>y=kx+b</i>(k、b是常数，k 0)<br>②必过点：（0，b）和（- <span class=\"mathquill-rendered-math\">\\frac{b}{k}</span> ，0）<br>③走向： <i>k>0</i>，图象经过第一、三象限；<i>k<0</i>，图象经过第二、四象限<br><span style=\"margin-left:118px;\"><i>b>0</i>，图象经过第一、二象限；<i>b<0</i>，图象经过第三、四象限</span><br><table cellspacing=\"0\" cellpadding=\"0\" style=\"border:1px solid #000;width:100%;margin-top:10px;\"><tr><td style=\"width:50%;border-right:1px solid #000;text-indent:5px;border-top:1px solid #000;\"><img src=\"18.png\" style=\"width:14.3125em;vertical-align: middle;\"></td><td style=\"width:50%;text-indent:5px;5px;border-top:1px solid #000;font-size: 27px;padding-left:5px;\"><img src=\"19.png\" style=\"width:14.3125em;vertical-align: middle;\"></td></tr><tr><td style=\"width:50%;border-right:1px solid #000;text-indent:5px;border-top:1px solid #000;\"><img src=\"20.png\" style=\"width:14.3125em;vertical-align: middle;\"></td><td style=\"width:50%;text-indent:5px;5px;border-top:1px solid #000;font-size: 27px;padding-left:5px;\"><img src=\"21.png\" style=\"width:14.3125em;vertical-align: middle;\"></td></tr></table>④增减性： <i>k>0 </i>，y随x的增大而增大； <i>k<0</i>，y随x增大而减小.<br>⑤倾斜度：|k|越大，图象越接近于 <i>y</i>轴；|k|越小，图象越接近于x轴.<br>⑥图像的平移： 当 <i>b>0 </i>时，将直线 <i>y=kx </i>的图象向上平移 <i>b </i>个单位；<br><span style=\"margin-left:200px;\">当 <i>b<0 </i>时，将直线i>y=kx</i>的图象向下平移i>b </i>个单位.</span>"
+      ]
+    },
+    {
+      "kind": "example",
+      "label": "题型一　一次函数图象上点的坐标问题",
+      "type": 2,
+      "Q": "直线 <i>y=-2x+6</i> 与两坐标轴围成的三角形面积是________.",
+      "way": "图象与 <i>x</i> 、 <i>y</i> 轴的交点分别是（ <span class=\"mathquill-rendered-math\">-\\frac{b}{k}</span> ， 0 ） 、（ 0 ， b ），求出直线与坐标轴的交点为（ 3 ， 0 ）、（ 0 ，6 ）后，再根据三角形的面积公式得到面积 <span class=\"mathquill-rendered-math\">S=\\frac{1}{2}\\times 3\\times 6=9</span> .",
+      "step": "答案：9"
+    },
+    {
+      "kind": "ques",
+      "type": 9,
+      "Q": "已知一次函数 <i>y=2x+4</i><br><img src=\"22.png\" style=\"width:9.5em;vertical-align: middle;\"><br>（1）在如图所示的平面直角坐标系中，画出函数的图象.<br>（2）求图象与 <i>x</i> 轴的交点 <i>A</i> 的坐标，与 <i>y</i> 轴的交点 <i>B</i> 的坐标.<br>（3）在（2）的条件下，求 <i>ΔAOB</i> 的面积.<br>（4）利用图象直接写出：当 <i>y<0</i> 时， <i>x</i> 的取值范围.",
+      "way": "本题主要考查一次函数的图象与性质和三角形的基本概念.<br>（1）一次函数的图象时一条直线，根据函数解析式描点、连线即可画出函数图象.<br>（2）令 <i>y=x</i> ，即可求得图象与 <i>x</i> 轴的交点 <i>A</i> 的坐标；令 <i>x=0</i> ，即可求得图象与 <i>y</i> 轴的交点 <i>B</i> 的坐标.<br>（3）根据 <i>A</i> 、 <i>B</i> 两点的坐标即可得到 <i>OA</i> 、 <i>OB</i> 的长度，进而求得 <i>ΔAOB</i> 的面积.<br>（4）当 <i>y<0</i> 时，函数图象在 <i>x</i> 轴的下方，根据函数图象写出符合题意的 <i>x</i> 的取值范围即可.",
+      "step": "（1）一次函数 <i>y=2x+4</i> 的图象如图所示.<br><img src=\"23.png\" style=\"width:9.5em;vertical-align: middle;\"><br>（2）令 <i>y=0</i> ，得 <i>2x+4=0</i>，即 <i>x=-2</i> ，故点 <i>A</i> 坐标为 ( -2 ， 0 ) 。令 <i>x=04</i> ，得 <i>y=4</i> ，故点 <i>B</i> 坐标为 ( 0 ， 4 ) <br>（3）因为点 <i>A</i> 坐标为 ( -2 ， 0 ) ，点 <i>B</i> 坐标为 ( 0 ， 4 ) ，所以 <i>OA=|-2|=2</i> ， <i>OB=4</i>，所以 <span class=\"mathquill-rendered-math\">{{S}_{\\Delta AOB}}=\\frac{1}{2}OA\\cdot OB=\\frac{1}{2}\\times 2\\times 4=4</span><br>（4）<i>x<-2</i>",
+      "notice": "一次函数<i>y=kx＋b</i>的图象的画法：<br>根据几何知识，经过两点能画出一条直线，并且只能画出一条直线，即两点确定一条线，所以画一次函数的图象时，只要先描出两点，再连成直线即可.一般情况下：是先选取它与两坐标轴的交点：（0，b）， <span class=\"mathquill-rendered-math\">\\left( -\\frac{b}{k}，0 \\right)</span> .即横坐标或纵坐标为0的点."
+    },
+    {
+      "kind": "example",
+      "label": "题型二　一次函数图象的象限问题",
+      "type": 1,
+      "Q": "函数 <i>y=kx+|k|</i>( k ≠ 0) 在直角坐标系中的图象可能是（         ）.",
+      "opts": [
+        "<img src=\"35.png\" style=\"width:6.5em;\">",
+        "<img src=\"36.png\" style=\"width:6.5em;\">",
+        "<img src=\"37.png\" style=\"width:6.5em;\">",
+        "<img src=\"38.png\" style=\"width:6.5em;\">"
+      ],
+      "way": "不论k为正还是为负，<i>|k|</i>都大于0，图像应该交于<i>x</i>轴上方.",
+      "step": "答案：B"
+    },
+    {
+      "kind": "ques",
+      "type": 1,
+      "Q": "若函数①<i>y=ax+b</i>与②<i>y=bx+a</i>（<i>ab≠0</i>）在同一坐标系中的图象如图所示，可能是（         ）.",
+      "opts": [
+        "<img src=\"25.png\" style=\"width:6.5em;\">",
+        "<img src=\"26.png\" style=\"width:6.5em;\">",
+        "<img src=\"27.png\" style=\"width:6.5em;\">",
+        "<img src=\"28.png\" style=\"width:6.5em;\">"
+      ],
+      "way": "根据直线①判断出<i>a</i>、<i>b</i>的符号，然后根据<i>a</i>、<i>b</i>的符号判断出直线②经过的象限即可，做出判断．",
+      "step": "A、由①可知：<i>a＞0</i>，<i>b＞0</i>．<br>∴直线②经过一、二、三象限，故A错误；<br>B、由①可知：<i>a＜0</i>，<i>b＜0</i>．<br>∴直线②经过二、三、四象限，故B错误；<br>C、∵<i>ab≠0</i>，故直线不经过原点，故C错误；<br>D、由①可知：<i>a＞0</i>，<i>b＜0</i>，<br>∴直线②经过一、二、四象限，故D正确．<br>故选：D．",
+      "notice": "本题主要考查的是一次函数的图象和性质，掌握一次函数的图象和性质是解题的关键．"
+    },
+    {
+      "kind": "ques",
+      "type": 1,
+      "Q": "(中考真题)已知直线 <i>y=kx+b</i>，若 <i>k+b=-5</i>， <i>kb=5</i> ，那该直线不经过的象限是（         ）.",
+      "opts": [
+        "第一象限",
+        "第二象限",
+        "第三象限",
+        "第四象限"
+      ],
+      "way": "",
+      "step": "答案为A<br> ∵ <i>k+b=-5</i> ， <i>kb=5</i>，<br> ∴ <i>k<0</i>， <i>b<0</i><br>∴ 直线 <i>y=kx+b</i> 经过二、三、四象限，即不经过	第一象限.",
+      "notice": ""
+    },
+    {
+      "kind": "example",
+      "label": "题型三　利用一次函数图象和性质求字母的取值范围",
+      "type": 1,
+      "Q": "(中考真题)若一次函数 <i>y=kx+b</i>  的图象经过第二、三、四象限，则k、b的取值范围是（         ）.",
+      "opts": [
+        "<i>k>0，b<0</i>",
+        "<i>k>0，b<0</i>",
+        "<i>k<0，b<0</i>",
+        "<i>k<0，b>0</i>"
+      ],
+      "way": "",
+      "step": " 答案C<br> ∵ 一次函数 <i>y=kx+b</i> 的图象经过第二、三、四象限，<br>∴<i>k<0，b<0</i>"
+    },
+    {
+      "kind": "ques",
+      "type": 1,
+      "Q": "(易错)在平面直角坐标系中，点O为原点，直线 <i>y=kx+b</i>交<i>x</i>轴于点A(－2，0)，交<i>y</i>轴于点<i>B</i>.若<i>△A0B</i>的面积为8，则<i>k</i>的值为（         ）.",
+      "opts": [
+        "1",
+        "-4",
+        "4",
+        "4或-4"
+      ],
+      "way": "首先根据题意画出图形，注意要分情况讨论，①当<i>B</i>在<i>y</i>的正半轴上时②当<i>B</i>在<i>y</i>的负半轴上时，分别求出<i>B</i>点坐标，然后再利用待定系数法求出一次函数解析式，得到k的值．<br>【答案】D",
+      "step": "(1)当<i>B</i>在<i>y</i>的正半轴上时，如图，<br><img src=\"29.png\" style=\"width:18.5em;\"><br>∵<i>△AOB</i>的面积为8，∴ <i>12×OA×OB=8</i><br>∵A(－2，0)，<br>∴<i>OA=2</i>，<br>∴<i>OB=8</i>，<br>∴B(0，8)，<br>∵直线<i>y=kx+b</i>交<i>x</i>轴于点A(－2，0)，交<i>y</i>轴于点B(0，8).<br><img src=\"30.svg\" style=\"width:6.5em;\"><br>解得：<br><img src=\"31.svg\" style=\"width:3.5em;\"><br>(2)当<i>B</i>在<i>y</i>的负半轴上时，如图<br><img src=\"32.png\" style=\"width:18.5em;\"><br>∵<i>△AOB</i>的面积为8，<br>∴ <i>12×OA×OB=8</i>，<br>∵A(－2，0)，<br>∴<i>OA=2</i>，<br>∴<i>OB=8</i>，<br>∴B(0，－8).<br>∵直线<i>y=kx+b</i>交<i>x</i>轴于点A(－2，0)，交y轴于点B(0，－8)．<br><img src=\"33.svg\" style=\"width:6.5em;\"><br>解得：<br><img src=\"34.svg\" style=\"width:3.5em;\"><br>答案为：D",
+      "notice": ""
     }
   ]
 }

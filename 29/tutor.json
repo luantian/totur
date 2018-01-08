@@ -1,0 +1,284 @@
+{
+    "couID":1,
+    "pages":
+    [
+        {
+            "kind":"cover",
+            "title":"第2讲 全等三角形的判定",
+            "description":"1.掌握用<i>SSS,SAS,ASA</i>和<i>AAS</i>证明两个三角形全等的方法并会用<i>HL</i>证明两个直角三角形全等<br>2.能根据所给的条件灵活地选择三角形全等的判定方法，并能综合运用全等三角形的性质证明线段和角相等的问题"
+        },
+        {
+            "kind":"kpt",
+            "name":"三角形全等的判定方法一：边边边（SSS）",
+            "sub":[
+                {
+                    "kind":"kpt",
+                    "name":"",
+                    "sub":[
+                        "1.  判定方法一：三边分别相等的两个三角形全等（简写成“边边边”或“<i>SSS</i>”）."    
+                    ]
+                },
+                {
+                    "kind":"kpt",
+                    "name":"",
+                    "sub":[
+                         "2.  证明书写格式：在<i>ΔABC</i>和<span class=\"mathquill-rendered-math\"><i>ΔA´B´C´</i></span>中，<img src=\"28.svg\" style=\"vertical-align:middle;width:5em;\">,<span class=\"mathquill-rendered-math\"><i>∴ΔABC≌ΔA´B´C´</i></span>.注：(1)相等的元素:三边<br>(2)在判定两三角形全等的书写过程中，等号左边是全等号左边三角形的三边，等号右边是全等号右边三角形的三边，即前后顺序要保持一致.<br>(3)书写过程中的边及三角形的顶点前后顺序要对应."    
+                    ]   
+                }
+            ]
+        },
+        {
+            "kind":"example",
+            "label":"利用“SSS”证明两个三角形全等",
+            "type":9,
+            "Q":"例1-1 如图,已知<span class=\"mathquill-rendered-math\"><i>AC=FE,BC=DE </i>,</span>点<i>A、D、B、F</i>在一条直线上, <span class=\"mathquill-rendered-math\"><i>AD=FB</i></span>.求证:<i> ΔABC≌ΔFDE</i>.<br><img src=\"1.png\" style=\"vertical-align:middle;width:9.13em;\">",
+            "way":"由<span class=\"mathquill-rendered-math\"><i>AD=FB</i></span> ,易证得<span class=\"mathquill-rendered-math\"><i>AB=FD</i> </span>,然后由<span class=\"mathquill-rendered-math\"><i>AC=FE, BC=DE</i></span> ,利用<i>SSS</i>,即可证得.",
+            "step":"<span class=\"mathquill-rendered-math\"><i>∵AD=FB </i></span>,<span class=\"mathquill-rendered-math\"><i>∴AD+BD=FB+BD</i> </span>,<span class=\"mathquill-rendered-math\"><i>∴AB=FD</i></span>,在<i>ΔABC</i> 和<i>ΔFDE</i>中,<img src=\"30.svg\" style=\"vertical-align:middle;width:5em;\"><span class=\"mathquill-rendered-math\"><i>∴ΔABC≌ΔFDE. </i></span>",
+            "notice":"运用“<i>SSS</i>”证明两个三角形全等主要就是找边相等，边相等除了已知的边相等外，还有以下几种方式:①中点;②公共边;③一部分相等，另一部分是公共的(如本例)。"
+        },
+        {
+            "kind":"example",
+            "type":9,
+            "Q":"（易错题）如图，<span class=\"mathquill-rendered-math\"><i>AB＝AC，DB＝DC，EB＝EC</i></span>.<br><img src=\"2.jpg\" style=\"vertical-align:middle;width:10em;\"><br>(1)图中有几对全等三角形？请一一写出来.<br>(2)选择(1)中的一对全等三角形加以证明.<br>",
+            "way":"（1）如图所示，<i>AE,DE,AD</i>都是公共线段，故相等，结合已知条件可以得出全等的三角形；",
+            "step":"（1）由题可知<i>AB＝AC，DB＝DC，EB＝EC，AE、DE、AD</i>为公共边，所以<span class=\"mathquill-rendered-math\"><i>△ABE≌△ACE，△DBE≌△DCE，△ABD≌△ACD</i></span>；<br>在<i>△ABE</i>和<i>△ACE</i>中，<i>∵ AB＝AC，AE＝AE，BE＝CE</i>，<br>∴ <span class=\"mathquill-rendered-math\"><i>△ABE≌△ACE</i></span>(其他同理可证)<br>故答案为：<br><span class=\"mathquill-rendered-math\"><i>△ABE≌△ACE △DBE≌△DCE△ABD≌△ACD</i></span><br>（2）<span class=\"mathquill-rendered-math\"><i>△ABE≌△ACE</i></span>在<i>△ABE</i>和△ACE中，<span class=\"mathquill-rendered-math\"><i>∵ AB＝AC，AE＝AE，BE＝CE<i></span>，<br>∴ △ABE≌△ACE</i></span>"
+        },
+        {
+            "kind":"example",
+            "label":"题型二 利用三角形全等证明线段（或角）相等",
+            "type":9,
+            "Q":" 如图，已知<i>AB=AC，AD=AE，BD=CE</i>，求证：<span class=\"mathquill-rendered-math\"><i>∠BAC=∠DAE</i></span>.<br><img src=\"3.png\" style=\"vertical-align:middle;width:12em;\">",
+            "way":"根据题目中的条件，可以证明<span class=\"mathquill-rendered-math\"><i> △BAD≌△CAE</i></span>，从而得到<span class=\"mathquill-rendered-math\"><i>∠BAD=∠CAE</i>；接下来，结合图形即可得到<span class=\"mathquill-rendered-math\"><i>∠BAC=∠DAE</i></span>.",
+            "step":"证明：<span class=\"mathquill-rendered-math\"><i>∵AB=AC，AD=AE，BD=CE</i></span>，<br><span class=\"mathquill-rendered-math\"><i><br>∴△BAD≌△CAE</i></span>，<br><span class=\"mathquill-rendered-math\"><i>∴∠BAD=∠CAE</i></span>，<br><span class=\"mathquill-rendered-math\"><i>∵∠BAD=∠CAE，∠CAD</i></span>为<i>∠BAD</i>和<i>∠CAE</i>的公共角，<br><span class=\"mathquill-rendered-math\"><i>∴∠BAD+∠CAD=∠CAE+∠CAD</i></span>，<br>即<span class=\"mathquill-rendered-math\"><i>∠BAC=∠DAE</i></span>.",
+            "notice":"综合法：利用某些已经证明过的结论和性质及已知条件，推导出所要证明的结论成立的方法叫综合法.其思维特点是由因索果，即从已知条件出发，利用已知的数学定理、性质和公式,推出结论."    
+        },
+        {
+            "kind":"example",
+            "type":9,
+            "Q":" 如图,已知<span class=\"mathquill-rendered-math\"><i>AB=AC ,AD=AE ,BD=CE </i> </span>,且<i>B、D、E</i>三点共线,求证:<span class=\"mathquill-rendered-math\">∠3=∠1+∠2 </span>.<br><img src=\"4.png\" style=\"vertical-align:middle;width:7.25em;\">",
+            "step":"在<i>ΔABD</i> 与<i>ΔACE</i> 中,<img src=\"31.svg\" style=\"vertical-align:middle;width:5em;\">,<br><span class=\"mathquill-rendered-math\"><i>∴△ABD≌△ACE </i></span> ,<br><span class=\"mathquill-rendered-math\"><i>∴∠BAD=∠1,∠ABD=∠2 </i></span> ,<br><span class=\"mathquill-rendered-math\"><i>∴∠3=∠BAD+∠ABD</i></span>,<br><span class=\"mathquill-rendered-math\"><i>∴∠3=∠1</i> </span>."
+        },
+        {
+            "kind":"example",
+            "label":"题型三  利用“SSS”的判定方法做一个角等于已知角",
+            "Q":"用尺规作一个角等于已知角的和（保留作图痕迹）：<br>已知：∠1、∠2、求作：<i>∠AOB</i>，使<span class=\"mathquill-rendered-math\"><i>∠AOB=∠1+∠2</i></span>．<br><img src=\"5.png\" style=\"vertical-align:middle;width:14em;\">",
+            "step":"（1）作射线<i>OA</i>,<br>（2）以<i>O</i>为顶点作<span class=\"mathquill-rendered-math\"><i>∠A0C=∠1</i></span>，<br>（3）以点O为顶点<i>OC</i>为一边在<i>∠A0</i>C同侧作<span class=\"mathquill-rendered-math\"><i>∠COB=∠2</i></span>，则<i>∠A0B</i>为所求作的角．<br><img src=\"6.png\" style=\"vertical-align:middle;width:20em;\">",
+            "notice":"本题考查了角的画法，一定要掌握划角的步骤，严格按照步骤来画，并保留作图痕迹.在此题中，还要注意<i>∠AOB=∠α+∠β</i>这一数量关系."
+        },
+        {
+            "kind":"kpt",
+            "name":"三角形全等的判定方法二：边角边（SAS）",
+            "sub":[
+                {
+                    "kind":"kpt",
+                    "name":"判定方法二",
+                    "sub":[
+                        "两边和它们的家教分别相等的两个三角形全等（简写成“边角边”或“<i>SAS</i>”）."    
+                    ]
+                },
+                {
+                    "kind":"kpt",
+                    "name":"证明书写格式",
+                    "sub":[
+                        "在<i>ΔABC</i>和<span class=\"mathquill-rendered-math\"><i>ΔA´B´C´</i></span>中，<img src=\"32.svg\" style=\"vertical-align:middle;width:8.81em;\"><span class=\"mathquill-rendered-math\"><i>∴ΔABC≌ΔA´B´C´.</i></span><br>注：(1)相等的元素:两边及这两边的夹角.<br>(2)在书写两个三角形全等的条件边角边时,要按边、角、边的顺序来写，即把夹角写在中间，以突出两边及其夹角对应相等."     
+                    ]   
+                },
+                {
+                    "kind":"kpt",
+                    "name":"易错警示",
+                    "sub":[
+                        "用两边一角证三角形全等时,角必须是两边的夹角.两边和一边的对角分别相等时两个三角形不一定全等，即不存在“边边角”.如图，<i>ΔABC</i>与<i>ΔADC</i>的边<i>AC=AC,CB=CD</i>,其中<i>∠A</i>是<i>CB,CD</i>的对角而非夹角,但<i>ΔABC</i>与<i>ΔADC</i>不全等.<img src=\"7.png\" style=\"vertical-align:middle;width:11em;DISPLAY:BLOCK\">"
+                    ]
+                }
+            ]
+        },
+        {
+            "kind":"example",
+            "label":"题型一 利用“SAS”判定两个三角形全等",
+            "Q":" 已知:点<i>A、F、E、C</i>在同一条直线上, <span class=\"mathquill-rendered-math\"><i> AF=CE,BE∥ DF ,BE=DF </i></span> .求证: <span class=\"mathquill-rendered-math\"><i>△ABE≌△CDF</i> </span>.<BR><img src=\"8.png\" style=\"vertical-align:middle;width:12em;\"><br>",
+            "way":"先根据<span class=\"mathquill-rendered-math\"><i>AF=CE</i></span> 得出<span class=\"mathquill-rendered-math\"><i>AE=CF</i></span>,再根据平行线的性质得出<span class=\"mathquill-rendered-math\"><i>∠A=∠C</i></span>,由全等三角形的判定定理即可得出结论.",
+            "step":"<span class=\"mathquill-rendered-math\"><i>∵AF=CE</i></span> ,<br><span class=\"mathquill-rendered-math\"><i>∴AF+EF=CE+EF</i></span>,即<span class=\"mathquill-rendered-math\"><i>AE=CF</i></span>,<BR><span class=\"mathquill-rendered-math\"><i>∴BE∥ DF</i></span>,<br><span class=\"mathquill-rendered-math\"><i>∠DFE=∠FEB</i></span><br> ,在<i>ΔABE</i>与<i>ΔCDF</i></span> 中,<br><img src=\"33.svg\" style=\"vertical-align:middle;width:8em;\"> ,<br><span class=\"mathquill-rendered-math\"><i>△ABE≌△CDF</i></span>.",
+            "notice":"运用“<i>SAS</i>” 判定两个三角形全等时首先要注意角一定是两边的夹角，其次要注意边相等和角相等的隐藏方式，边相等的隐藏方式与“<i>SSS</i>”的方式相同，角相等隐藏的常见方式有下列几种: ①公共角; ②对顶角; ③角平分线; ④角的和差;⑤平行线的性质; ⑥垂直; ⑦余角或补角的性质;⑧全等三角形的性质."
+        },
+        {
+            "kind":"example",
+            "type":9,
+            "Q":" [易错题]如图, <span class=\"mathquill-rendered-math\"><i>AB=AC ,D、E</i></span>分别是<i>AB、AC</i>的中点, <i>ΔABE</i> 与<i>ΔACD</i> 全等吗?为什么?<BR><img src=\"16.jpg\" style=\"vertical-align:middle;width:8.81em;\">",
+            "step":"<i>ΔABE</i>与<i>ΔACD</i> 全等.<br>理由如下:<br><span class=\"mathquill-rendered-math\"><i>∵AB=AC , D、E</i></span>分别是<i>AB、AC</i>的中点,<BR><span class=\"mathquill-rendered-math\"><i>∴AE=AD</i></span>,<BR>在<i>ΔABE</i>和<i>ΔADE</i>中,<BR><img src=\"34.svg\" style=\"vertical-align:middle;width:8.81em;\"><BR><i>∴ΔABE </i> 和<i>ΔADC(SAS)</i> ."
+        },
+        {
+            "kind":"example",
+            "label":"题型二 利用“SAS”判定三角形全等解决实际问题",
+            "Q":" 如图，要在湖的两岸<i>A、B</i>之间建一座观赏桥，由于条件限制，无法直接测量<i>A、B</i>两点间的距离，请你用学过的数学知识按以下要求设计一个测量方案．<br>(1)画出测量图案．<br>(2)写出测量步骤．(测量数据用字母表示)<br>(3)计算<i>A、B</i>两点间的距离．(写出求解或推理过程，结果用字母表示)<br><img src=\"10.jpg\" style=\"vertical-align:middle;width:8.72em;\">",
+            "way":"本题让我们了解测量两点之间的距离的一种方法，设计时，只要符合全等三角形全等的条件，方案具有可操作性，需要测量的线段在陆地一侧可实施，就可以达到目的．",
+            "step":"(1)见图：<br><img src=\"11.jpg\" style=\"vertical-align:middle;width:12em;\"><br>(2)在湖岸上选一点<i>O</i>，连接<i>BO</i>并延长到<i>C</i>使<i>BO=OC</i>，连接<i>AO</i>并延长到点<i>D</i>使<i>OD=AO</i>，连接<i>CD</i>，则<i>AB=CD</i>．测量<i>DC</i>的长度即为<i>AB</i>的长度；<br>(3)设<span class=\"mathquill-rendered-math\"><i>DC=m</i></span><br><span class=\"mathquill-rendered-math\"><i>∵BO=D，AO=DO</i></span><br><span class=\"mathquill-rendered-math\"><i>∴△AOB≌△COD(SAS)</i></span><br><span class=\"mathquill-rendered-math\"><i>∴AB=CD=m．</i></span>",
+            "notice":"解答本题的关键是构造全等三角形，巧妙地借助两个三角形全等，寻找所求线段与已知线段之间的等量关系."
+        },
+        {
+            "kind":"example",
+            "type":9,
+            "Q":"  有一座锥形小山，如图，要测量锥形小山两端<i>A、B</i>的距离，先在平地上取一个可以直接到达<i>A</i>和<i>B</i>的点<i>C</i>，连接<i>AC</i>并延长到<i>D</i>，使<i>CD=CA</i>，连接<i>BC</i>并延长到<i>E</i>，使<i>CE=CB</i>，连接<i>DE</i>，量出<i>DE</i>的长为<i>50m</i>，你能求出锥形小山两端<i>A、B</i>的距离吗？<br><img src=\"12.png\" style=\"vertical-align:middle;width:8.81em;\">",
+            "step":"在<i>△ABC</i>和<i>△EDC</i>中，<br><span class=\"mathquill-rendered-math\"><i>CA＝CD，∠ACB＝∠DCE，CB＝CE</i></span><br><span class=\"mathquill-rendered-math\"><i>∴△ABC≌△EDC（SAS）</i></span>，<br><span class=\"mathquill-rendered-math\"><i>∴AB=DE=50</i></span>．<br>答：锥形小山两端<i>A、B</i>的距离为<i>50m</i>．"
+        },
+        {
+            "kind":"example",
+            "label":"题型三 利用三角形全等证明线段的平行关系",
+            "Q":" 已知：如图，<span class=\"mathquill-rendered-math\"><i>DE⊥AC，BF⊥AC</i></span>，垂足分别为<span class=\"mathquill-rendered-math\"><i>E、F，DE=BF，AF=CE</i></span>.求证：<span class=\"mathquill-rendered-math\"><i>AB∥CD</i></span><br><img src=\"13.png\" style=\"vertical-align:middle;width:8.81em;\">",
+            "way":"<span class=\"mathquill-rendered-math\"><i>∵DE=BF，∠DEC=∠BFA=90°，AF=CE</i></span>，根据<i>SAS</i>证得<span class=\"mathquill-rendered-math\"><i>△DEC≌△BFA</i></span>；根据全等三角形性质得到，<span class=\"mathquill-rendered-math\"><i>∠ECD=∠FAB</i></span>；最后由内错角相等，两直线平行即可得证.",
+            "step":"<span class=\"mathquill-rendered-math\"><i>∵DE⊥AC，BF⊥AC</i></span>，<br><span class=\"mathquill-rendered-math\"><i>∴∠DEC=∠BFA=90°</i></span>，<br>在<i>△DEC</i>与<i>△BFA</i>中，<br><span class=\"mathquill-rendered-math\"><i>DE=BF</i></span><br><span class=\"mathquill-rendered-math\"><i>∠DEC=∠BFA=90°</i></span><br><span class=\"mathquill-rendered-math\"><i>AF=CE，</i></span><br><span class=\"mathquill-rendered-math\"><i>∴△DEC≌△BFA(SAS)，</i></span><br><span class=\"mathquill-rendered-math\"><i>∴∠ECD=∠FAB，</i></span><br><span class=\"mathquill-rendered-math\"><i>∴AB∥CD.</i></span>",
+            "notice":"本题考查了全等三角形的判定与性质以及平行线的判定，题目难度不大，解题的关键是熟练运用判定定理及性质，全等三角形及平行线的判定是常考知识点，要灵活运用判定定理."
+        },
+        {
+            "kind":"example",
+            "type":9,
+            "Q":" 如图，点<i> O</i>是线段<i>AB</i> 和线段<i>CD</i> 的中点.<br><img src=\"14.png\" style=\"vertical-align:middle;width:8.81em;\"><BR>（1）求证：<span class=\"mathquill-rendered-math\"><i>△AOD≌△BOC</i></span>.<BR>（2）求证：<span class=\"mathquill-rendered-math\"><i>AD∥BC</i></span>.",
+            "step":"（1）根据题意可得，<span class=\"mathquill-rendered-math\"><i>OC=OD ，0A=OB </i></span>，在<i>△ AOD和<i>△BOC 中，<BR><img src=\"35.svg\" style=\"vertical-align:middle;width:8.81em;\">，所以<span class=\"mathquill-rendered-math\"><i>△AOD≌△BOC(SAS)</i></span>.<BR>（2）由（1）知，<span class=\"mathquill-rendered-math\"><i>△AOD≌△BOC</i></span>，所以<span class=\"mathquill-rendered-math\"><i>∠DAO=∠CBO</i></span> ，根据“内错角相等，两直线平行”可得，<span class=\"mathquill-rendered-math\"><i> AD∥BC</i></span>."
+        },
+        {
+            "kind":"kpt",
+            "name":"三角形全等的判定方法——ASA、AAS",
+            "sub":[
+                {
+                    "kind":"kpt",
+                    "name":"1.判定方法三",
+                    "sub":[
+                        "两角和它们的夹边分别相等的两个三角形全等（简写成“角边角”或“<i>ASA</i>”）.<br>证明书写格式：在<i>ΔABC</i>和<span class=\"mathquill-rendered-math\"><i>ΔA´B´C</i></span>´中，<br><img src=\"36.svg\" style=\"vertical-align:middle;width:7em;\"><span class=\"mathquill-rendered-math\"><i>∴ΔABC≌ΔA´B´C´.</i></span><br>注：(1)相等的元素:两角及两角夹边；<br>(2)在书写两个三角形全等的条件角边角时，一定要把夹边相等写在中间，以突出角边角的位置以及对应关系；"    
+                    ]
+                },
+                {
+                    "kind":"kpt",
+                    "name":"2.判定方法四",
+                    "sub":[
+                        "两角分别相等且其中一组等角的对边相等的两个三角形全等(简写成“角角边”或“<i>AAS</i>”).<br>证明书写格式：在<i>ΔABC和<span class=\"mathquill-rendered-math\"><i>ΔA´B´C´</i></span>中，<br><img src=\"36.svg\" style=\"vertical-align:middle;width:7em;\"><br><span class=\"mathquill-rendered-math\"><i>∴ΔABC≌ΔA´B´C´.</i></span><br>注：(1)相等的元素:两角及其中一角的对边.<br>(2)用判定方法二、判定方法三及判定方法四证明全等时,要注意图形中隐含的相等的角.例如:对顶角、公共角、同角的余角(补角)都是相等的，虽然已知条件无涉及,但证明中要特别注意挖掘这些重要条件."    
+                    ]   
+                }
+            ]
+        },
+        {
+            "kind":"example",
+            "label":"题型一 利用“ASA”判定两个三角形全等",
+            "type":9,
+            "Q":"[中考题] 如图,已知:点<i>B、F、C、E</i>在一条直线上,<span class=\"mathquill-rendered-math\"><i>∠B=∠E ,BF=CE ,AC∥DF</i></span> .求证: <span class=\"mathquill-rendered-math\"><i>△ABC≌△DEF.</i></span><br><img src=\"15.png\" style=\"vertical-align:middle;width:8.81em;\">",
+            "way":"要证明<span class=\"mathquill-rendered-math\"><i>ΔABC≌ΔDEF</i></span>,从条件看，已知有一组边和一组角相等,寻找第三组相等元素有两种思路:一种是找相等角的另一边相等;另一种是找相等线段的另一端点的角相等.",
+            "step":"<span class=\"mathquill-rendered-math\"><i>∵AC∥DF ,</i></span><BR><span class=\"mathquill-rendered-math\"><i> ∴ ∠ACB=∠DFE,</i></span><br><span class=\"mathquill-rendered-math\"><i> ∴BF=CE,</i></span><BR><span class=\"mathquill-rendered-math\"><i> ∴BC=EF,</i></span><BR>在<i>ΔABC 和<i>ΔDEF 中<br>,<img src=\"37.svg\" style=\"vertical-align:middle;width:8.81em;\"><BR>,<span class=\"mathquill-rendered-math\"><i>∴△ABC≌△DEF(ASA).</i></span>",
+            "notice":"不管是“<i>ASA</i>” 还是“<i>AAS</i>”，都是要找两个角和一条边对应相等，找边相等与“<i>SSS</i>”中找边相等的方式相同，找角相等与“<i>SAS</i>”中找角相等的方式相同."
+        },
+        {
+            "kind":"example",
+            "type":9,
+            "Q":" 如图，点<i>D</i>在<i>AB</i>上，点<i>E</i>在<i>AC</i>上，<span class=\"mathquill-rendered-math\"><i>AB=AC，∠B=∠C</i></span>，求证：<span class=\"mathquill-rendered-math\"><i>AD=AE</i></span>。<br><img src=\"16.jpg\" style=\"vertical-align:middle;width:8.81em;\">",
+            "step":"在<i>△ABE</i>与<i>△ACD</i>中，<br><span class=\"mathquill-rendered-math\"><i>∠A＝∠A</i></span><br><span class=\"mathquill-rendered-math\"><i>AB＝AC</i></span><br><span class=\"mathquill-rendered-math\"><i>∠B＝∠C</i></span><br><span class=\"mathquill-rendered-math\"><i>∴△ACD≌△ABE（ASA）</i></span>，<br><span class=\"mathquill-rendered-math\"><i>∴AD=AE</i></span>（全等三角形的对应边相等）．"
+        },
+        {
+            "kind":"example",
+            "label":"题型二 利用“AAS”证明两个三角形全等",
+            "type":9,
+            "Q":"[中考题] 如图，<span class=\"mathquill-rendered-math\"><i> CA=CD，∠B=∠E，∠BCE=∠ACD</i></span>.求证：<span class=\"mathquill-rendered-math\"><i>AB=DE</i></span>.<BR><img src=\"17.png\" style=\"vertical-align:middle;width:11em;\">",
+            "way":"在等式<span class=\"mathquill-rendered-math\"><i>∠BCE=∠ACD</i></span> 两边同时加上<i>∠ACE</i> 得到<span class=\"mathquill-rendered-math\"><i>∠ACB=∠DCE</i></span> ，根据全等三角形的角角边判定定理，得到<span class=\"mathquill-rendered-math\"><i>△ACB≌△DCE</i></span>，再根据全等三角形对应边相等，即可得到<span class=\"mathquill-rendered-math\"><i>AB=DE</i></span> 。",
+            "step":"因为<span class=\"mathquill-rendered-math\"><i> ∠BCE=∠ACD</i></span>，所以<span class=\"mathquill-rendered-math\"><i> ∠BCE+∠aCE=∠ACD+∠ACE</i></span>，即<span class=\"mathquill-rendered-math\"><i>∠ACB=∠DCE</i></span> 。在<i>△ACB</i>和<i>△DCE</i> 中，<BR><img src=\"38.svg\" style=\"vertical-align:middle;width:8.81em;\">，所以<span class=\"mathquill-rendered-math\"><i>ΔACB≌ΔDCE(AAS)</i></span>,故<span class=\"mathquill-rendered-math\"><i>AB=DE</i></span> ."
+        },
+        {
+            "kind":"example",
+            "type":9,
+            "Q":"  如图所示,<span class=\"mathquill-rendered-math\"><i> AE⊥BE,AD⊥DC ,CD=BE ,∠DAB=∠EAC</i></span> ,求证:<span class=\"mathquill-rendered-math\"><i>AB=AC</i></span>.<img src=\"18.png\" style=\"vertical-align:middle;width:6.65em;display:block\">",
+            "step":"证明:<span class=\"mathquill-rendered-math\"><i>∵AE⊥BE,AD⊥DC</i></span> ,<BR><span class=\"mathquill-rendered-math\"><i>∴∠D=∠AE=90°</i></span>,<BR><span class=\"mathquill-rendered-math\"><i>∴∠DAB=∠EAC</i></span> ,<BR><span class=\"mathquill-rendered-math\"><i>∴∠DAB+∠ABC=∠EAC+∠ABC</i></span> ,即<span class=\"mathquill-rendered-math\"><i>∠DAC=∠EAB</i></span> ,<BR>在<i>△ACD</i> 和<i>△ABE</i> 中,<BR><img src=\"39.svg\" style=\"vertical-align:middle;width:9em;\">,<br><span class=\"mathquill-rendered-math\"><i> ∴ΔACD≌ΔABE(AAS)</i></span> ,<br><span class=\"mathquill-rendered-math\"><i>∴AB=AC</i></span> ."
+        },
+        {
+            "kind":"example",
+            "label":"题型三 三角形全等条件的补充",
+            "type":2,
+            "Q":"[中考题] 已知：如图，<span class=\"mathquill-rendered-math\"><i>CD=CA，∠1=∠2</i></span>，要使<span class=\"mathquill-rendered-math\"><i>△ECD≌△BCA</i></span>，需添加的条件是    （只需要写出一个）.<br><img src=\"19.png\" style=\"vertical-align:middle;width:12em;\">",
+            "way":"1、分析题意，回忆一下判断两三角形全等所需要的条件；<br>2、观察图形，根据<span class=\"mathquill-rendered-math\"><i>∠1=∠2</i></span>易得到<span class=\"mathquill-rendered-math\"><i>∠ECD=∠BCA</i></span>，再结合<span class=\"mathquill-rendered-math\"><i>CD=CA</i></span>，想想还缺什么条件？<br>3、然后根据全等三角形的判定定理，试着添加条件，注意本题不是唯一答案.",
+            "step":"可添加条件：<span class=\"mathquill-rendered-math\"><i>CE=CB</i></span>.理由如下：<br><span class=\"mathquill-rendered-math\"><i>∵∠1=∠2</i></span>，<br><span class=\"mathquill-rendered-math\"><i>∴∠1+∠ACE=∠2+∠ACE</i></span>，即<span class=\"mathquill-rendered-math\"><i>∠ECD=∠BCA</i></span>.<br>在△ECD和△BCA中，<span class=\"mathquill-rendered-math\"><i>∠ECD=∠BCA，CD=CA，CE=CB</i></span>，<br><span class=\"mathquill-rendered-math\"><i>∴△ECD≌△BCA.</i></span>",
+            "notice":"证明两个三角形全等，一般情况下是已知两个相等元素去找第三个相等元素，有以下几种情况：1.已知两边：①找第三边，②找两边的夹角；2.已知两角：①找其中任意一角的对边，②找两角的夹边；3.已知一边及其邻角：①找任意一角，②找夹该已知角的边；4.已知一边及其对角，找余下的任一角."
+        },
+        {
+            "kind":"example",
+            "type":1,
+            "Q":" 如图，已知<span class=\"mathquill-rendered-math\"><i>MB=ND，∠MBA=∠NDC</i></span>，下列哪个条件不能判定<span class=\"mathquill-rendered-math\"><i>△ABM≌△CDN</i></span>（　　）<br><img src=\"20.png\" style=\"vertical-align:middle;width:8.81em;\">",
+            "opts":[
+                "<span class=\"mathquill-rendered-math\"><i>∠M=∠N</i></span>",
+                "<span class=\"mathquill-rendered-math\"><i>AB=CD</i></span>",
+                "<span class=\"mathquill-rendered-math\"><i>AM∥CN</i></span>",
+                "<span class=\"mathquill-rendered-math\"><i>AM=CN</i></span>"
+            ],
+            "step":"<i>A</i>、加上<span class=\"mathquill-rendered-math\"><i>∠M=∠N</i></span>可利用<i>ASA定理证明<span class=\"mathquill-rendered-math\"><i>△ABM≌△CDN</i></span>，故此选项不合题意；<br><i>B</i>、加上<span class=\"mathquill-rendered-math\"><i>AB=CD</i></span>可利用SAS定理证明<span class=\"mathquill-rendered-math\"><i>△ABM≌△CDN</i></span>，故此选项不合题意；<br><i>C</i>、加上<span class=\"mathquill-rendered-math\"><i>AM∥CN</i></span>可证明<span class=\"mathquill-rendered-math\"><i>∠A=∠NCB</i></span>，可利用<i>ASA定理证明<span class=\"mathquill-rendered-math\"><i>△ABM≌△CDN</i></span>，故此选项不合题意；<br><i>D</i>、加上<span class=\"mathquill-rendered-math\"><i>AM=CN</i></span>不能证明<span class=\"mathquill-rendered-math\"><i>△ABM≌△CDN</i></span>，故此选项符合题意；<br>故选：<i>D．</i>"
+        },
+        {
+            "kind":"kpt",
+            "name":"直角三角形全等的判定方法——HL",
+            "sub":[
+                {
+                    "kind":"kpt",
+                    "name":"",
+                    "sub":[
+                        "斜边和一条直角边分别相等的两个直角三角形全等(简写成“斜边、直角边”或“<i>HL</i>”)."    
+                    ]
+                },
+                {
+                    "kind":"kpt",
+                    "name":"",
+                    "sub":[
+                        "如图，在<span class=\"mathquill-rendered-math\"><i>RtΔABC</i></span>和<span class=\"mathquill-rendered-math\"><i>RtΔA´B´C´中，AB=A´B´，AC=A´C´</i></span>（或<span class=\"mathquill-rendered-math\"><i>BC=B´C´</i></span>），则<span class=\"mathquill-rendered-math\"><i>RtΔABC≌RtΔA´B´C´</i></span><br><img src=\"21.png\" style=\"vertical-align:middle;width:14em;\">"   
+                    ]   
+                },
+                {
+                    "kind":"kpt",
+                    "name":"",
+                    "sub":[
+                        "3.易错警示：“<i>HL</i>”是判定两个直角三角形全等的特殊方法，但不是唯一的方法"    
+                    ]   
+                }
+            ]
+        },
+        {
+            "kind":"example",
+            "label":"题型二 利用三角形全等的判定方法选用合适方法证明全等",
+            "type":9,
+            "Q":" 如图所示，在<span class=\"mathquill-rendered-math\"><i>△ABC中，AB=CB，∠ABC=90°，F</i></span>为<i>AB</i>延长线上一点，点<i>E</i>在<i>BC</i>上，且<span class=\"mathquill-rendered-math\"><i>AE=CF.</i></span><br><img src=\"22.png\" style=\"vertical-align:middle;width:8.81em;\"><br>求证：<span class=\"mathquill-rendered-math\"><i>Rt△ABE≌Rt△CBF.</i></span>",
+            "way":"欲证<span class=\"mathquill-rendered-math\"><i>Rt△ABE</i></span>和<span class=\"mathquill-rendered-math\"><i>Rt△CBF</i></span></i></span>全等，考虑运用<i>HL</i>进行证明；<br>根据<span class=\"mathquill-rendered-math\"><i>AB=CB，AE=CF</i></span>，结合图形即可得出结论.",
+            "step":"在<span class=\"mathquill-rendered-math\"><i>Rt△ABE</i></span>和<span class=\"mathquill-rendered-math\"><i>Rt△CBF</i></span>中，<span class=\"mathquill-rendered-math\"><i>∠ABE=∠CBF=90°.</i></span><br><img src=\"41.svg\" style=\"vertical-align:middle;width:5em;\"><br> <span class=\"mathquill-rendered-math\"><i> Rt△ABE≌Rt△CBF.</i></span>",
+            "notice":"应用“<i>HL</i>”判定两个直角三角形全等，书写时，两个三角形符号前要加上“<i>Rt</i>”．"
+        },
+        {
+            "kind":"example",
+            "type":9,
+            "Q":"  如图，<span class=\"mathquill-rendered-math\"><i>∠A=∠D=90°，AB=DE，BF=EC</i></span>．求证：<span class=\"mathquill-rendered-math\"><i>Rt△ABC≌Rt△DEF．</i></span><br><img src=\"23.png\" style=\"vertical-align:middle;width:12em;\">",
+            "step":"证明：<span class=\"mathquill-rendered-math\"><i>∵BF=EC，</i></span><br><span class=\"mathquill-rendered-math\"><i>∴BF+FC=FC+EC</i></span>，即BC=EF</i></span>，<br><span class=\"mathquill-rendered-math\"><i>∵∠A=∠D=90°</i></span>，<br>∴△ABC和△DEF都是直角三角形，<br>在<span class=\"mathquill-rendered-math\"><i>Rt△ABC</i></span>和<span class=\"mathquill-rendered-math\"><i>Rt△DEF</i></span>中，<br><span class=\"mathquill-rendered-math\"><i>AB＝DE，BC＝EC</i></span>，<span class=\"mathquill-rendered-math\"><i>∴Rt△ABC≌Rt△DEF（HL</i></span>）．"
+        },
+        {
+            "kind":"example",
+            "label":"题型二 利用三角形全等的判定方法选用合适方法证明全等",
+            "type":9,
+            "Q":" 如图,<span class=\"mathquill-rendered-math\"><i>AC⊥BC，AD⊥BD，AD=BC，CE⊥AB，DF⊥AB</i></span>，垂足分别是E，F，那么，<span class=\"mathquill-rendered-math\"><i>CE=DF</i></span>吗？<br><img src=\"24.png\" style=\"vertical-align:middle;width:10em;\">",
+            "way":"提示1：相等，先利用<i>HL</i>来判定<span class=\"mathquill-rendered-math\"><i>Rt△ABC≌Rt△BAD</i></span>，得出<span class=\"mathquill-rendered-math\"><i>AC=BD，∠CAB=∠DBA</i></span>，再利用<i>AAS</i>判定<span class=\"mathquill-rendered-math\"><i>△ACE≌△BDF</i></span>，从而推出<span class=\"mathquill-rendered-math\"><i>CE=DF</i></span>提示2：本题考查三角形全等的判定方法，判定两个三角形全等的一般方法有：<i>SSS、SAS、ASA、AAS、HL</i>．",
+            "step":"<span class=\"mathquill-rendered-math\"><i>CE=DF</i></span>．理由：<br>在<span class=\"mathquill-rendered-math\"><i>Rt△ABC</i></span>和<span class=\"mathquill-rendered-math\"><i>Rt△BAD</i></span>中，<br><span class=\"mathquill-rendered-math\"><i>AD=BC，AB=BA</i></span><br><span class=\"mathquill-rendered-math\"><i>∴Rt△ABC≌Rt△BAD（HL）</i></span>，<br><span class=\"mathquill-rendered-math\"><i>∴AC=BD，∠CAB=∠DBA</i></span>．<br>在<i>△ACE</i>和<i>△BDF</i>中，<br><span class=\"mathquill-rendered-math\"><i>∠CAB=∠DBA，∠AEC=∠BFD=90°，AC=BD</i></span><br><span class=\"mathquill-rendered-math\"><i>∴△ACE≌△BDF（AAS），</i></span><br><span class=\"mathquill-rendered-math\"><i>∴CE=DF．</i></span>",
+            "notice":"<i>AAA、SSA</i>不能判定两个三角形全等，判定两个三角形全等时，必须有边的参与，若有两边一角对应相等时，角必须是两边的夹角．"
+        },        
+       {
+            "kind":"example",
+            "type":9,
+            "Q":" 如图,点<i>C、E、B、F</i>在一条直线上,<span class=\"mathquill-rendered-math\"><i>AB⊥CF</i></span> 于<span class=\"mathquill-rendered-math\"><i>B,DE⊥CF</i></span> 于<span class=\"mathquill-rendered-math\"><i> , </i></span>.求证:<span class=\"mathquill-rendered-math\"><i>E,AC=DF,AB=DE</i></span>求证:<span class=\"mathquill-rendered-math\">CE=BF<i></i></span> . .<img src=\"25.png\" style=\"vertical-align:middle;width:8.81em;\">",
+            "step":"<span class=\"mathquill-rendered-math\"><i> ∵AB⊥CD,DE⊥CF</i></span> ,<br><span class=\"mathquill-rendered-math\"><i>∴∠ABC=∠DEF+∠90° .</i></span><br>在<span class=\"mathquill-rendered-math\"><i>Rt△ABC </i></span> 和<span class=\"mathquill-rendered-math\"><i> Rt△DEF</i></span> 中,<be><img src=\"40.svg\" style=\"vertical-align:middle;width:6.5em;\"> ,<br><span class=\"mathquill-rendered-math\"><i>∴Rt△ABC≌Rt△DEF(HL).</i></span><br><BR><span class=\"mathquill-rendered-math\"><i>∴ BC=EF .</i></span><BR><span class=\"mathquill-rendered-math\"><i>∴ BC-BE=EF-BE .</i></span><BR>即:<span class=\"mathquill-rendered-math\"><i>CE=BF .</i></span>"
+        },
+        {
+            "kind":"example",
+            "label":"题型三 利用三角形全等证明线段的垂直关系",
+            "type":9,
+            "Q":" 如图,已知<span class=\"mathquill-rendered-math\"><i>Rt△ABC</i></span> 中,<span class=\"mathquill-rendered-math\"><i>∠ACB=90∘，CA=CB，D</i></span>是<i>AC</i>上一点，<i>E </i>在<i>BC</i>的延长线上，且<span class=\"mathquill-rendered-math\"><i> AE=BD，BD </i></span>的延长线与<i>AE</i>交于点<i>F.</i>试通过观察、测量、猜想等方法来探索<i>BF</i>与<i>AE</i>有何特殊的位置关系，并说明你猜想的正确性.<br><img src=\"26.png\" style=\"vertical-align:middle;width:8.81em;\">",
+            "way":"猜想：<span class=\"mathquill-rendered-math\"><i>BF⊥AE </i></span>先证明<span class=\"mathquill-rendered-math\"><i>△BDC≌△AEC</i></span>得出<span class=\"mathquill-rendered-math\"><i>∠CBD=∠CAE</i></span>，从而得出<i>∠BFE=90°</i>，即<i>BF⊥AE</i>．",
+            "step":"猜想：<span class=\"mathquill-rendered-math\"><i> BF⊥AE.</i></span> <br>理由：<span class=\"mathquill-rendered-math\"><i> ∵∠ACB=90∘ ，</i></span><br><span class=\"mathquill-rendered-math\"><i>∴∠ACE=∠BCD=90∘. </i></span><br>又<span class=\"mathquill-rendered-math\"><i> BC=AC ， BD=AE ，</i></span><br><span class=\"mathquill-rendered-math\"><i>∴△BDC ≌ △AEC(HL). </i></span><br><span class=\"mathquill-rendered-math\"><i>∴∠CBD=∠CAE. </i></span><br>又 <span class=\"mathquill-rendered-math\"><i>∴∠CAE +∠E=90∘. </i></span><br><span class=\"mathquill-rendered-math\"><i>∴∠EBF+∠E=90∘. </i></span><br><span class=\"mathquill-rendered-math\"><i>∴∠BFE=90</i></span>∘ ，即 <span class=\"mathquill-rendered-math\"><i>BF⊥AE. </i></span>",
+            "notice":"用三角形全等探求线段的特殊位置关系的方法:线段的特殊位置关系常见的有平行和垂直.一般先运用三角形全等证明出相等的两角，然后利用三角形内角和、等角的余角相等、邻补角的定义等将其转化为具有特殊位置关系的两个角的关系，从而判断两条线段所在的直线的位置关系，最后确定两条线段的位置关系."
+        },
+        {
+            "kind":"example",
+            "type":9,
+            "Q":" 如图，<i>AD</i>为<i>△ABC</i>的高线，<i>E</i>为<i>AC</i>上的一点，<i>BE</i>交<i>AD</i>于点<i>F</i>，且<span class=\"mathquill-rendered-math\"><i>BF=AC，FD=CD</i></span>，求证：<span class=\"mathquill-rendered-math\"><i>BE⊥AC.</i></span>.<br><img src=\"27.jpg\" style=\"vertical-align:middle;width:8.81em;\">",
+            "step":"<span class=\"mathquill-rendered-math\"><i>∵BF=AC，FD=CD，AD⊥BC，</i></span><span class=\"mathquill-rendered-math\"><i>∴Rt△BDF≌Rt△ADC（HL）</i></span><br><span class=\"mathquill-rendered-math\"><i>∴∠C=∠BFD，</i></span><br><span class=\"mathquill-rendered-math\"><i>∵∠DBF+∠BFD=90°，</i></span><br><span class=\"mathquill-rendered-math\"><i>∴∠C+∠DBF=90°，</i></span><br><span class=\"mathquill-rendered-math\"><i>∵∠C+∠DBF+∠BEC=180°</i></span><br><span class=\"mathquill-rendered-math\"><i>∴∠BEC=90°</i></span>，即<span class=\"mathquill-rendered-math\"><i>BE⊥AC．</i></span>"
+        }
+    ]
+}
+
+
+
+

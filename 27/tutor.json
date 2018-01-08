@@ -1,0 +1,484 @@
+{
+    "couID": 1,
+    "pages": [
+        {
+            "kind": "cover",
+            "title": "第三讲：多边形及其内角和",
+            "description": "1.理解多边形的有关概念，认识多边形的边、内角、外角、顶点、对角线；<br/>2.认识正多边形，知道正多边形的每条边都相等，每个内角都相等；<br/>3.探索并掌握多边形的内角和公式与外角和定理，会用多边形内角和公式与外角和进行简单的计算与说理；<br/>4.了解平面镶嵌，掌握同一种正多边形或不同种正多边形进行密铺镶嵌的方法。<br/>"
+        },
+        {
+            "kind": "kpt",
+            "name": "多边形的有关概念",
+            "sub": [
+                {
+                    "kind": "kpt",
+                    "name": "多边形",
+                    "sub": [
+                        "在平面内，由一些线段首尾顺次相接组成的封闭图形叫做多边形。<br/>",
+                        "多边形按组成它的线段的条数分为三角形、四边形、五边形…<br/>",
+                        "三角形是最简单的多边形。如果一个多边形由<i class=\"latex\">n</i>条线段组成，那么这个多边形叫做<i class=\"latex\">n</i>边形。<br/>"
+                    ]
+                },
+                {
+                    "kind": "kpt",
+                    "name": "多边形的内角",
+                    "sub": [
+                        "多边形相邻两边组成的角叫做多边形的内角。<br/>"
+                    ]
+                },
+                {
+                    "kind": "kpt",
+                    "name": "多边形的外角",
+                    "sub": [
+                        "多边形的边与它的邻边的延长线组成的角叫做多边形的外角。<br/>"
+                    ]
+                },
+                {
+                    "kind": "kpt",
+                    "name": "凸多边形与凹多边形",
+                    "sub": [
+                        "    画出多边形任意一边所在的直线，整个图形都在这条直线的同一侧的多边形称为凸多边形；分为两侧即为凹多边形。这里所讲的多边形都是凸多边形。<br/>"
+                    ]
+                },
+                {
+                    "kind": "kpt",
+                    "name": "正多边形",
+                    "sub": [
+                        "    各个角都相等，各条边都相等的多边形叫作正多边形。<br/>"
+                    ]
+                }
+            ]
+        },
+        {
+            "kind": "example",
+            "label": "题型一  多边形的概念性识别",
+            "type": 1,
+            "Q": "<b >例 1-1 </b>下列说法中，正确的个数是（  ）<br/>（1）  \n三角形是边数最少的多边形；<br/>（2）  \n由<i class=\"latex\">n</i>条线段连接起来组成的图形叫做多边形；<br/>（3）  \n<i class=\"latex\">n</i>边形有<i class=\"latex\">n</i>条边、<i class=\"latex\">n</i>个顶点、<i class=\"latex\">n</i>个内角和<i class=\"latex\">n</i>个外角；<br/>（4）  \n多边形分为凸多边形和凹多边形。<br/>",
+            "way": "根据多边形相关的概念判断即可。<br/>",
+            "step": "（2）的说法不正确，多边形必须是在同一个平面内，由一些线段首尾顺次相接组成的封闭图形才叫做多边形；（3）的说法也不正确，<i class=\"latex\">n</i>边形有<i class=\"latex\">n</i>个内角，<i class=\"latex\">2n</i>个外角；（1）（4）说法正确。<br/>故选：B．<br/>",
+            "notice": "",
+            "opts": [
+                "<i class=\"latex\">1</i><br/>",
+                "<i class=\"latex\">2</i><br/>",
+                "<i class=\"latex\">3</i><br/>",
+                "<i class=\"latex\">4</i><br/>"
+            ]
+        },
+        {
+            "kind": "ques",
+            "type": 1,
+            "Q": "<b >  </b>下列图形中，是正多边形的是（        ）<br/>",
+            "way": "根据正多边形的定义判定即可。<br/>",
+            "step": "根据正多边形的定义：各个角都相等，并且各条边也相等的多边形叫做正多边形进行判断：<br/>直角三角形和等腰三角形的边角都不相等，长方形各角相等但是各边长不相等，只有正方形符合正多边形的定义。<br/>故选：D<br/>",
+            "notice": "正多边形必须具备两个条件：①边相等；②角相等，二者缺一不可。<br/>",
+            "opts": [
+                "直角三角形<br/>",
+                "等腰三角形<br/>",
+                "长方形<br/>",
+                "正方形<br/>"
+            ]
+        },
+        {
+            "kind": "kpt",
+            "name": "多边形的对角线",
+            "sub": [
+                {
+                    "kind": "kpt",
+                    "name": "多边形的对角线",
+                    "sub": [
+                        "连接多边形不相邻的两个顶点的线段，叫做多边形的对角线。<br/>"
+                    ]
+                },
+                {
+                    "kind": "kpt",
+                    "name": "多边形对角线条数",
+                    "sub": [
+                        "从<i class=\"latex\">n</i>边形的一个顶点出发可以引<i class=\"latex\">(n-3)</i>条对角线，将<i class=\"latex\">n</i>边形分为<i class=\"latex\">(n-2)</i>个三角形；<i class=\"latex\">n</i>边形共有<img src=\"1.svg\" style=\"width:3.5em;vertical-align:middle\" tex=\"\\frac{n(n-3)}{2}\">条对角线。<br/>"
+                    ]
+                }
+            ]
+        },
+        {
+            "kind": "example",
+            "label": "题型一  从一个顶点出发的对角线的数目与边数之间的关系",
+            "type": 9,
+            "Q": "<b > </b>（1）从四边形的一个顶点出发，可以引<u>      </u>条对角线，将四边形分成<u>      </u>个三角形；<br/>（2）从五边形的一个顶点出发，可以引<u>     </u>条对角线，将五边形分成<u>      </u>个三角形；<br/>（3）从六边形的一个顶点出发，可以引<u>     </u>条对角线，将六边形分成<u>      </u>个三角形；<br/>（4）从<i class=\"latex\">n</i>边形的一个顶点出发，可以引<u>     </u>条对角线，将<i class=\"latex\">n</i>边形分成<u>      </u>个三角形；<br/>",
+            "way": "作图判断，再推导规律即可。<br/>",
+            "step": "<br/><img style=\"width:17.31em\" src=\"7.png\">如图所示，四边形从一个顶点出发，可以引1条对角线，将四边形分为2个三角形；五边形从一个顶点出发，可以引2条对角线，将五边形分为3个三角形；六边形从一个顶点出发，可以引3条对角线，将六边形分为4个三角形；以此类推…从<i class=\"latex\">n</i>边形的一个顶点出发，可以引<i class=\"latex\">(n-3)</i>条对角线，将<i class=\"latex\">n</i>边形分成<i class=\"latex\">(n-2)</i>个三角形。<br/>故答案为：（1）<i class=\"latex\">1</i>，<i class=\"latex\">2</i>；（2）<i class=\"latex\">2</i>，<i class=\"latex\">3</i>；（3）<i class=\"latex\">3</i>，<i class=\"latex\">4</i>；（4）<i class=\"latex\">(n-3)</i>，<i class=\"latex\">(n-2)</i>。<br/>",
+            "notice": "从一个<i class=\"latex\">n</i>边形的某个顶点出发，可以引<i class=\"latex\">(n-3)</i>条对角线，将<i class=\"latex\">n</i>边形分为<i class=\"latex\">(n-2)</i>个三角形。<br/>"
+        },
+        {
+            "kind": "ques",
+            "type": 1,
+            "Q": "<b > </b>若从一个多边形的一个顶点最多可以引<i class=\"latex\">10</i>条对角线，则它是（       ）<br/>",
+            "way": "根据：从一个<i class=\"latex\">n</i>边形的某个顶点出发，可以引<i class=\"latex\">(n-3)</i>条对角线。计算求解即可。<br/>",
+            "step": "∵<i class=\"latex\">n-3=10</i>解得：<i class=\"latex\">n=13</i>。<br/>故选A<br/>",
+            "notice": "",
+            "opts": [
+                "十三边形<br/>",
+                "十二边形<br/>",
+                "十一边形<br/>",
+                "十边形<br/>"
+            ]
+        },
+        {
+            "kind": "example",
+            "label": "题型二  多边形内角线计数与实际应用",
+            "type": 1,
+            "Q": "<b > </b>九边形的对角线有（       ）<br/>",
+            "way": "从一个<i class=\"latex\">n</i>边形的一个顶点出发，可以引<i class=\"latex\">(n-3)</i>条对角线，因为它有<i class=\"latex\">n</i>个顶点，所以共有<i class=\"latex\">n( n-3 )</i>条对角线，其中每条对角线各重复算了一次，因此：一个<i class=\"latex\">n</i>边形共有<img src=\"1.svg\" style=\"width:3.5em;vertical-align:middle\" tex=\"\\frac{n(n-3)}{2}\">条对角线。<br/>",
+            "step": "将<i class=\"latex\">n=9</i>带入公式<img src=\"1.svg\" style=\"width:3.5em;vertical-align:middle\" tex=\"\\frac{n(n-3)}{2}\">，即可求解得：<i class=\"latex\">27</i><br/>故选C<br/>",
+            "notice": "一个<i class=\"latex\">n</i>边形共有<img src=\"1.svg\" style=\"width:3.5em;vertical-align:middle\" tex=\"\\frac{n(n-3)}{2}\">条对角线。<br/>",
+            "opts": [
+                "<i class=\"latex\">25</i>条<br/>",
+                "<i class=\"latex\">31</i>条<br/>",
+                "<i class=\"latex\">27</i>条<br/>",
+                "<i class=\"latex\">30</i>条<br/>"
+            ]
+        },
+        {
+            "kind": "ques",
+            "type": 9,
+            "Q": "<img style=\"width:10.56em\" src=\"9.png\"><b ></b>某学校八年级六个班举行篮球比赛，比赛采用单循环积分制（即每两个班进行一场比赛），一共需要进行<u>\n       </u>场比赛。<b ></b><br/>",
+            "way": "本题体现了数学与体育学科的综合，解题方法可参照多边形对角线条数的求法。<br/>",
+            "step": "如图：共需比赛<img src=\"10.svg\" style=\"width:5em;vertical-align:middle\" tex=\"\\frac{6\\times\n\\text{5}}{2}=15\">（场）<br/>",
+            "notice": ""
+        },
+        {
+            "kind": "example",
+            "label": "题型三  多边形内角线分多边形为三角形",
+            "type": 1,
+            "Q": "<b > </b>从<i class=\"latex\">n</i>边形的一个顶点作对角线，把这个<i class=\"latex\">n</i>边形分成三角形的个数是（       ）<br/>",
+            "way": "根据多边形对角线的定义，从一个点出发作多边形的对角线分三角形，发现规律即可。<br/>",
+            "step": "选C<br/>",
+            "notice": "从<i class=\"latex\">n</i>边形的一个顶点作对角线，把这个<i class=\"latex\">n</i>边形分成三角形的个数是<i class=\"latex\">(n-2)</i>。<br/>",
+            "opts": [
+                "<i class=\"latex\">n</i><br/>",
+                "<i class=\"latex\">(n-1)</i><br/>",
+                "<i class=\"latex\">(n-2)</i><br/>",
+                "<i class=\"latex\">(n-3)</i> <br/>"
+            ]
+        },
+        {
+            "kind": "ques",
+            "type": 1,
+            "Q": "<b > </b>从一个<i class=\"latex\">n</i>边形的同一个顶点出发，分别连接这个顶点与其余各顶点，若把这个多边形分割成<i class=\"latex\">6</i>个三角形，则<i class=\"latex\">n</i>的值是（     ）<br/>",
+            "way": "从<i class=\"latex\">n</i>边形的一个顶点作对角线，把这个<i class=\"latex\">n</i>边形分成三角形的个数是<i class=\"latex\">(n-2)</i>。<br/>",
+            "step": "∵<i class=\"latex\">n-2=6</i>解得：<i class=\"latex\">n=8</i>。<br/>故选C <br/>",
+            "notice": "",
+            "opts": [
+                "<i class=\"latex\">6</i><br/>",
+                "<i class=\"latex\">7</i><br/>",
+                "<i class=\"latex\">8</i><br/>",
+                "<i class=\"latex\">9</i><br/>"
+            ]
+        },
+        {
+            "kind": "kpt",
+            "name": "多边形的内角和",
+            "sub": [
+                {
+                    "kind": "kpt",
+                    "name": "多边形的内角和公式",
+                    "sub": [
+                        "<i class=\"latex\">n</i>边形的内角和等于<i class=\"latex\">(n-2)· 180°</i><br/>"
+                    ]
+                },
+                {
+                    "kind": "kpt",
+                    "name": "正多边形的内角度数",
+                    "sub": [
+                        "正多边形的每个内角的度数为：<img src=\"2.svg\" style=\"width:5em;vertical-align:middle\" tex=\"\\frac{(n-2)\\cdot 180{}^\\circ }{n}\"><br/>"
+                    ]
+                }
+            ]
+        },
+        {
+            "kind": "example",
+            "label": "题型一  求多边形的内角和",
+            "type": 1,
+            "Q": "<b > </b>五边形的内角和是（       ）<br/>",
+            "way": "直接利用多边形的内角和公式进行计算即可。<br/>",
+            "step": "<i class=\"latex\">( 5-2 )· 180° =540°</i><br/>故选C<br/>",
+            "notice": "多边形的内角和公式为：<i class=\"latex\">(n-2)· 180°</i>。<br/>",
+            "opts": [
+                "<i class=\"latex\">180°</i><br/>",
+                "<i class=\"latex\">360°</i><br/>",
+                "<i class=\"latex\">540°</i><br/>",
+                "<i class=\"latex\">600°</i><br/>"
+            ]
+        },
+        {
+            "kind": "ques",
+            "type": 9,
+            "Q": "<b ></b>若一个多边形的内角和等于<i class=\"latex\">1260°</i>，则该多边形的边数是<u>            </u>。<br/>",
+            "way": "根据多边形的内角和公式<i class=\"latex\">(n-2)· 180°</i>列式求解即可。<br/>",
+            "step": "设这个多边形的边数为<i class=\"latex\">n</i>，<br/>根据题意，有：<i class=\"latex\">(n-2)· 180° =1260°</i>得<i class=\"latex\">n=9</i><br/>故答案为：<i class=\"latex\">9</i><br/>",
+            "notice": "牢记多边形内角和公式是解题关键。<br/>"
+        },
+        {
+            "kind": "example",
+            "label": "题型二  多边形与它的不稳定性",
+            "type": 1,
+            "Q": "<b > </b>下列图形中，具有稳定性的有（     ）<br/>",
+            "way": "根据三角形具有稳定性，其他的多边形都不具有稳定性，判断即可。<br/>",
+            "step": "直接判断即可，选D<br/>",
+            "notice": "",
+            "opts": [
+                "正方形<br/>",
+                "长方形<br/>",
+                "梯形<br/>",
+                "直角三角形<br/>"
+            ]
+        },
+        {
+            "kind": "ques",
+            "type": 1,
+            "Q": "<b ></b>四边形没有稳定性，当四边形形状改变时，发生变化的是（       ）<br/>",
+            "way": "已知：四边形没有稳定性，是指边长确定后，形状会发生改变，而多边形的内角和只与边数有关，与形状无关。<br/>",
+            "step": "多边形不具有稳定性，是指边长确定后，形状无法确定<br/>∴各边长和周长不会发生改变<br/>将<i class=\"latex\">n=4</i>带入多边形内角和公式<i class=\"latex\">(n-2)· 180°\n=2× 180° =360°</i>，故四边形的内角和是<i class=\"latex\">360°</i>不变。而改变形状的同时，角度会发生变化。<br/>故选C<br/>",
+            "notice": "多边形的内角和只与边数<i class=\"latex\">n</i>有关。<br/>",
+            "opts": [
+                "四边形的边长<br/>",
+                "四边形的周长<br/>",
+                "四边形的某些角的大小<br/>",
+                "四边形的内角和<br/>"
+            ]
+        },
+        {
+            "kind": "example",
+            "label": "题型三  多边形内角和综合求角度",
+            "type": 9,
+            "Q": "<b > </b><img style=\"width:9.06em\" src=\"11.png\">如图所示，已知<i class=\"latex\">O</i>是四边形<i class=\"latex\">ABCD</i>内一点，<i class=\"latex\">OB=OC=OD</i>，<i class=\"latex\">∠ BCD=∠ BAD=75°</i>，则<i class=\"latex\">∠ ADO+∠ ABO=</i><u>         \n<i class=\"latex\">°</i></u>。<br/>",
+            "way": "由线段相等可得相应的角相等，那么可得<i class=\"latex\">∠ CDO=∠ DCO</i>，<i class=\"latex\">∠ OCB=∠\nOBC</i>，可得这四个角的和。根据四边形<i class=\"latex\">ABCD</i>的内角和为<i class=\"latex\">360°</i>，再减去已知角的度数即为所求的度数。<br/>",
+            "step": "∵<i class=\"latex\">OB=OC=OD</i>,<br/>∴<i class=\"latex\">∠ CDO=∠ DCO</i>，<i class=\"latex\">∠ OCB=∠\nOBC</i>，<br/>∵<i class=\"latex\">∠ DCO+∠ BCO=75°</i>,<br/>∴<i class=\"latex\">∠ CDO+∠ DCO+∠ OCB+∠ OBC=150°</i><br/>∴<i class=\"latex\">∠ ADO+∠ ABO=360° -∠ BAD-(∠ CDO+∠\nDCO+∠ OCB+∠ OBC)=135°</i><br/>故答案为：<i class=\"latex\">135</i><br/>",
+            "notice": "根据线段的长度的关系推导角度关系，结合多边形内角和化未知为已知是解题关键。<br/>"
+        },
+        {
+            "kind": "ques",
+            "type": 1,
+            "Q": "<img style=\"width:7.69em\" src=\"15.png\"><b ></b>  如图，在四边形<i class=\"latex\">ABCD</i>中，<i class=\"latex\">∠ A+∠ D=α</i>，<i class=\"latex\">∠ ABC</i>的平分线与<i class=\"latex\">∠ BCD</i>的平分线交于点<i class=\"latex\">P</i>，则<i class=\"latex\">∠ P=</i>（        ）<br/>",
+            "way": "先求出<i class=\"latex\">∠ ABC+∠ BCD</i>的度数，然后根据角平分线的性质以及三角形的内角和定理求解<i class=\"latex\">∠ P</i>的度数。<br/>",
+            "step": "∵四边形<i class=\"latex\">ABCD</i>中，<i class=\"latex\">∠ ABC+∠ BCD=360°\n-(∠ A+∠ D)=360° -α</i>，<br/>又∵<i class=\"latex\">PB</i>和<i class=\"latex\">PC</i>分别为<i class=\"latex\">∠\nABC</i>和<i class=\"latex\">∠ BCD</i>的平分线，<br/>∴<img src=\"6.svg\" style=\"width:30em;vertical-align:middle\" tex=\"\\angle PBC+\\angle PCB=\\frac{1}{2}(\\angle ABC+\\angle\nBCD)=\\frac{1}{2}(360{}^\\circ -\\alpha )=180{}^\\circ -\\frac{1}{2}\\alpha\"><br/>∴<img src=\"7.svg\" style=\"width:17em;vertical-align:middle\" tex=\"\\angle P=180{}^\\circ -(\\angle PBC+\\angle PCB)=\\frac{1}{2}\\alpha\"><br/>故选C<br/>",
+            "notice": "根据角平分线的定义以及多边形内角和推导角度关系，结合三角形内角和定理化未知为已知是解题关键。<br/>",
+            "opts": [
+                "<img src=\"3.svg\" style=\"width:4em;vertical-align:top\" tex=\"90{}^\\circ -\\frac{1}{2}\\alpha\"><br/>",
+                " <img src=\"4.svg\" style=\"width:4em;vertical-align:top\" tex=\"90{}^\\circ +\\frac{1}{2}\\alpha\"><br/>",
+                "<img src=\"5.svg\" style=\"width:1.2em;vertical-align:top\" tex=\"\\frac{1}{2}\\alpha\"><br/>",
+                "<i class=\"latex\">360° -α</i><br/>"
+            ]
+        },
+        {
+            "kind": "example",
+            "label": "题型四  多边形内角和与多边形的裁剪",
+            "type": 1,
+            "Q": "<b > </b>把一张形状是多边形的纸片剪去其中的某一个角，剩下的部分是一个四边形，则这张纸片原来的形状不可能是（        ）<br/>",
+            "way": "如图，一个<i class=\"latex\">n</i>边形剪去一个角后，剩下的形状可能是<i class=\"latex\">n</i>边形或<i class=\"latex\">(n+1)</i>边形或<i class=\"latex\">(n-1)</i>边形。<br/>",
+            "step": "当剪去一个角后，剩下的部分是一个四边形，这这张纸片原来的形状可能是四边形、三角形或五边形，不可能是六边形。<br/>故选A<br/>",
+            "notice": "不同的剪法，结果不同，故一定要全面分类讨论，避免漏解，错解。<br/>",
+            "opts": [
+                "六边形<br/>",
+                "五边形<br/>",
+                "四边形<br/>",
+                "三角形<br/>"
+            ]
+        },
+        {
+            "kind": "ques",
+            "type": 1,
+            "Q": "<b ></b>  一个多边形截去一个角后，形成另一个多边形的内角和为<i class=\"latex\">720°</i>，那么原多边形的边数是（      ）<br/>",
+            "way": "首先求得内角和为<i class=\"latex\">720°</i>的多边形的边数，即可确定原多边形的边数。<br/>",
+            "step": "设内角和为<i class=\"latex\">720°</i>的多边形的边数是<i class=\"latex\">n</i>，<br/>则<i class=\"latex\">(n-2)· 180° =720°</i><br/>解得：<i class=\"latex\">n=6</i><br/>则原多边形的边数是<i class=\"latex\">5</i>或<i class=\"latex\">6</i>或<i class=\"latex\">7</i>。<br/>故选D<br/>",
+            "notice": "一个<i class=\"latex\">n</i>边形剪去一个角后，剩下的形状可能是<i class=\"latex\">n</i>边形或<i class=\"latex\">(n+1)</i>边形或<i class=\"latex\">(n-1)</i>边形；反言之，一个截去一角为<i class=\"latex\">n</i>边形的原多边形也可能是<i class=\"latex\">n</i>边形或<i class=\"latex\">(n+1)</i>边形或<i class=\"latex\">(n-1)</i>边形。<br/>",
+            "opts": [
+                "<i class=\"latex\">5</i><br/>",
+                "<i class=\"latex\">5</i>或<i class=\"latex\">6</i><br/>",
+                "<i class=\"latex\">5</i>或<i class=\"latex\">7</i><br/>",
+                "<i class=\"latex\">5</i>或<i class=\"latex\">6</i>或<i class=\"latex\">7</i><br/>"
+            ]
+        },
+        {
+            "kind": "kpt",
+            "name": "多边形的外角和",
+            "sub": [
+                {
+                    "kind": "kpt",
+                    "name": "多边形的外角和定理",
+                    "sub": [
+                        "  \n多边形的外角和等于<i class=\"latex\">360°</i>。<br/>"
+                    ]
+                }
+            ]
+        },
+        {
+            "kind": "example",
+            "label": "题型一  利用多边形内角和与外角和的关系求边长",
+            "type": 9,
+            "Q": "<b > </b>一个多边形的内角和是外角和的<i class=\"latex\">5</i>倍，则这个多边形的边数为<u>          </u>。<br/>",
+            "way": "本题实际告知了这个多边形的内角和是<i class=\"latex\">360° × 5</i>，再根据内角和公式求解即可。<br/>",
+            "step": "设这个多边形的边数为<i class=\"latex\">n</i>，<br/>根据题意，有：<i class=\"latex\">(n-2)· 180° =360° × 5</i>，<br/>解得：<i class=\"latex\">n=12</i><br/>故答案为：<i class=\"latex\">12</i><br/>",
+            "notice": "牢记多边形外角和定理和与内角和公式，再根据题意列出关于<i class=\"latex\">n</i>的方程求解是解题关键。<br/>"
+        },
+        {
+            "kind": "ques",
+            "type": 9,
+            "Q": "<b ></b>一个多边形，它的内角和比外角和的<i class=\"latex\">4</i>倍多<i class=\"latex\">180°</i>，求这个多边形的边数及内角和度数。<br/>",
+            "way": "本题实际告知了这个多边形的内角和是<i class=\"latex\">360° × 4+180°</i>，再根据内角和公式求解即可。<br/>",
+            "step": "设这个多边形的边数为<i class=\"latex\">n</i>，<br/>根据题意，有：<i class=\"latex\">(n-2)·\n180° =360° × 4+180°</i>，<br/>解得：<i class=\"latex\">n=11</i><br/>则这个多边形的边数是<i class=\"latex\">11</i>，内角和度数是：<i class=\"latex\">4× 360° +180° =1620°</i>。 <br/>",
+            "notice": ""
+        },
+        {
+            "kind": "example",
+            "label": "题型二  利用多边形的外角求多边形边数",
+            "type": 1,
+            "Q": "<b > </b>一个多边形的每个内角均为<i class=\"latex\">108°</i>，则这个多边形是（     ）<br/>",
+            "way": "首先求得外角的度数，然后利用多边形外角和<i class=\"latex\">360°</i>除以外角的度数即可得边数。<br/>",
+            "step": "每个外角的度数为：<i class=\"latex\">180° -108° =72°</i>，<br/>则这个多边形的边数为：<i class=\"latex\">360° ÷ 72° =5</i><br/>故选C<br/>",
+            "notice": "根据外角的定义，将多边形的内角问题转化为外角问题是解题关键。<br/>",
+            "opts": [
+                "七边形<br/>",
+                "六边形<br/>",
+                "五边形<br/>",
+                "四边形<br/>"
+            ]
+        },
+        {
+            "kind": "ques",
+            "type": 9,
+            "Q": "<b ></b>  若一个正多边形的一个内角等于<i class=\"latex\">135°</i>，那么这个多边形是正<u>\n         </u>边形。<br/>",
+            "way": "正多边形的每一个内角都相等，根据内角与外角互为邻补角，可求出每一个外角的度数，再结合多边形外角和定理，即可求出多边形的边数。<br/>",
+            "step": "∵内角与外角互为邻补角，<br/>∴正多边形的一个外角是<i class=\"latex\">180° -135° =45°</i>，<br/>∵多边形的外角和为<i class=\"latex\">360°</i>，<br/>∴<i class=\"latex\">360° ÷ 45° =8</i><br/>则这个多边形为八边形。<br/>故答案为：八<br/>",
+            "notice": ""
+        },
+        {
+            "kind": "example",
+            "label": "题型三  多边形外角性质的实际应用",
+            "type": 1,
+            "Q": "<b > </b><img style=\"width:12.50em\" src=\"19.png\">如图，小雪从<i class=\"latex\">O</i>点出发，前进<i class=\"latex\">4m</i>后向右转<i class=\"latex\">20°</i>，再前进<i class=\"latex\">4m</i>后又向右转<i class=\"latex\">20°</i>，…，这样一直走下去，她第一次回到出发点<i class=\"latex\">O</i>时一共走了（      ）。<br/>",
+            "way": "根据题意判断出小雪走过的路线是正多边形，然后利用多边形的外角和<i class=\"latex\">360°</i>除以每次右转的角度求出正多边形的边数，再根据周长公式计算即可得解。<br/>",
+            "step": "∵小雪每次都是右转<i class=\"latex\">20°</i>，<br/>∴她走过的路线是正多边形，<br/>边数为：<i class=\"latex\">360° ÷ 20° =18</i><br/>∴<i class=\"latex\">18× 4=72m</i><br/>故选D<br/>",
+            "notice": "本题将正多边形的边数计算与实际问题结合，使得多边形外角和问题的应用焕然一新，注意问题的转化是解题的关键。<br/>",
+            "opts": [
+                "<i class=\"latex\">40m</i><br/>",
+                "<i class=\"latex\">60m</i><br/>",
+                "<i class=\"latex\">70m</i><br/>",
+                "<i class=\"latex\">72m</i><br/>"
+            ]
+        },
+        {
+            "kind": "ques",
+            "type": 1,
+            "Q": "<img style=\"width:12.00em\" src=\"21.png\"><b ></b>  如图，小华从<i class=\"latex\">A</i>点出发，前进<i class=\"latex\">10m</i>后向左转<i class=\"latex\">24°</i>，再沿直线前进<i class=\"latex\">10m</i>后又向左转<i class=\"latex\">24°</i>，…，这样一直走下去，她第一次回到出发点<i class=\"latex\">A</i>时一共走的路程是（      ）。<br/>",
+            "way": "根据题意判断出小华走过的路线是正多边形，然后利用多边形的外角和<i class=\"latex\">360°</i>除以每次左转的角度求出正多边形的边数，再根据周长公式计算即可得解。<br/>",
+            "step": "∵小华每次都是左转<i class=\"latex\">24°</i>，<br/>∴她走过的路线是正多边形，<br/>边数为：<i class=\"latex\">360° ÷ 24° =15</i><br/>∴<i class=\"latex\">15× 10=150m</i><br/>故选B<br/>",
+            "notice": "本题将正多边形的边数计算与实际问题结合，使得多边形外角和问题的应用焕然一新，注意问题的转化是解题的关键。<br/>",
+            "opts": [
+                "<i class=\"latex\">140m</i><br/>",
+                "<i class=\"latex\">150m</i><br/>",
+                "<i class=\"latex\">160m</i><br/>",
+                "<i class=\"latex\">240m</i><br/>"
+            ]
+        },
+        {
+            "kind": "kpt",
+            "name": "平面镶嵌",
+            "sub": [
+                {
+                    "kind": "kpt",
+                    "name": "平面镶嵌的概念",
+                    "sub": [
+                        "  \n用一些不重叠摆放的多边形把平面的一部分完全覆盖，通常把这类问题叫做多边形覆盖平面（或平面镶嵌）。<br/>"
+                    ]
+                },
+                {
+                    "kind": "kpt",
+                    "name": "平面镶嵌的条件",
+                    "sub": [
+                        "  \n用一种或多种正多边形进行镶嵌的条件是：一种正多边形能平面镶嵌，则这个正多边形的一个内角的度数是<i class=\"latex\">360°</i>的约数；两种或两种以上的正多边形能平面镶嵌，则同一顶点处的几个角之和为<i class=\"latex\">360°</i>，并能拓展到整个平面。<br/>"
+                    ]
+                }
+            ]
+        },
+        {
+            "kind": "example",
+            "label": "题型一  一种正多边形的平面镶嵌",
+            "type": 1,
+            "Q": "<b > </b>只用下列图形中的一种，能够进行平面镶嵌的是（     ）<br/>",
+            "way": "根据密铺的知识，利用正多边形的外角求内角，找到一个内角度数能够整除周角<i class=\"latex\">360°</i>的正多边形即可。<br/>",
+            "step": "A：正十边形的每个内角是<i class=\"latex\">180° -360° ÷\n10=144°</i>，不能整除<i class=\"latex\">360°</i>，不能单独进行镶嵌，不符合题意；<br/>B：正八边形的每个内角是<i class=\"latex\">180° -360° ÷ 8=135°</i>，不能整除<i class=\"latex\">360°</i>，不能单独进行镶嵌，不符合题意；<br/>C：正六边形的每个内角是<i class=\"latex\">120°</i>，能整除<i class=\"latex\">360°</i>，可以单独进行镶嵌，符合题意；<br/>D：正五边形的每个内角是<i class=\"latex\">180° -360° ÷ 5=108°</i>，不能整除<i class=\"latex\">360°</i>，不能单独进行镶嵌，不符合题意；<br/>故选C<br/>",
+            "notice": "几何图形镶嵌成平面的关键是：围绕一点拼在一起的多边形的内角加在一起恰好组成一个周角。<i class=\"latex\">360°</i>为正多边形一个内角的整数倍时才能单独镶嵌。<br/>",
+            "opts": [
+                "正十边形<br/>",
+                "正八边形<br/>",
+                "正六边形<br/>",
+                "正五边形<br/>"
+            ]
+        },
+        {
+            "kind": "ques",
+            "type": 9,
+            "Q": "<b ></b>用一种正多边形铺设地板，则只有<u>        </u>、<u>\n       </u>、<u>\n       </u>三种正多边形能铺满地面。<br/>",
+            "way": "分别求出各个正多边形的每个内角的度数，结合镶嵌的条件即可求出答案。<br/>",
+            "step": "∵正三角形的每个内角是<i class=\"latex\">60°</i>，能整除<i class=\"latex\">360°</i>，能密铺；正方形的每个内角是<i class=\"latex\">90°</i>，能整除<i class=\"latex\">360°</i>，能密铺；正六边形的每个内角是<i class=\"latex\">120°</i>，能整除<i class=\"latex\">360°</i>，能密铺。<br/>∴只用同一种正多边形铺满地面，只有正三角形、正方形和正六边形可以。<br/>故答案为：正三角形、正四边形、正六边形。<br/>",
+            "notice": "几何图形镶嵌成平面的关键是：围绕一点拼在一起的多边形的内角加在一起恰好组成一个周角。<i class=\"latex\">360°</i>为正多边形一个内角的整数倍时才能单独镶嵌。<br/>"
+        },
+        {
+            "kind": "example",
+            "label": "题型二  多种正多边形的平面镶嵌",
+            "type": 1,
+            "Q": "<b > </b>现有四种地面砖，它们的形状分别是：正三角形、正方形、正六边形、正八边形，且它们的边长都相等。同时选择其中两种地面砖密铺地面，选择的方式有（        ）<br/>",
+            "way": "本题要先计算出各类正多边形每个内角的度数，然后利用二元一次方程的正整数解来解决。<br/>",
+            "step": "设用<i class=\"latex\">x</i>个正三角形和<i class=\"latex\">y</i>个正四边形来密铺，则<i class=\"latex\">60° x+90° y=360°</i>，有正整数解<i class=\"latex\">x=3</i>，<i class=\"latex\">y=2</i>，故可以实现密铺；<br/>同理可知，正三角形与正六边形，正方形与正八边形也可以密铺。<br/>所以可以密铺的两种地砖有：正三角形与正四边形；正三角形与正六边形；正方形与正八边形，共<i class=\"latex\">3</i>种。<br/>故选B<br/>",
+            "notice": "围绕一点拼在一起的多边形的内角加在一起恰好组成一个周角时能够进行平面镶嵌，将不同的正多边形个数设为未知数，求解多元方程的整数解为解题关键。<br/>",
+            "opts": [
+                "<i class=\"latex\">2</i>种<br/>",
+                "<i class=\"latex\">3</i>种<br/>",
+                "<i class=\"latex\">4</i>种<br/>",
+                "<i class=\"latex\">5</i>种<br/>"
+            ]
+        },
+        {
+            "kind": "ques",
+            "type": 1,
+            "Q": "<b ></b>现有边长相同的正三角形、正方形和正六边形纸片若干张，下列拼法不能镶嵌成一个平面图案的是（        ）<br/>",
+            "way": "本题要先计算出正三角形、正方形和正六边形每个内角的度数，然后利用二元（或三元）一次方程的正整数解来解决。<br/>",
+            "step": "设用<i class=\"latex\">x</i>个正三角形和<i class=\"latex\">y</i>个正方形来密铺，则<i class=\"latex\">60° x+90° y=360°</i>，有正整数解<i class=\"latex\">x=3</i>，<i class=\"latex\">y=2</i>，故可以实现密铺；<br/>同理可知，正三角形与正六边形，正三角形、正方形和正六边形也可以密铺。<br/>设用<i class=\"latex\">m</i>个正方形和<i class=\"latex\">n</i>个正六边形来密铺，则<i class=\"latex\">90° m+120° n=360°</i>，无法密铺。<br/>故选A<br/>",
+            "notice": "几何图形镶嵌成平面的关键是：围绕一点拼在一起的多边形的内角加在一起恰好组成一个周角。<i class=\"latex\">360°</i>为正多边形一个内角的整数倍时才能单独镶嵌。<br/>",
+            "opts": [
+                "正方形和正六边形<br/>",
+                "正三角形和正方形<br/>",
+                "正三角形和正六边形<br/>",
+                "正三角形、正方形和正六边形<br/>"
+            ]
+        },
+        {
+            "kind": "example",
+            "label": "题型三  多边形平面镶嵌图示与规律",
+            "type": 1,
+            "Q": "<b > </b>下述美妙的图案中，是由正三角形、正方形、正六边形、正八边形中的三种镶嵌而成的为（     ）<br/>",
+            "way": "分析图形即可。<br/>",
+            "step": "A：如图是由正三角形和正六边形密铺而成的；B：如图是由正三角形和正四边形密铺而成的；C：如图是由正四边形和正八边形密铺而成的；D：如图是由正三角形、正四边形和正六边形密铺而成的。<br/>故选D<br/>",
+            "notice": "几何图形镶嵌成平面的关键是：围绕一点拼在一起的多边形的内角加在一起恰好组成一个周角。<br/>",
+            "opts": [
+                "<img style=\"width:6.19em\" src=\"23.png\"><br/>\n  <br/>",
+                "<img style=\"width:6.50em\" src=\"24.png\"><br/>\n  <br/>",
+                "<img style=\"width:5.13em\" src=\"25.png\"><br/>\n  <br/>",
+                "<img style=\"width:5.44em\" src=\"26.png\"><br/>\n  <br/>"
+            ]
+        },
+        {
+            "kind": "ques",
+            "type": 1,
+            "Q": "<b ></b>黑色正三角形与白色正六边形的边长相等，用它们镶嵌图案，方法如下：白色正六边形分上下两行，上面一行的正六边形个数比下面一行少一个，正六边形之间的空隙用黑色的正三角形镶嵌满，按第1,2,3个图案（如图）所示规律依次下去，则第<i class=\"latex\">n</i>个图案中，黑色正三角形和白色正六边形的个数分别是（ ）<br/>",
+            "way": "此题需由已知图形推导第<i class=\"latex\">n</i>个图形中的三角形和六边形的个数规律求解即可。<br/>",
+            "step": "第<i class=\"latex\">1</i>个图案中，黑色正三角形和白色正六边形的个数分别是：<i class=\"latex\">4</i>，<i class=\"latex\">2× 1+1=3</i>；<br/>      第<i class=\"latex\">2</i>个图案中，黑色正三角形和白色正六边形的个数分别是：<i class=\"latex\">2× 4=8</i>，<i class=\"latex\">2× 2+1=5</i>；<br/>      第<i class=\"latex\">3</i>个图案中，黑色正三角形和白色正六边形的个数分别是：<i class=\"latex\">3× 4=12</i>，<i class=\"latex\">2× 3+1=7</i>；<br/>      ……<br/>      第<i class=\"latex\">n</i>个图案中，黑色正三角形和白色正六边形的个数分别是：<i class=\"latex\">4n</i>，<i class=\"latex\">2n+1</i>；<br/>故选D<br/>",
+            "notice": "找到图形的构成规律是解题的关键。<br/>",
+            "opts": [
+                "<img src=\"8.svg\" style=\"width:5em;vertical-align:top\" tex=\"{{n}^{2}}+n+2\">,<i class=\"latex\">2n+1</i><br/>",
+                "<i class=\"latex\">2n+2</i>,<i class=\"latex\">2n+1</i><br/>",
+                "<i class=\"latex\">4n</i>,<img src=\"9.svg\" style=\"width:5em;vertical-align:top\" tex=\"{{n}^{2}}-n+3\"><br/>",
+                "<i class=\"latex\">4n</i>,<i class=\"latex\">2n+1</i><br/>"
+            ]
+        }
+    ]
+}
